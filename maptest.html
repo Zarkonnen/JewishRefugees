@@ -9,13 +9,16 @@
                 padding: 0;
             }
             #map {
-                height: 100%;
+                height: 80%;
             }
         </style>
         <script src="jquery-3.0.0.min.js"></script>
     </head>
     <body>
         <div id="map"></div>
+        <div id="footer">
+            1898 <input type="submit" value="<" id="prev"><input type="range" id="daterange"><input type="submit" value=">" id="next"> 1975 <span id="currentdate"></span>
+        </div>
         <script>
             var map;
             var labelsOff = [{
@@ -43,6 +46,33 @@
                     visibility: "off"
                 }]
             }];
+            
+            function parseDate(s) {
+                return new Date(parseInt(s.split("-")[0]), parseInt(s.split("-")[1]), parseInt(s.split("-")[2]));
+            }
+            
+            var people = [];
+            
+            function updateMap() {
+                var currentTime = parseInt(jQuery('#daterange').val());
+                jQuery('#currentdate').html(" - " + ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][new Date(currentTime).getMonth()] + " " + new Date(currentTime).getFullYear());
+                people.forEach(function(p) {
+                    if (currentTime < p.locations[0].time.getTime()) {
+                        if (p.marker.getIcon() != 'no_marker.png') {
+                            p.marker.setIcon('no_marker.png');
+                        }
+                    } else {
+                        p.marker.setIcon('tiny_marker.png');
+                        var loc = p.locations[0];
+                        for (var i = 0; i < p.locations.length; i++) {
+                            if (currentTime >= p.locations[i].time.getTime()) {
+                                loc = p.locations[i];
+                            }
+                        }
+                        p.marker.setPosition(loc.position);
+                    }
+                });
+            }
           
             function initMap(rawData, rawGeocodes) {
                 var geocodes = {};
@@ -50,18 +80,20 @@
                     l = l.split("\t");
                     geocodes[l[0]] = {lat:parseFloat(l[1]), lng:parseFloat(l[2])};
                 });
-                var data = rawData.split("\n").map(function(l) {
+                var data = rawData.split("\n").filter(function(l) {
+                    return l.split("\t").length > 5;
+                }).map(function(l) {
                     l = l.split("\t");
                     return {
                         id: parseInt(l[0]),
                         location: l[1],
-                        time: l[2],
+                        time: parseDate(l[2]),
                         type: l[5]
                     };            
                 });
                 var peopleMap = {};
-                var people = [];
                 data.forEach(function(l) {
+                    if (!geocodes[l.location] || geocodes[l.location].lat == 0) { return; }
                     if (!peopleMap[l.id]) {
                         var person = {
                             id: l.id,
@@ -80,28 +112,22 @@
                 });
                 
                 map = new google.maps.Map(document.getElementById('map'), {
-                    center: {lat: 40, lng: 0},
-                    zoom: 7
+                    center: {lat: 46.801111, lng: 8.226667},
+                    zoom: 8
                 });
                 
                 map.setOptions({styles: labelsOff});
 
                 people.forEach(function(p) {
-                    //console.log(p.locations[0].position);
+                    p.locations.sort(function(a, b) {
+                        return a.time.getTime() - b.time.getTime();
+                    });
                     p.marker = new google.maps.Marker({
                         position: p.locations[0].position,
                         map: map,
                         icon: 'tiny_marker.png'
                     });
                 });
-                /*var markers = [];
-                for (var i = 0; i < 100; i++) {
-                    markers.push(new google.maps.Marker({
-                        position: { lat: Math.random() * 180 - 90, lng: Math.random() * 360 - 180 },
-                        map: map,
-                        icon: 'tiny_marker.png'
-                    }));
-                }*/
                 /*var mi = 0;
                 setInterval(function() {
                     var marker = markers[mi++ % 100];
@@ -118,6 +144,19 @@
                         marker.setPosition(position);
                     }, 15);
                 }, 3000);*/
+                
+                jQuery('#prev').click(function() {
+                    jQuery('#daterange').val(parseInt(jQuery('#daterange').val()) - 3600 * 24 * 30 * 1000);
+                    updateMap();
+                });
+                
+                jQuery('#next').click(function() {
+                    jQuery('#daterange').val(parseInt(jQuery('#daterange').val()) + 3600 * 24 * 30 * 1000);
+                    updateMap();
+                });
+                
+                jQuery('#daterange').attr('min', new Date(1898, 1, 1).getTime()).attr('max', new Date(1975, 12, 31).getTime()).change(updateMap);
+                updateMap();
             }
 
             function loadData() {
