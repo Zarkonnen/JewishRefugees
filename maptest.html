@@ -86,7 +86,7 @@
                 });
             }
           
-            function initMap(rawData, rawGeocodes) {
+            function initMap(rawData, rawGeocodes, rawClusters) {
                 var geocodes = {};
                 rawGeocodes.split("\n").map(function(l) {
                     l = l.split("\t");
@@ -131,6 +131,14 @@
                 map = new google.maps.Map(document.getElementById('map'), {
                     center: {lat: 46.801111, lng: 8.226667},
                     zoom: 8
+                });
+                
+                rawClusters[12].forEach(function(c) {
+                    new google.maps.Marker({
+                        position: c,
+                        map: map,
+                        icon: 'markers/' + c["color"].substring(1) + '-20.png'
+                    });
                 });
                 
                 map.setOptions({styles: labelsOff});
@@ -178,7 +186,12 @@
                         jQuery.ajax({
                             "url": "geocodes_switzerland.tsv",
                             "success": function(rawGeocodes) {
-                                initMap(rawData, rawGeocodes);
+                                jQuery.ajax({
+                                    "url": "clusters.json",
+                                    "success": function(rawClusters) {
+                                        initMap(rawData, rawGeocodes, rawClusters);
+                                    }
+                                });
                             }
                         });
                     }

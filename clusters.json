@@ -22,7 +22,7 @@
             "name": "Wert fehlt"
         }, 
         {
-            "color": "#ffccaa", 
+            "color": "#ffaa00", 
             "lat": 45.402337, 
             "lng": 4.498825, 
             "type": "Interniertenlager f\u00fcr polnische Soldaten", 
@@ -94,7 +94,7 @@
             "name": "Poschiavo"
         }, 
         {
-            "color": "#ffccaa", 
+            "color": "#ffaa00", 
             "lat": 45.402337, 
             "lng": 4.498825, 
             "type": "Interniertenlager f\u00fcr polnische Soldaten", 
@@ -285,14 +285,14 @@
             "name": "Hauterive, Villars"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.2242, 
             "lng": 7.96311, 
             "type": "Holzleseaktion", 
             "name": "Nanztal"
         }, 
         {
-            "color": "#ffccaa", 
+            "color": "#ffaa00", 
             "lat": 45.402337, 
             "lng": 4.498825, 
             "type": "Interniertenlager f\u00fcr polnische Soldaten", 
@@ -455,7 +455,7 @@
             "name": "Baggwil - Seedorf, B\u00fcren a/A, Lengnau, B\u00fcren an der Aare, Le Chaluet"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.280665525, 
             "lng": 7.8818777, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Holzleseaktion", 
@@ -644,7 +644,7 @@
             "name": "Ambri - Piotta, G\u00fctsch"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.377494866666666, 
             "lng": 7.2440909666666675, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Arbeitslager f\u00fcr Emigranten", 
@@ -658,7 +658,7 @@
             "name": "B\u00fclach, Fisibach, Baldingen, Zweidlen - Weiach"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.6140944, 
             "lng": 6.507171, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -721,7 +721,7 @@
             "name": "Gurnigelbad"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.4158854, 
             "lng": 9.2237105, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -735,7 +735,7 @@
             "name": "Ste. Croix"
         }, 
         {
-            "color": "#ffccaa", 
+            "color": "#ffaa00", 
             "lat": 47.456762, 
             "lng": 7.440626, 
             "type": "Interniertenheim", 
@@ -756,7 +756,7 @@
             "name": "Porrentruy"
         }, 
         {
-            "color": "#ffccaa", 
+            "color": "#ffaa00", 
             "lat": 45.402337, 
             "lng": 4.498825, 
             "type": "Interniertenlager f\u00fcr polnische Soldaten", 
@@ -784,7 +784,7 @@
             "name": "M\u00e4nnedorf, St\u00e4fa"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.6734153, 
             "lng": 9.6863771, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -805,7 +805,7 @@
             "name": "Herzogenbuchsee"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.8794597, 
             "lng": 7.6208263, 
             "type": "Flickstube", 
@@ -919,7 +919,7 @@
             "name": "Luzern, Kriens"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.0931375, 
             "lng": 8.9228556, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -1003,7 +1003,7 @@
             "name": "B\u00fcren a/A, Lengnau, B\u00fcren an der Aare"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.2947277, 
             "lng": 7.8821204, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -1017,7 +1017,7 @@
             "name": "Sugiez - Les Verri\u00e8res, Sugiez - Les Vernes, Witzwil, Bellechasse"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.3090067, 
             "lng": 7.80016, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -1059,7 +1059,7 @@
             "name": "Bern, Landdorf"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.5164273, 
             "lng": 8.1217106, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -1136,14 +1136,14 @@
             "name": "Les Geneveys - sur - Coffrane"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.1502, 
             "lng": 6.79282, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
             "name": "Champ\u00e9ry / Col de Coux"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.1273, 
             "lng": 8.84662, 
             "type": "Arbeitslager f\u00fcr Emigranten", 
@@ -1213,7 +1213,7 @@
             "name": "Schauenburg - Bad, Augst, Gempen - Plateau, Liestal, Liestal / Bienenberg, Gempen - Stollen"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.3428671, 
             "lng": 7.68853925, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -1304,7 +1304,7 @@
             "name": "Weesen"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.84027, 
             "lng": 7.79592, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -1339,7 +1339,7 @@
             "name": "La Chaux-de-Fonds, Cr\u00eat-du-Locle"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.244921, 
             "lng": 7.396008, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -1353,21 +1353,21 @@
             "name": "Glion, Duvin"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.2958584, 
             "lng": 8.3358746, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Arbeitslager f\u00fcr Emigranten", 
             "name": "Murimoos"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.25118945, 
             "lng": 7.1205153, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
             "name": "Lajoux, Tramelan"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.1410511, 
             "lng": 8.4298274, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -1388,7 +1388,7 @@
             "name": "Monthey"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.377494866666666, 
             "lng": 7.2440909666666675, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Arbeitslager f\u00fcr Emigranten", 
@@ -1402,14 +1402,14 @@
             "name": "Le Pont"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.0338781, 
             "lng": 9.0775529, 
             "type": "Sonderbetrieb", 
             "name": "Ennenda"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.5615687, 
             "lng": 8.4090582, 
             "type": "Arbeitsgruppe f\u00fcr Fl\u00fcchtlinge", 
@@ -1444,7 +1444,7 @@
             "name": "Ch\u00e2teau-d' Oex"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.6140944, 
             "lng": 6.507171, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -1507,7 +1507,7 @@
             "name": "Wert fehlt"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.2762834, 
             "lng": 7.0306991, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -1535,7 +1535,7 @@
             "name": "Gurnigelbad"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.3436459, 
             "lng": 7.6069213, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -1549,14 +1549,14 @@
             "name": "Frauenfeld"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.4158854, 
             "lng": 9.2237105, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
             "name": "Pian San Giacomo"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.280577, 
             "lng": 9.0049324, 
             "type": "Arbeitslager f\u00fcr Emigranten und Fl\u00fcchtlinge", 
@@ -1598,14 +1598,14 @@
             "name": "Flims, Flims - Waldhaus"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.6260107, 
             "lng": 8.8287677, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
             "name": "Nussbaumen"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.5577475, 
             "lng": 8.4945679, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -1619,7 +1619,7 @@
             "name": "Bussigny-pr\u00e8s-Lausanne VD"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.2242, 
             "lng": 7.96311, 
             "type": "Holzleseaktion", 
@@ -1640,7 +1640,7 @@
             "name": "Ste. Croix"
         }, 
         {
-            "color": "#ffccaa", 
+            "color": "#ffaa00", 
             "lat": 47.456762, 
             "lng": 7.440626, 
             "type": "Interniertenheim", 
@@ -1675,14 +1675,14 @@
             "name": "Weggis"
         }, 
         {
-            "color": "#ffccaa", 
+            "color": "#ffaa00", 
             "lat": 46.9529982, 
             "lng": 7.0231305, 
             "type": "Interniertenlager f\u00fcr polnische Soldaten", 
             "name": "Cudrefin"
         }, 
         {
-            "color": "#ffccaa", 
+            "color": "#ffaa00", 
             "lat": 47.169773, 
             "lng": 8.975433, 
             "type": "Interniertenlager f\u00fcr polnische Soldaten", 
@@ -1696,7 +1696,7 @@
             "name": "Baggwil - Seedorf"
         }, 
         {
-            "color": "#ffccaa", 
+            "color": "#ffaa00", 
             "lat": 45.402337, 
             "lng": 4.498825, 
             "type": "Interniertenlager f\u00fcr polnische Soldaten", 
@@ -1731,7 +1731,7 @@
             "name": "Roveredo"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.55505, 
             "lng": 8.31702, 
             "type": "Holzleseaktion", 
@@ -1773,14 +1773,14 @@
             "name": "Herzogenbuchsee"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.1655403, 
             "lng": 9.4708594, 
             "type": "Landw. Arbeitslager", 
             "name": "Buchs"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.3117718, 
             "lng": 7.5704709, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -1808,7 +1808,7 @@
             "name": "Arth am See"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.8794597, 
             "lng": 7.6208263, 
             "type": "Flickstube", 
@@ -1873,14 +1873,14 @@
             "name": "Z\u00fcrich - Wollishofen, Balgrist, Z\u00fcrich - Tiefenbrunnen, Z\u00fcrichhorn, Z\u00fcrich"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.4505063, 
             "lng": 8.7191851, 
             "type": "Arbeitslager f\u00fcr Emigranten", 
             "name": "Kemleten"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.3363829, 
             "lng": 6.8910112, 
             "type": "Arbeitslager f\u00fcr Emigranten", 
@@ -1936,7 +1936,7 @@
             "name": "Luzern, Kriens"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.0931375, 
             "lng": 8.9228556, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -1978,7 +1978,7 @@
             "name": "Champ\u00e9ry"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.267524, 
             "lng": 9.341061, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -2048,7 +2048,7 @@
             "name": "Lengnau"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.2947277, 
             "lng": 7.8821204, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -2069,7 +2069,7 @@
             "name": "Sugiez - Les Verri\u00e8res, Sugiez - Les Vernes, Bellechasse"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.3090067, 
             "lng": 7.80016, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -2132,7 +2132,7 @@
             "name": "Leyisin, Leysin, Leysin-Les Diablerets"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.5164273, 
             "lng": 8.1217106, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -2160,7 +2160,7 @@
             "name": "Sumiswald"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.438287, 
             "lng": 8.1035688, 
             "type": "Arbeitslager f\u00fcr Emigranten", 
@@ -2181,7 +2181,7 @@
             "name": "Burg - Schloss"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.4766643, 
             "lng": 8.5194782, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Arbeitslager f\u00fcr Emigranten", 
@@ -2237,7 +2237,7 @@
             "name": "Sch\u00f6nengrund"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.1502, 
             "lng": 6.79282, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -2251,7 +2251,7 @@
             "name": "Gordola"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.1273, 
             "lng": 8.84662, 
             "type": "Arbeitslager f\u00fcr Emigranten", 
@@ -2265,7 +2265,7 @@
             "name": "Saas, Serneus"
         }, 
         {
-            "color": "#ffccaa", 
+            "color": "#ffaa00", 
             "lat": 46.7570775, 
             "lng": 9.4211036, 
             "type": "Interniertenlager", 
@@ -2307,7 +2307,7 @@
             "name": "B\u00fcsserach"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.4215556, 
             "lng": 8.5383447, 
             "type": "Sonderbetrieb", 
@@ -2349,7 +2349,7 @@
             "name": "Spiez"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.3761486, 
             "lng": 7.6887502, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -2517,7 +2517,7 @@
             "name": "Weesen"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.84027, 
             "lng": 7.79592, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -2552,7 +2552,7 @@
             "name": "Cr\u00eat-du-Locle"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.244921, 
             "lng": 7.396008, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -2566,21 +2566,21 @@
             "name": "Puidoux, Chardonnes sur Vevey"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.7149943, 
             "lng": 9.2116628, 
             "type": "Holzleseaktion", 
             "name": "Duvin"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.2958584, 
             "lng": 8.3358746, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Arbeitslager f\u00fcr Emigranten", 
             "name": "Murimoos"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.2235029, 
             "lng": 7.102975, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -2594,7 +2594,7 @@
             "name": "Glion"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.1410511, 
             "lng": 8.4298274, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -2615,7 +2615,7 @@
             "name": "Monthey"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.3967887, 
             "lng": 7.244786, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Arbeitslager f\u00fcr Emigranten", 
@@ -2636,14 +2636,14 @@
             "name": "Le Pont"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.0338781, 
             "lng": 9.0775529, 
             "type": "Sonderbetrieb", 
             "name": "Ennenda"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.5615687, 
             "lng": 8.4090582, 
             "type": "Arbeitsgruppe f\u00fcr Fl\u00fcchtlinge", 
@@ -2657,7 +2657,7 @@
             "name": "Langenbruck"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.3389072, 
             "lng": 7.2427009, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -2671,7 +2671,7 @@
             "name": "Davos - Platz"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.4204213, 
             "lng": 7.5004874, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -2727,7 +2727,7 @@
             "name": "Ch\u00e2teau-d' Oex"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.6140944, 
             "lng": 6.507171, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -2748,7 +2748,7 @@
             "name": "Vaumarcus"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.178765, 
             "lng": 8.7115777, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -2790,7 +2790,7 @@
             "name": "Pont de la Morge s / Sion, Ch\u00e2teauneuf"
         }, 
         {
-            "color": "#ffccaa", 
+            "color": "#ffaa00", 
             "lat": 47.4635617, 
             "lng": 9.0479097, 
             "type": "Interniertenheim f\u00fcr britische Soldaten", 
@@ -2818,7 +2818,7 @@
             "name": "Herisau"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.723, 
             "lng": 7.623, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -2860,7 +2860,7 @@
             "name": "St. Margarethen, Walzenhausen"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.2886168, 
             "lng": 7.0480782, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -2888,7 +2888,7 @@
             "name": "Gurnigelbad"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.3436459, 
             "lng": 7.6069213, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -2909,14 +2909,14 @@
             "name": "Beringen"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.4158854, 
             "lng": 9.2237105, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
             "name": "Pian San Giacomo"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.280577, 
             "lng": 9.0049324, 
             "type": "Arbeitslager f\u00fcr Emigranten und Fl\u00fcchtlinge", 
@@ -2979,14 +2979,14 @@
             "name": "Lenzburg"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.6260107, 
             "lng": 8.8287677, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
             "name": "Nussbaumen"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.5577475, 
             "lng": 8.4945679, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -3000,7 +3000,7 @@
             "name": "Lungern"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.26395, 
             "lng": 7.01332, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -3028,7 +3028,7 @@
             "name": "Zofingen, Bad Lauterbach bei Oftringen, Lauterbach / Oftringen"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.2242, 
             "lng": 7.96311, 
             "type": "Holzleseaktion", 
@@ -3049,7 +3049,7 @@
             "name": "Sion"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.466256, 
             "lng": 7.664098, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -3063,7 +3063,7 @@
             "name": "Ste. Croix"
         }, 
         {
-            "color": "#ffccaa", 
+            "color": "#ffaa00", 
             "lat": 47.456762, 
             "lng": 7.440626, 
             "type": "Interniertenheim", 
@@ -3105,7 +3105,7 @@
             "name": "Versoix, Pont - C\u00e9ard p. Versoix"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.2691091, 
             "lng": 7.457052, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -3126,7 +3126,7 @@
             "name": "Weggis"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.278876, 
             "lng": 7.1380556, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -3154,21 +3154,21 @@
             "name": "La Chaux-de-Fonds"
         }, 
         {
-            "color": "#ffccaa", 
+            "color": "#ffaa00", 
             "lat": 46.9529982, 
             "lng": 7.0231305, 
             "type": "Interniertenlager f\u00fcr polnische Soldaten", 
             "name": "Cudrefin"
         }, 
         {
-            "color": "#ffccaa", 
+            "color": "#ffaa00", 
             "lat": 47.169773, 
             "lng": 8.975433, 
             "type": "Interniertenlager f\u00fcr polnische Soldaten", 
             "name": "Reichenburg"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.53389, 
             "lng": 7.72135, 
             "type": "Holzdepot", 
@@ -3182,21 +3182,21 @@
             "name": "Baggwil - Seedorf"
         }, 
         {
-            "color": "#ffccaa", 
+            "color": "#ffaa00", 
             "lat": 45.402337, 
             "lng": 4.498825, 
             "type": "Interniertenlager f\u00fcr polnische Soldaten", 
             "name": "Sordel"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.7647922, 
             "lng": 9.460412, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
             "name": "Trans"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.3095856, 
             "lng": 7.6883283, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -3245,7 +3245,7 @@
             "name": "B\u00f6nigen, Interlaken"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.55505, 
             "lng": 8.31702, 
             "type": "Holzleseaktion", 
@@ -3273,14 +3273,14 @@
             "name": "D\u00fcrren\u00e4sch"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.6734153, 
             "lng": 9.6863771, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
             "name": "Filisur"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.4730927, 
             "lng": 8.6778198, 
             "type": "Arbeitsgruppe f\u00fcr Fl\u00fcchtlinge", 
@@ -3336,7 +3336,7 @@
             "name": "Herzogenbuchsee"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 47.1655403, 
             "lng": 9.4708594, 
             "type": "Landw. Arbeitslager", 
@@ -3357,7 +3357,7 @@
             "name": "Medoscio"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.3117718, 
             "lng": 7.5704709, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -3385,7 +3385,7 @@
             "name": "Yverdon"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.8280926, 
             "lng": 9.4063148, 
             "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
@@ -3406,14 +3406,14 @@
             "name": "Arth am See"
         }, 
         {
-            "color": "#ffccaa", 
+            "color": "#ffaa00", 
             "lat": 46.3435262, 
             "lng": 6.1621477, 
             "type": "Interniertenlager f\u00fcr polnische Soldaten", 
             "name": "Chavannes-de-Bogis"
         }, 
         {
-            "color": "#ccccaa", 
+            "color": "#c47853", 
             "lat": 46.8794597, 
             "lng": 7.6208263, 
             "type": "Flickstube", 
@@ -3425,6 +3425,4231 @@
             "lng": 8.690151, 
             "type": "Sanatorium", 
             "name": "Ambri - Piotta"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.039879, 
+            "lng": 7.5454202, 
+            "type": "Fl\u00fcchtlingslager", 
+            "name": "Roth\u00f6he bei Oberburg"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.2574625, 
+            "lng": 8.6946733, 
+            "type": "Kinderheim", 
+            "name": "M\u00e4nnedorf"
+        }
+    ], 
+    "11": [
+        {
+            "color": "#cccccc", 
+            "lat": 46.432610175, 
+            "lng": 6.9192253374999995, 
+            "type": "Fl\u00fcchtlingsheim, Schulheim, Schullager, unbekannt", 
+            "name": "Glion sur Montreux, Chamby, Caux, Territet, Montreux"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.1781048, 
+            "lng": 6.1233726, 
+            "type": "Heim f\u00fcr Intellektuelle", 
+            "name": "Grand Lancy"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.45328512, 
+            "lng": 6.94288368, 
+            "type": "Fl\u00fcchtlingsheim, Auffanglager, Interniertenheim, unbekannt", 
+            "name": "Les Avants, Les Avants sur Montreux"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.2382, 
+            "lng": 6.8519, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Morgins"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 45.8627987, 
+            "lng": 8.9516366, 
+            "type": "unbekannt", 
+            "name": "Ligornetto"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.1946216, 
+            "lng": 9.0244124, 
+            "type": "Fl\u00fcchtlingsheim, Auffanglager, Ungarnfl\u00fcchtlinge, Fl\u00fcchtlingslager", 
+            "name": "Bellinzona, Bellizona"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 45.9362506, 
+            "lng": 8.9836424, 
+            "type": "Fl\u00fcchtlingsheim, Kinderheim, Interniertenlager", 
+            "name": "Rovio"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.35237276666667, 
+            "lng": 8.5547172, 
+            "type": "Sonderbetrieb, Umschulungslager", 
+            "name": "Z\u00fcrich - Tiefenbrunnen, Z\u00fcrichhorn"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.4505063, 
+            "lng": 8.7191851, 
+            "type": "Arbeitslager f\u00fcr Emigranten", 
+            "name": "Kemleten"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.3363829, 
+            "lng": 6.8910112, 
+            "type": "Arbeitslager f\u00fcr Emigranten", 
+            "name": "Vouvry"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3706194, 
+            "lng": 8.6388249, 
+            "type": "Emigrantenlager", 
+            "name": "F\u00e4llanden"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.37688659999999, 
+            "lng": 8.541694, 
+            "type": "Schulheim, Kinderheim, Altersheim, Ungarnfl\u00fcchtlinge, unbekannt, Flickstube, Sonderbetrieb, NULL", 
+            "name": "Z\u00fcrich"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.8027453, 
+            "lng": 9.835970099999999, 
+            "type": "Fl\u00fcchtlingsheim, unbekannt, NULL, Kinderheim, Sanatorium", 
+            "name": "Davos, Davos - Dorf"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.451005183333336, 
+            "lng": 6.893993883333334, 
+            "type": "Fl\u00fcchtlingsheim, Kinderheim, unbekannt", 
+            "name": "Baugy, Chailly, Brent sur Montreux, Blonay, Clarens"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.0994968, 
+            "lng": 7.130458999999999, 
+            "type": "R\u00fcckwandererheim, Fl\u00fcchtlingsheim, Fl\u00fcchtlingslager", 
+            "name": "Pr\u00eales"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 46.4628333, 
+            "lng": 6.8419192, 
+            "type": "Altersheim", 
+            "name": "Vevey"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.007725640000004, 
+            "lng": 8.973606440000001, 
+            "type": "Fl\u00fcchtlingsheim, NULL", 
+            "name": "Ruvigliana, Lugano - Ruvigliana, Lugano - Castagnola, Cassarate - Lugano"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.19110546666667, 
+            "lng": 6.1588968500000005, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Auffanglager, Fl\u00fcchtlingslager, Fl\u00fcchtlingsheim, unbekannt", 
+            "name": "Champel, Belmont, Genf - Champel"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.20405092999999, 
+            "lng": 6.1418136500000005, 
+            "type": "Schulheim, Heim f\u00fcr Intellektuelle, Kinderheim, Umschulungslager, Interniertenheim, Auffanglager, unbekannt, Fl\u00fcchtlingsheim, M\u00fctterheim", 
+            "name": "Genf, Champel Val - Fleuri, Petit-Saconnex"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.3322334, 
+            "lng": 8.3613723, 
+            "type": "Arbeitslager f\u00fcr Emigranten", 
+            "name": "Geisshof - Bremgarten"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.0341978, 
+            "lng": 8.2772552, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Kriens"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.0931375, 
+            "lng": 8.9228556, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Mezzovico"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.351022, 
+            "lng": 9.6220807, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Vicosoprano"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.27808246666667, 
+            "lng": 8.478210333333335, 
+            "type": "Fl\u00fcchtlingsheim, Auffanglager, Kinderheim", 
+            "name": "Wengibad bei Affoltern, Aeugsterthal, Aeugst am Alibis"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.68371, 
+            "lng": 8.61259, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Neuhausen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.31516, 
+            "lng": 8.4680573, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Schullager", 
+            "name": "Bonstetten"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.4928921, 
+            "lng": 7.852398, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Fl\u00fcchtlingsheim", 
+            "name": "Rickenbach - Waldegg, Gelterkinden - Waldegg"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.1816543, 
+            "lng": 6.8747591, 
+            "type": "Fl\u00fcchtlingsheim, Auffanglager, Kinderheim, Jugendalijahheim", 
+            "name": "Champ\u00e9ry"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.267524, 
+            "lng": 9.341061, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Pottersalp / S\u00e4ntis"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.1200438, 
+            "lng": 8.7112657, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Fl\u00fcchtlingsheim, Kinderheim", 
+            "name": "Brissago"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3540918, 
+            "lng": 9.1129175, 
+            "type": "Arbeitslager f\u00fcr Emigranten, Auffanglager, Fl\u00fcchtlingslager", 
+            "name": "Oberhelfenschwil"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.5591304, 
+            "lng": 7.8442531, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Quarant\u00e4nelager f\u00fcr R\u00fcckwanderer", 
+            "name": "M\u00f6hlin"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.35367, 
+            "lng": 8.43714, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Fl\u00fcchtlingsheim, Schullager", 
+            "name": "Birmensdorf"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.0679692, 
+            "lng": 7.7759045, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "T\u00e4sch"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.30618686666667, 
+            "lng": 9.1755815, 
+            "type": "Kinderheim, Auffanglager, Fl\u00fcchtlingslager", 
+            "name": "Hemberg, St. Peterzell"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.4626895, 
+            "lng": 7.8361995, 
+            "type": "Fl\u00fcchtlingsheim, Hachscharah, Altersheim", 
+            "name": "B\u00f6ckten"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.51829153999999, 
+            "lng": 6.6621085, 
+            "type": "Schulheim, Fl\u00fcchtlingsheim, Auffanglager, M\u00fctterheim", 
+            "name": "La Rosiaz, Pully, La Rosiaz - Lausanne"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.2977669, 
+            "lng": 8.4482542, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Hedingen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 45.9834646, 
+            "lng": 8.8886323, 
+            "type": "Fl\u00fcchtlingsheim, Interniertenheim", 
+            "name": "Magliaso"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.0501682, 
+            "lng": 8.3093072, 
+            "type": "R\u00fcckwandererheim, Fl\u00fcchtlingsheim, Fl\u00fcchtlingslager, Ungarnfl\u00fcchtlinge, unbekannt", 
+            "name": "Luzern"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.18076, 
+            "lng": 7.3692807, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Fl\u00fcchtlingsheim, Altersheim, Fl\u00fcchtlingslager", 
+            "name": "Lengnau"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.2947277, 
+            "lng": 7.8821204, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Visp, Vi\u00e8ge"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.1395743, 
+            "lng": 7.374796800000001, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Auffanglager, Interniertenlager f\u00fcr polnische Soldaten", 
+            "name": "B\u00fcren a/A, B\u00fcren an der Aare"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 45.99997482857143, 
+            "lng": 8.949397657142859, 
+            "type": "Fl\u00fcchtlingsheim, unbekannt, Werkst\u00e4tten, Altersheim, Fl\u00fcchtlingslager", 
+            "name": "Lugano, Lugano-Paradiso"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.9618591, 
+            "lng": 7.1041652, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Strafanstalt, unbekannt", 
+            "name": "Sugiez - Les Verri\u00e8res, Sugiez - Les Vernes"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.9743127, 
+            "lng": 7.1334812, 
+            "type": "Strafanstalt, Interniertenheim", 
+            "name": "Bellechasse"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.3090067, 
+            "lng": 7.80016, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Raron"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.6698891, 
+            "lng": 6.7975224, 
+            "type": "Fl\u00fcchtlingsheim, Auffanglager", 
+            "name": "Moudon"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.4460412, 
+            "lng": 6.1581382, 
+            "type": "R\u00fcckwandererheim, Fl\u00fcchtlingsheim, Interniertenheim, unbekannt", 
+            "name": "St. Cergue"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.5184661875, 
+            "lng": 6.631550100000001, 
+            "type": "Auffanglager, Ungarnfl\u00fcchtlinge, Heim, unbekannt, Fl\u00fcchtlingsheim, Fl\u00fcchtlingslager", 
+            "name": "Lausanne-Ouchy, Vennes - Lausanne, Lausanne"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.7035407, 
+            "lng": 7.8095511, 
+            "type": "R\u00fcckwandererheim, Fl\u00fcchtlingsheim, Sanatorium, Kinderheim, unbekannt", 
+            "name": "Beatenberg"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 46.0287548, 
+            "lng": 8.9617594, 
+            "type": "Schulheim", 
+            "name": "Trevano (bei Lugano)"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.4156189, 
+            "lng": 8.5889722, 
+            "type": "Schul- und Werkst\u00e4ttenlager, Wohnlager", 
+            "name": "Wallisellen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.55219, 
+            "lng": 7.7922914, 
+            "type": "Holzdepot, Quarant\u00e4nelager, Quarant\u00e4nelager f\u00fcr R\u00fcckwanderer", 
+            "name": "Rheinfelden"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 46.8064773, 
+            "lng": 7.1619719, 
+            "type": "Schulheim, Hochschullager", 
+            "name": "Fribourg"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 47.3549198, 
+            "lng": 8.5748037, 
+            "type": "Krankenhaus", 
+            "name": "Balgrist"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.9479739, 
+            "lng": 7.4474468, 
+            "type": "Fl\u00fcchtlingsheim, Krankenhaus", 
+            "name": "Bern"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.344172879999995, 
+            "lng": 7.01273078, 
+            "type": "Interniertenheim, unbekannt, Fl\u00fcchtlingsheim, Sanatorium", 
+            "name": "Leyisin, Leysin, Leysin-Les Diablerets"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.5164273, 
+            "lng": 8.1217106, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Ampfernh\u00f6he"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.8200266, 
+            "lng": 8.4069918, 
+            "type": "Fl\u00fcchtlingsheim, Schulheim, Kinderheim, Jugendalijahheim", 
+            "name": "Engelberg"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.312434700000004, 
+            "lng": 8.5270459, 
+            "type": "Erziehungsheim, Fl\u00fcchtlingsheim, Auffanglager", 
+            "name": "Adliswil"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.0284465, 
+            "lng": 7.7446642, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Sumiswald"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.438287, 
+            "lng": 8.1035688, 
+            "type": "Arbeitslager f\u00fcr Emigranten", 
+            "name": "Thalheim"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.3102173, 
+            "lng": 7.4774587, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Fl\u00fcchtlingsheim, Sanatorium, unbekannt", 
+            "name": "Montana"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.515550033333334, 
+            "lng": 7.771213466666667, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Arbeitslager f\u00fcr Emigranten", 
+            "name": "Olsberg, Arisdorf"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.7065902, 
+            "lng": 7.7271909, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Schullager", 
+            "name": "Burg - Schloss"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.4766643, 
+            "lng": 8.5194782, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Arbeitslager f\u00fcr Emigranten", 
+            "name": "Oberglatt - Elekt., Oberglatt"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.16428905, 
+            "lng": 8.7846387, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Arbeitslager f\u00fcr Emigranten, Kinderheim, Fl\u00fcchtlingsheim", 
+            "name": "Locarno, Ascona"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.385988, 
+            "lng": 9.6547802, 
+            "type": "Emigrantenlager", 
+            "name": "Diepoldsau"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.0371639, 
+            "lng": 8.9803742, 
+            "type": "Arbeitslager f\u00fcr Emigranten, Schullager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Davesco"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.8452376, 
+            "lng": 9.4712304, 
+            "type": "Arbeitslager f\u00fcr Emigranten, Fl\u00fcchtlingslager", 
+            "name": "Felsberg"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.016667, 
+            "lng": 6.85, 
+            "type": "Auffanglager", 
+            "name": "Les Geneveys - sur - Coffrane"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.2941311, 
+            "lng": 7.5335362, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Fl\u00fcchtlingsheim", 
+            "name": "Sierre"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 45.9278156, 
+            "lng": 8.9078997, 
+            "type": "Fl\u00fcchtlingsheim, Fl\u00fcchtlingsheim und Werkst\u00e4tten", 
+            "name": "Morcote"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.2341791, 
+            "lng": 6.1393268, 
+            "type": "Fl\u00fcchtlingsheim, Schulheim", 
+            "name": "Pr\u00e9gny"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3260986, 
+            "lng": 9.226432, 
+            "type": "Arbeitslager f\u00fcr Emigranten, Auffanglager, Fl\u00fcchtlingsheim", 
+            "name": "Sch\u00f6nengrund"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.1502, 
+            "lng": 6.79282, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Champ\u00e9ry / Col de Coux"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.1809063, 
+            "lng": 8.8608089, 
+            "type": "Arbeitslager f\u00fcr Emigranten und Fl\u00fcchtlinge, Fl\u00fcchtlingsheim", 
+            "name": "Gordola"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.1273, 
+            "lng": 8.84662, 
+            "type": "Arbeitslager f\u00fcr Emigranten", 
+            "name": "Sattelegg"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.889989, 
+            "lng": 9.838752, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Serneus"
+        }, 
+        {
+            "color": "#ffaa00", 
+            "lat": 46.7570775, 
+            "lng": 9.4211036, 
+            "type": "Interniertenlager", 
+            "name": "Unterrealta"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.4440576, 
+            "lng": 9.5319772, 
+            "type": "Kinderheim", 
+            "name": "Heiden"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.55959860000001, 
+            "lng": 7.588576099999999, 
+            "type": "Quarant\u00e4nelager, Schulheim, Lehrlingsheim, Strafanstalt, Lehrlingsheim der Basler Hilfe f\u00fcr Emigrantenkinder, Sonderbetrieb, Fl\u00fcchtlingsheim, NULL, Waisenhaus, Fl\u00fcchtlingslager", 
+            "name": "Basel"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.7809052, 
+            "lng": 9.5434284, 
+            "type": "R\u00fcckwandererheim, Interniertenheim, Schulheim, Di\u00e4tstation, Fl\u00fcchtlingsheim", 
+            "name": "Churwalden"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.30957, 
+            "lng": 8.87265, 
+            "type": "Fl\u00fcchtlingsheim, Auffanglager", 
+            "name": "Girenbad bei Hinwil, Girenbad"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.391439, 
+            "lng": 7.5399922, 
+            "type": "Auffanglager", 
+            "name": "B\u00fcsserach"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.4215556, 
+            "lng": 8.5383447, 
+            "type": "Sonderbetrieb", 
+            "name": "Z\u00fcrich - Seebach"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.5948288, 
+            "lng": 8.6789566, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Schullager", 
+            "name": "Andelfingen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3331334, 
+            "lng": 8.2465197, 
+            "type": "Schulheim, Fl\u00fcchtlingslager", 
+            "name": "Hilfikon"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.4807587, 
+            "lng": 7.6442005, 
+            "type": "Arbeitslager f\u00fcr Emigranten", 
+            "name": "Gempen - Stollen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.49726113333333, 
+            "lng": 7.695064833333333, 
+            "type": "R\u00fcckwandererheim, Arbeitslager f\u00fcr Emigranten, Fl\u00fcchtlingsheim", 
+            "name": "Schauenburg - Bad, Liestal / Bienenberg"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.6884826, 
+            "lng": 7.6791524, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Fl\u00fcchtlingsheim, unbekannt, R\u00fcckwandererheim", 
+            "name": "Spiez"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.3761486, 
+            "lng": 7.6887502, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "B\u00fcrten"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3784829, 
+            "lng": 8.3644236, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Interniertenheim, Auffanglager, Schullager, Ungarnfl\u00fcchtlinge", 
+            "name": "Hasenberg"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.1391, 
+            "lng": 8.53768, 
+            "type": "Jugendalijaheim, Kinderheim", 
+            "name": "Zugerberg"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.19697, 
+            "lng": 7.02724, 
+            "type": "Kinderheim, Auffanglager, Fl\u00fcchtlingsheim, Jugendalijahheim", 
+            "name": "Bex-les-Bains"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.484014900000005, 
+            "lng": 8.9044415, 
+            "type": "Flickstube, Freiplatzheim", 
+            "name": "T\u00e4nikon, Aadorf"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.7286653, 
+            "lng": 9.557472, 
+            "type": "Fl\u00fcchtlingsheim, Interniertenheim", 
+            "name": "Lenzerheide, Valbella - Lenzerheide"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.4988196, 
+            "lng": 8.7236889, 
+            "type": "Flickstube, Hochschullager", 
+            "name": "Winterthur"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.4155608, 
+            "lng": 9.248852, 
+            "type": "Emigrantenheim", 
+            "name": "Gossau"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.38990173333334, 
+            "lng": 7.9417195666666665, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Fl\u00fcchtlingslager", 
+            "name": "Lostorf, Bad Lostorf"
+        }, 
+        {
+            "color": "#ffaaaa", 
+            "lat": 46.99576, 
+            "lng": 7.08635, 
+            "type": "Strafanstalt", 
+            "name": "Witzwil"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 47.4354, 
+            "lng": 8.84749, 
+            "type": "Erholungsheim", 
+            "name": "R\u00e4mism\u00fchle-Turbenthal, Turbenthal"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.298035, 
+            "lng": 7.038166, 
+            "type": "Fl\u00fcchtlingsheim, Kinderheim", 
+            "name": "Chesi\u00e8res, Hu\u00e9moz s/ Ollon"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.4244818, 
+            "lng": 9.3767173, 
+            "type": "Strafanstalt, Auffanglager", 
+            "name": "St. Gallen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.3491052, 
+            "lng": 6.9598484, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Corbeyrier"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 46.5488573, 
+            "lng": 6.674199, 
+            "type": "Rekonvaleszenten Station", 
+            "name": "Epalinges"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.08337, 
+            "lng": 6.97688, 
+            "type": "Fl\u00fcchtlingsheim, Interniertenheim", 
+            "name": "Finhaut"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.9899874, 
+            "lng": 6.9292732, 
+            "type": "Fl\u00fcchtlingsheim, Auffanglager", 
+            "name": "Neuch\u00e2tel"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.44521, 
+            "lng": 8.79801, 
+            "type": "Auffanglager, Fl\u00fcchtlingslager", 
+            "name": "Rikon"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 45.8484251, 
+            "lng": 9.0077495, 
+            "type": "Fl\u00fcchtlingslager", 
+            "name": "Balerna"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 45.8713339, 
+            "lng": 8.9841329, 
+            "type": "M\u00fctterheim", 
+            "name": "Mendrisio"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3173506, 
+            "lng": 9.0497485, 
+            "type": "Ungarnfl\u00fcchtlinge", 
+            "name": "Krinau"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.4053885, 
+            "lng": 8.39977, 
+            "type": "Schullager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Dietikon"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.1049798, 
+            "lng": 7.0755334, 
+            "type": "Fl\u00fcchtlingsheim, Auffanglager", 
+            "name": "Martigny"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.2981976, 
+            "lng": 7.8821701, 
+            "type": "Quarant\u00e4nelager, Auffanglager", 
+            "name": "Geisshubelbad/Rothrist/AG"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.1362592, 
+            "lng": 9.1052748, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Weesen"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.84027, 
+            "lng": 7.79592, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Eggiwil - Siehen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.0007766, 
+            "lng": 8.92220735, 
+            "type": "Interniertenheim, Freiplatzheim", 
+            "name": "Agnuzzo, Breganzona"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.1862897, 
+            "lng": 8.0237036, 
+            "type": "Landw. Arbeitslager, Auffanglager", 
+            "name": "Wauwil"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.2846, 
+            "lng": 8.55065, 
+            "type": "Fl\u00fcchtlingslager", 
+            "name": "Gattikon"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.7251614, 
+            "lng": 8.1909081, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Meiringen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.474339375, 
+            "lng": 7.285574199999999, 
+            "type": "Kinderheim, Altersheim, Sanatorium", 
+            "name": "Gstaad, Saanen"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.07975, 
+            "lng": 6.78707, 
+            "type": "Kinderheim", 
+            "name": "Cr\u00eat-du-Locle"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.244921, 
+            "lng": 7.396008, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Le Chaluet"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.4988452, 
+            "lng": 6.7691772, 
+            "type": "Auffanglager", 
+            "name": "Puidoux"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.3190253, 
+            "lng": 6.970566, 
+            "type": "Fl\u00fcchtlingslager", 
+            "name": "Aigle"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.7149943, 
+            "lng": 9.2116628, 
+            "type": "Holzleseaktion", 
+            "name": "Duvin"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.4866143, 
+            "lng": 7.7334272, 
+            "type": "Ungarnfl\u00fcchtlinge", 
+            "name": "Liestal"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.2958584, 
+            "lng": 8.3358746, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Arbeitslager f\u00fcr Emigranten", 
+            "name": "Murimoos"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.2235029, 
+            "lng": 7.102975, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Tramelan"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.77421, 
+            "lng": 9.20474, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Glion"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.1410511, 
+            "lng": 8.4298274, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Rotkreuz"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.65, 
+            "lng": 8.6166667, 
+            "type": "Auffanglager", 
+            "name": "G\u00fctsch"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 46.2521873, 
+            "lng": 6.9469598, 
+            "type": "Sanatorium", 
+            "name": "Monthey"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.3967887, 
+            "lng": 7.244786, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Arbeitslager f\u00fcr Emigranten", 
+            "name": "Bourrignon"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.2771375, 
+            "lng": 8.9155608, 
+            "type": "Erholungsheim, Auffanglager, Sanatorium", 
+            "name": "Wald, Wald bei Z\u00fcrich"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.5833371, 
+            "lng": 6.8412452, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Le Pont"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.35799, 
+            "lng": 8.47084, 
+            "type": "Fl\u00fcchtlingslager", 
+            "name": "Ringlikon"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.0338781, 
+            "lng": 9.0775529, 
+            "type": "Sonderbetrieb", 
+            "name": "Ennenda"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.5615687, 
+            "lng": 8.4090582, 
+            "type": "Arbeitsgruppe f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Fisibach"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3483495, 
+            "lng": 7.7686817, 
+            "type": "Fl\u00fcchtlingsheim, Kinderheim", 
+            "name": "Langenbruck"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.3389072, 
+            "lng": 7.2427009, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Bassecourt"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.821330100000004, 
+            "lng": 9.711274399999999, 
+            "type": "Kinderheim, Sanatorium, Kindersanatorium, Krankenhaus, unbekannt, Fl\u00fcchtlingsheim, NULL", 
+            "name": "Davos - Platz"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.4204213, 
+            "lng": 7.5004874, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Laufen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.390434, 
+            "lng": 8.0457015, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Aarau"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.4117837, 
+            "lng": 9.4416911, 
+            "type": "Kinderheim", 
+            "name": "Speicher"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 45.9686348, 
+            "lng": 8.9145642, 
+            "type": "Sanatorium", 
+            "name": "Agra"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.5092445, 
+            "lng": 8.9480645, 
+            "type": "Auffanglager", 
+            "name": "Jakobsbad"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.4697771, 
+            "lng": 8.997232449999998, 
+            "type": "Auffanglager, Fl\u00fcchtlingslager", 
+            "name": "M\u00fcnchwilen, Sirnach"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.86713726666667, 
+            "lng": 9.883205816666667, 
+            "type": "Schulheim, Kinderheim, Freiplatzheim, Ungarnfl\u00fcchtlinge, unbekannt, Fl\u00fcchtlingsheim", 
+            "name": "Klosters - Platz, Klosters - Selfranga, Klosters"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.496944000000006, 
+            "lng": 6.819167, 
+            "type": "R\u00fcckwandererheim, Fl\u00fcchtlingsheim, Kinderheim", 
+            "name": "Mont P\u00e9lerin"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.286299, 
+            "lng": 9.100917, 
+            "type": "Kinderheim", 
+            "name": "Ulisbach/Wattwil"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.4715174, 
+            "lng": 7.1260114, 
+            "type": "unbekannt", 
+            "name": "Ch\u00e2teau-d' Oex"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.6140944, 
+            "lng": 6.507171, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Cossonay"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.1762332, 
+            "lng": 7.8045917, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "St. Niklaus"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.264859133333324, 
+            "lng": 7.495742166666666, 
+            "type": "Arbeitsgruppe f\u00fcr Fl\u00fcchtlinge, Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Chalais, Granges - Lens"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.8781484, 
+            "lng": 6.7550836, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Vaumarcus"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.178765, 
+            "lng": 8.7115777, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Golino"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.5123333, 
+            "lng": 9.8589518, 
+            "type": "Kinderheim, Fl\u00fcchtlingsheim", 
+            "name": "Celerina"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.447864, 
+            "lng": 9.509459, 
+            "type": "Kinderheim", 
+            "name": "Grub"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.7342377, 
+            "lng": 8.9588146, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Rabius"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3871386, 
+            "lng": 9.1610344, 
+            "type": "Auffanglager", 
+            "name": "Moosbad"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.4383358, 
+            "lng": 8.0530386, 
+            "type": "Schullager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Asp Herzberg"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.223417999999995, 
+            "lng": 7.32011715, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Fl\u00fcchtlingsheim", 
+            "name": "Pont de la Morge s / Sion, Ch\u00e2teauneuf"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.499576, 
+            "lng": 7.6192212, 
+            "type": "Kinderheim", 
+            "name": "Arlesheim"
+        }, 
+        {
+            "color": "#ffaa00", 
+            "lat": 47.4635617, 
+            "lng": 9.0479097, 
+            "type": "Interniertenheim f\u00fcr britische Soldaten", 
+            "name": "Wil"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.174232, 
+            "lng": 8.9489996, 
+            "type": "Auffanglager, Fl\u00fcchtlingslager", 
+            "name": "Gudo bei Bellinzona, Baraccamenti di Gudo-TI"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.12398, 
+            "lng": 9.31603, 
+            "type": "Fl\u00fcchtlingslager", 
+            "name": "Walenstadt"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.385700899999996, 
+            "lng": 9.2798472, 
+            "type": "Fl\u00fcchtlingsheim, NULL, Hochschullager", 
+            "name": "Herisau"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.723, 
+            "lng": 7.623, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Gwatt"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 47.5848274, 
+            "lng": 7.6499111, 
+            "type": "Altersheim", 
+            "name": "Riehen bei Basel"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3738511, 
+            "lng": 9.2003081, 
+            "type": "Emigrantenlager, Heim f\u00fcr Handicapped People", 
+            "name": "Degersheim"
+        }, 
+        {
+            "color": "#ffaaaa", 
+            "lat": 0.0, 
+            "lng": 0.0, 
+            "type": "Disziplinarlager", 
+            "name": "Wert fehlt"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.2765988, 
+            "lng": 7.8451321, 
+            "type": "Arbeitslager f\u00fcr Emigranten, Fl\u00fcchtlingsheim", 
+            "name": "Murgenthal"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.4513643, 
+            "lng": 9.6023288, 
+            "type": "Auffanglager, unbekannt", 
+            "name": "Walzenhausen"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.2886168, 
+            "lng": 7.0480782, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Les Enfers"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.9905027, 
+            "lng": 9.6372642, 
+            "type": "Fl\u00fcchtlingsheim, Interniertenheim", 
+            "name": "Seewis"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.47288, 
+            "lng": 8.30809, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Baden"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.7611642, 
+            "lng": 7.4445527, 
+            "type": "Quarant\u00e4nelager, Auffanglager", 
+            "name": "Gurnigelbad"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.1011132, 
+            "lng": 7.7840062, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Randa"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.3436459, 
+            "lng": 7.6069213, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Hinterguldental"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 45.8366999, 
+            "lng": 9.0246111, 
+            "type": "Lazarett", 
+            "name": "Chiasso"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.5535997, 
+            "lng": 8.8987541, 
+            "type": "Ungarnfl\u00fcchtlinge", 
+            "name": "Frauenfeld"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 46.4806514, 
+            "lng": 6.7857606, 
+            "type": "Kinderheim, Schulheim", 
+            "name": "Chardonnes sur Vevey"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 47.6979625, 
+            "lng": 8.5736822, 
+            "type": "Altersheim", 
+            "name": "Beringen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.2602511, 
+            "lng": 7.0306219, 
+            "type": "Kinderheim, unbekannt", 
+            "name": "Gryon sur Bex"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.4495116, 
+            "lng": 8.5821648, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Kloten"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 47.3220092, 
+            "lng": 8.5452125, 
+            "type": "Sanatorium", 
+            "name": "Kilchberg"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.4158854, 
+            "lng": 9.2237105, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Pian San Giacomo"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.280577, 
+            "lng": 9.0049324, 
+            "type": "Arbeitslager f\u00fcr Emigranten und Fl\u00fcchtlinge", 
+            "name": "Cresciano"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.4742674, 
+            "lng": 8.0507173, 
+            "type": "Arbeitslager f\u00fcr Emigranten", 
+            "name": "Herznach"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.0266057, 
+            "lng": 9.5137762, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Fl\u00e4sch"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.8507835, 
+            "lng": 9.5319859, 
+            "type": "Ungarnfl\u00fcchtlinge, Zwischenlager", 
+            "name": "Chur"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 46.7610132, 
+            "lng": 7.0961217, 
+            "type": "Schulheim", 
+            "name": "Hauterive"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.66315, 
+            "lng": 7.08997, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Villars"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.2200764, 
+            "lng": 7.198526, 
+            "type": "NULL", 
+            "name": "Tavannes"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.831992400000004, 
+            "lng": 9.28658615, 
+            "type": "Fl\u00fcchtlingsheim, Kinderheim", 
+            "name": "Flims, Flims - Waldhaus"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.483333, 
+            "lng": 6.85, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Joigny"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.1368093, 
+            "lng": 8.5830915, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Aegeri, Unteraegeri, Unter\u00e4geri"
+        }, 
+        {
+            "color": "#ffaaaa", 
+            "lat": 47.3904443, 
+            "lng": 8.1721545, 
+            "type": "Strafanstalt", 
+            "name": "Lenzburg"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.6260107, 
+            "lng": 8.8287677, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Nussbaumen"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.5577475, 
+            "lng": 8.4945679, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Zweidlen - Weiach"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.7858188, 
+            "lng": 8.159704, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Lungern"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.26395, 
+            "lng": 7.01332, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "B\u00e9mont"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.81777, 
+            "lng": 9.60671, 
+            "type": "Fl\u00fcchtlingsheim, Interniertenheim", 
+            "name": "Tschiertschen"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 46.870953, 
+            "lng": 9.534251, 
+            "type": "Pflegeanstalt", 
+            "name": "Chur - Masans"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.5517429, 
+            "lng": 6.558615, 
+            "type": "Fl\u00fcchtlingslager", 
+            "name": "Bussigny-pr\u00e8s-Lausanne VD"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.00571, 
+            "lng": 9.530813, 
+            "type": "Ungarnfl\u00fcchtlinge", 
+            "name": "Maienfeld GB"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.2888449, 
+            "lng": 7.9447619, 
+            "type": "Milit\u00e4rlager", 
+            "name": "Zofingen"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.3478005, 
+            "lng": 8.5335226, 
+            "type": "Sonderbetrieb", 
+            "name": "Z\u00fcrich - Wollishofen"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.2242, 
+            "lng": 7.96311, 
+            "type": "Holzleseaktion", 
+            "name": "Nanztal"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.4533165, 
+            "lng": 6.8612781, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "La Tour de Peilz"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.07989899999999, 
+            "lng": 7.850674000000001, 
+            "type": "Fl\u00fcchtlingsheim, Auffanglager, Kinderheim", 
+            "name": "Eriswil"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.2331221, 
+            "lng": 7.360626, 
+            "type": "Ungarnfl\u00fcchtlinge", 
+            "name": "Sion"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.466256, 
+            "lng": 7.664098, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Gempen - Plateau"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.4496088, 
+            "lng": 9.6376089, 
+            "type": "Auffanglager, Desinfektionslager", 
+            "name": "St. Margarethen"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.3378619, 
+            "lng": 8.8528619, 
+            "type": "Kinderheim", 
+            "name": "B\u00e4retswil"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.8217968, 
+            "lng": 6.5022222, 
+            "type": "Ungarnfl\u00fcchtlinge", 
+            "name": "Ste. Croix"
+        }, 
+        {
+            "color": "#ffaa00", 
+            "lat": 47.456762, 
+            "lng": 7.440626, 
+            "type": "Interniertenheim", 
+            "name": "Schloss Burg bei Fl\u00fch"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.5266505, 
+            "lng": 7.814835, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Magden"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.2033339, 
+            "lng": 9.350492, 
+            "type": "Ungarnfl\u00fcchtlinge", 
+            "name": "Wildhaus"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.4388267, 
+            "lng": 9.8712089, 
+            "type": "Auffanglager", 
+            "name": "Samedan"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.3239301, 
+            "lng": 10.0573467, 
+            "type": "Auffanglager", 
+            "name": "Poschiavo"
+        }, 
+        {
+            "color": "#ffaaaa", 
+            "lat": 47.2273614, 
+            "lng": 8.5268129, 
+            "type": "Strafanstalt", 
+            "name": "Kappel am Albis"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.287840100000004, 
+            "lng": 6.1645663, 
+            "type": "Fl\u00fcchtlingsheim, Jugendalijahheim", 
+            "name": "Versoix, Pont - C\u00e9ard p. Versoix"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.2691091, 
+            "lng": 7.457052, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Granges p. Sion"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.416647, 
+            "lng": 7.0765657, 
+            "type": "Strafanstalt, Fl\u00fcchtlingsheim", 
+            "name": "Porrentruy"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.0338792, 
+            "lng": 8.425278, 
+            "type": "R\u00fcckwandererheim, Kinderheim, Jugendalijahheim", 
+            "name": "Weggis"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3974378, 
+            "lng": 9.3823039, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Sch\u00e4flisegg"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.278876, 
+            "lng": 7.1380556, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Lajoux"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.4078753, 
+            "lng": 9.4647144, 
+            "type": "Kinderheim", 
+            "name": "Trogen"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 47.41554, 
+            "lng": 7.97628, 
+            "type": "Sanatorium", 
+            "name": "Barmelweid"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.7823704, 
+            "lng": 9.6799111, 
+            "type": "Ungarnfl\u00fcchtlinge", 
+            "name": "Arosa"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.0034141, 
+            "lng": 9.5011062, 
+            "type": "Ungarnfl\u00fcchtlinge", 
+            "name": "Bad Ragaz"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.1034892, 
+            "lng": 6.8327838, 
+            "type": "Waisenhaus, NULL", 
+            "name": "La Chaux-de-Fonds"
+        }, 
+        {
+            "color": "#ffaa00", 
+            "lat": 46.9529982, 
+            "lng": 7.0231305, 
+            "type": "Interniertenlager f\u00fcr polnische Soldaten", 
+            "name": "Cudrefin"
+        }, 
+        {
+            "color": "#ffaa00", 
+            "lat": 47.169773, 
+            "lng": 8.975433, 
+            "type": "Interniertenlager f\u00fcr polnische Soldaten", 
+            "name": "Reichenburg"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.53389, 
+            "lng": 7.72135, 
+            "type": "Holzdepot", 
+            "name": "Augst"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.0295067, 
+            "lng": 7.3160225, 
+            "type": "Auffanglager", 
+            "name": "Baggwil - Seedorf"
+        }, 
+        {
+            "color": "#ffaa00", 
+            "lat": 45.402337, 
+            "lng": 4.498825, 
+            "type": "Interniertenlager f\u00fcr polnische Soldaten", 
+            "name": "Sordel"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.7647922, 
+            "lng": 9.460412, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Trans"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.3095856, 
+            "lng": 7.6883283, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Balsthal"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3428013, 
+            "lng": 9.5319606, 
+            "type": "Auffanglager", 
+            "name": "Eichberg"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.4571943, 
+            "lng": 7.4429104, 
+            "type": "Ungarnfl\u00fcchtlinge", 
+            "name": "Lenk im Simmental"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.2877778, 
+            "lng": 8.51, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Albis"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.1789419, 
+            "lng": 8.7989377, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Orselina"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.317915049999996, 
+            "lng": 7.924272, 
+            "type": "Auffanglager, Fl\u00fcchtlingslager", 
+            "name": "Bad Lauterbach bei Oftringen, Lauterbach / Oftringen"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 46.3943352, 
+            "lng": 6.2492927, 
+            "type": "Kinderheim", 
+            "name": "Prangins"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.3492167, 
+            "lng": 8.1879722, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Egetswil"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.2343502, 
+            "lng": 9.1288093, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Roveredo"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 46.6863481, 
+            "lng": 7.8632049, 
+            "type": "Rekonvaleszenten Station", 
+            "name": "Interlaken"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.5091076, 
+            "lng": 8.6904167, 
+            "type": "Berufslager", 
+            "name": "Winterthur - W\u00fclflingen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3491774, 
+            "lng": 8.3397905, 
+            "type": "Fl\u00fcchtlingslager", 
+            "name": "Bremgarten"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.55505, 
+            "lng": 8.31702, 
+            "type": "Holzleseaktion", 
+            "name": "Baldingen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.2392343, 
+            "lng": 8.7351356, 
+            "type": "Emigrantenlager", 
+            "name": "St\u00e4fa"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.7046823, 
+            "lng": 9.715258, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Wiesen"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.3214469, 
+            "lng": 8.1568605, 
+            "type": "Kinderheim", 
+            "name": "D\u00fcrren\u00e4sch"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.6734153, 
+            "lng": 9.6863771, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Filisur"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.4730927, 
+            "lng": 8.6778198, 
+            "type": "Arbeitsgruppe f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Br\u00fctten"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3267872, 
+            "lng": 8.2054516, 
+            "type": "Fl\u00fcchtlingslager", 
+            "name": "Seengen"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 46.6611155, 
+            "lng": 7.7282129, 
+            "type": "Jugendalijahheim", 
+            "name": "Krattigen"
+        }, 
+        {
+            "color": "#ffaaaa", 
+            "lat": 47.0019933, 
+            "lng": 7.5651374, 
+            "type": "Strafanstalt", 
+            "name": "Thorberg"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 46.7751149, 
+            "lng": 7.6632737, 
+            "type": "Kinderheim", 
+            "name": "Schwendibach/Thun"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.5288234, 
+            "lng": 9.3621163, 
+            "type": "Kinderheim", 
+            "name": "Neukirch"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.9110687, 
+            "lng": 9.807416, 
+            "type": "Holzleseaktion", 
+            "name": "Saas"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 47.35233, 
+            "lng": 7.81498, 
+            "type": "Sanatorium", 
+            "name": "Allerheiligenberg"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.7606448, 
+            "lng": 8.6094638, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Merishausen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.189468, 
+            "lng": 7.7077698, 
+            "type": "Flickstube, Interniertenlager f\u00fcr polnische Soldaten", 
+            "name": "Herzogenbuchsee"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.7278608, 
+            "lng": 8.9383016, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Somvix"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.1655403, 
+            "lng": 9.4708594, 
+            "type": "Landw. Arbeitslager", 
+            "name": "Buchs"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.0581255, 
+            "lng": 7.0730626, 
+            "type": "Strafanstalt, Interniertenheim", 
+            "name": "Le Landeron"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 46.181622, 
+            "lng": 8.9008936, 
+            "type": "Sanatorium", 
+            "name": "Medoscio"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.3117718, 
+            "lng": 7.5704709, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Salgesch"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 46.541104, 
+            "lng": 7.38532, 
+            "type": "Schulheim", 
+            "name": "Blankenburg bei Zweisimmen"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 46.9205627, 
+            "lng": 7.3947358, 
+            "type": "Erziehungsheim", 
+            "name": "Landdorf"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.7784736, 
+            "lng": 6.641183, 
+            "type": "Milit\u00e4rlager", 
+            "name": "Yverdon"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.8280926, 
+            "lng": 9.4063148, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Tamins"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.5160671, 
+            "lng": 8.5419603, 
+            "type": "Ungarnfl\u00fcchtlinge", 
+            "name": "B\u00fclach"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.0362841, 
+            "lng": 8.5686947, 
+            "type": "Kinderheim", 
+            "name": "Arth am See"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.6859659, 
+            "lng": 7.8932422, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "B\u00f6nigen"
+        }, 
+        {
+            "color": "#ffaa00", 
+            "lat": 46.3435262, 
+            "lng": 6.1621477, 
+            "type": "Interniertenlager f\u00fcr polnische Soldaten", 
+            "name": "Chavannes-de-Bogis"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 45.9479341, 
+            "lng": 8.911712, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Rovina"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.8794597, 
+            "lng": 7.6208263, 
+            "type": "Flickstube", 
+            "name": "Konolfingen"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 46.4771074, 
+            "lng": 6.8959938, 
+            "type": "Kinderheim", 
+            "name": "Les Chevalleyres"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 46.510617, 
+            "lng": 8.690151, 
+            "type": "Sanatorium", 
+            "name": "Ambri - Piotta"
+        }, 
+        {
+            "color": "#ffaaaa", 
+            "lat": 47.0281883, 
+            "lng": 7.050374, 
+            "type": "Straflager", 
+            "name": "Gals"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.039879, 
+            "lng": 7.5454202, 
+            "type": "Fl\u00fcchtlingslager", 
+            "name": "Roth\u00f6he bei Oberburg"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.2574625, 
+            "lng": 8.6946733, 
+            "type": "Kinderheim", 
+            "name": "M\u00e4nnedorf"
+        }
+    ], 
+    "12": [
+        {
+            "color": "#cccccc", 
+            "lat": 46.43245, 
+            "lng": 6.9369, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Caux"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.1781048, 
+            "lng": 6.1233726, 
+            "type": "Heim f\u00fcr Intellektuelle", 
+            "name": "Grand Lancy"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.45328512, 
+            "lng": 6.94288368, 
+            "type": "Fl\u00fcchtlingsheim, Auffanglager, Interniertenheim, unbekannt", 
+            "name": "Les Avants, Les Avants sur Montreux"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.2382, 
+            "lng": 6.8519, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Morgins"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 45.8627987, 
+            "lng": 8.9516366, 
+            "type": "unbekannt", 
+            "name": "Ligornetto"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.1946216, 
+            "lng": 9.0244124, 
+            "type": "Fl\u00fcchtlingsheim, Auffanglager, Ungarnfl\u00fcchtlinge, Fl\u00fcchtlingslager", 
+            "name": "Bellinzona, Bellizona"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 45.9362506, 
+            "lng": 8.9836424, 
+            "type": "Fl\u00fcchtlingsheim, Kinderheim, Interniertenlager", 
+            "name": "Rovio"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.42852126666667, 
+            "lng": 6.923664466666666, 
+            "type": "Fl\u00fcchtlingsheim, Schullager", 
+            "name": "Glion sur Montreux, Territet"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3535289, 
+            "lng": 8.5514208, 
+            "type": "Sonderbetrieb, Umschulungslager", 
+            "name": "Z\u00fcrichhorn"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.4505063, 
+            "lng": 8.7191851, 
+            "type": "Arbeitslager f\u00fcr Emigranten", 
+            "name": "Kemleten"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.3363829, 
+            "lng": 6.8910112, 
+            "type": "Arbeitslager f\u00fcr Emigranten", 
+            "name": "Vouvry"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3706194, 
+            "lng": 8.6388249, 
+            "type": "Emigrantenlager", 
+            "name": "F\u00e4llanden"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.37688659999999, 
+            "lng": 8.541694, 
+            "type": "Schulheim, Kinderheim, Altersheim, Ungarnfl\u00fcchtlinge, unbekannt, Flickstube, Sonderbetrieb, NULL", 
+            "name": "Z\u00fcrich"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.8027453, 
+            "lng": 9.835970099999999, 
+            "type": "Fl\u00fcchtlingsheim, unbekannt, NULL, Kinderheim, Sanatorium", 
+            "name": "Davos, Davos - Dorf"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.443961300000005, 
+            "lng": 6.893332099999999, 
+            "type": "Fl\u00fcchtlingsheim, unbekannt", 
+            "name": "Baugy, Clarens"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.0994968, 
+            "lng": 7.130458999999999, 
+            "type": "R\u00fcckwandererheim, Fl\u00fcchtlingsheim, Fl\u00fcchtlingslager", 
+            "name": "Pr\u00eales"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 46.4628333, 
+            "lng": 6.8419192, 
+            "type": "Altersheim", 
+            "name": "Vevey"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.007725640000004, 
+            "lng": 8.973606440000001, 
+            "type": "Fl\u00fcchtlingsheim, NULL", 
+            "name": "Ruvigliana, Lugano - Ruvigliana, Lugano - Castagnola, Cassarate - Lugano"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.1896788, 
+            "lng": 6.1575397, 
+            "type": "Auffanglager, Fl\u00fcchtlingslager, Fl\u00fcchtlingsheim, unbekannt", 
+            "name": "Champel, Genf - Champel"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.2168876, 
+            "lng": 6.130688, 
+            "type": "unbekannt", 
+            "name": "Petit-Saconnex"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.3322334, 
+            "lng": 8.3613723, 
+            "type": "Arbeitslager f\u00fcr Emigranten", 
+            "name": "Geisshof - Bremgarten"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.0341978, 
+            "lng": 8.2772552, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Kriens"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.0931375, 
+            "lng": 8.9228556, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Mezzovico"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.351022, 
+            "lng": 9.6220807, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Vicosoprano"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.28417, 
+            "lng": 8.48708, 
+            "type": "Auffanglager", 
+            "name": "Aeugsterthal"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.68371, 
+            "lng": 8.61259, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Neuhausen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.31516, 
+            "lng": 8.4680573, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Schullager", 
+            "name": "Bonstetten"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.4928921, 
+            "lng": 7.852398, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Fl\u00fcchtlingsheim", 
+            "name": "Rickenbach - Waldegg, Gelterkinden - Waldegg"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.1816543, 
+            "lng": 6.8747591, 
+            "type": "Fl\u00fcchtlingsheim, Auffanglager, Kinderheim, Jugendalijahheim", 
+            "name": "Champ\u00e9ry"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.267524, 
+            "lng": 9.341061, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Pottersalp / S\u00e4ntis"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.1200438, 
+            "lng": 8.7112657, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Fl\u00fcchtlingsheim, Kinderheim", 
+            "name": "Brissago"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3540918, 
+            "lng": 9.1129175, 
+            "type": "Arbeitslager f\u00fcr Emigranten, Auffanglager, Fl\u00fcchtlingslager", 
+            "name": "Oberhelfenschwil"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.5591304, 
+            "lng": 7.8442531, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Quarant\u00e4nelager f\u00fcr R\u00fcckwanderer", 
+            "name": "M\u00f6hlin"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.35367, 
+            "lng": 8.43714, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Fl\u00fcchtlingsheim, Schullager", 
+            "name": "Birmensdorf"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.0679692, 
+            "lng": 7.7759045, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "T\u00e4sch"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3004487, 
+            "lng": 9.1760617, 
+            "type": "Kinderheim, Auffanglager", 
+            "name": "Hemberg"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.4626895, 
+            "lng": 7.8361995, 
+            "type": "Fl\u00fcchtlingsheim, Hachscharah, Altersheim", 
+            "name": "B\u00f6ckten"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.5205474, 
+            "lng": 6.6612619, 
+            "type": "Fl\u00fcchtlingsheim, Auffanglager, M\u00fctterheim", 
+            "name": "La Rosiaz, La Rosiaz - Lausanne"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.2977669, 
+            "lng": 8.4482542, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Hedingen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 45.9834646, 
+            "lng": 8.8886323, 
+            "type": "Fl\u00fcchtlingsheim, Interniertenheim", 
+            "name": "Magliaso"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.0501682, 
+            "lng": 8.3093072, 
+            "type": "R\u00fcckwandererheim, Fl\u00fcchtlingsheim, Fl\u00fcchtlingslager, Ungarnfl\u00fcchtlinge, unbekannt", 
+            "name": "Luzern"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.18076, 
+            "lng": 7.3692807, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Fl\u00fcchtlingsheim, Altersheim, Fl\u00fcchtlingslager", 
+            "name": "Lengnau"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.2947277, 
+            "lng": 7.8821204, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Visp, Vi\u00e8ge"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.1395743, 
+            "lng": 7.374796800000001, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Auffanglager, Interniertenlager f\u00fcr polnische Soldaten", 
+            "name": "B\u00fcren a/A, B\u00fcren an der Aare"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.0036778, 
+            "lng": 8.951052, 
+            "type": "Fl\u00fcchtlingsheim, unbekannt, Werkst\u00e4tten, Altersheim, Fl\u00fcchtlingslager", 
+            "name": "Lugano"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.9618591, 
+            "lng": 7.1041652, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Strafanstalt, unbekannt", 
+            "name": "Sugiez - Les Verri\u00e8res, Sugiez - Les Vernes"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.9743127, 
+            "lng": 7.1334812, 
+            "type": "Strafanstalt, Interniertenheim", 
+            "name": "Bellechasse"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.3090067, 
+            "lng": 7.80016, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Raron"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.6698891, 
+            "lng": 6.7975224, 
+            "type": "Fl\u00fcchtlingsheim, Auffanglager", 
+            "name": "Moudon"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.4460412, 
+            "lng": 6.1581382, 
+            "type": "R\u00fcckwandererheim, Fl\u00fcchtlingsheim, Interniertenheim, unbekannt", 
+            "name": "St. Cergue"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.510155, 
+            "lng": 6.626487, 
+            "type": "Auffanglager", 
+            "name": "Lausanne-Ouchy"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.7035407, 
+            "lng": 7.8095511, 
+            "type": "R\u00fcckwandererheim, Fl\u00fcchtlingsheim, Sanatorium, Kinderheim, unbekannt", 
+            "name": "Beatenberg"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 46.0287548, 
+            "lng": 8.9617594, 
+            "type": "Schulheim", 
+            "name": "Trevano (bei Lugano)"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.4156189, 
+            "lng": 8.5889722, 
+            "type": "Schul- und Werkst\u00e4ttenlager, Wohnlager", 
+            "name": "Wallisellen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.55219, 
+            "lng": 7.7922914, 
+            "type": "Holzdepot, Quarant\u00e4nelager, Quarant\u00e4nelager f\u00fcr R\u00fcckwanderer", 
+            "name": "Rheinfelden"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 46.8064773, 
+            "lng": 7.1619719, 
+            "type": "Schulheim, Hochschullager", 
+            "name": "Fribourg"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 47.3549198, 
+            "lng": 8.5748037, 
+            "type": "Krankenhaus", 
+            "name": "Balgrist"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.9479739, 
+            "lng": 7.4474468, 
+            "type": "Fl\u00fcchtlingsheim, Krankenhaus", 
+            "name": "Bern"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.344172879999995, 
+            "lng": 7.01273078, 
+            "type": "Interniertenheim, unbekannt, Fl\u00fcchtlingsheim, Sanatorium", 
+            "name": "Leyisin, Leysin, Leysin-Les Diablerets"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.5164273, 
+            "lng": 8.1217106, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Ampfernh\u00f6he"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.8200266, 
+            "lng": 8.4069918, 
+            "type": "Fl\u00fcchtlingsheim, Schulheim, Kinderheim, Jugendalijahheim", 
+            "name": "Engelberg"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.312434700000004, 
+            "lng": 8.5270459, 
+            "type": "Erziehungsheim, Fl\u00fcchtlingsheim, Auffanglager", 
+            "name": "Adliswil"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.0284465, 
+            "lng": 7.7446642, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Sumiswald"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.438287, 
+            "lng": 8.1035688, 
+            "type": "Arbeitslager f\u00fcr Emigranten", 
+            "name": "Thalheim"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.4312213, 
+            "lng": 6.910679900000001, 
+            "type": "Fl\u00fcchtlingsheim, Schulheim, unbekannt", 
+            "name": "Montreux"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.3102173, 
+            "lng": 7.4774587, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Fl\u00fcchtlingsheim, Sanatorium, unbekannt", 
+            "name": "Montana"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.5129592, 
+            "lng": 7.7652075, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Arbeitslager f\u00fcr Emigranten", 
+            "name": "Arisdorf"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.7065902, 
+            "lng": 7.7271909, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Schullager", 
+            "name": "Burg - Schloss"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.20439069999999, 
+            "lng": 6.1431577, 
+            "type": "Schulheim, Heim f\u00fcr Intellektuelle, Kinderheim, Umschulungslager, Interniertenheim, Auffanglager, unbekannt, Fl\u00fcchtlingsheim", 
+            "name": "Genf"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.4766643, 
+            "lng": 8.5194782, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Arbeitslager f\u00fcr Emigranten", 
+            "name": "Oberglatt - Elekt., Oberglatt"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.1669988, 
+            "lng": 8.7942643, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Arbeitslager f\u00fcr Emigranten", 
+            "name": "Locarno"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.385988, 
+            "lng": 9.6547802, 
+            "type": "Emigrantenlager", 
+            "name": "Diepoldsau"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.0371639, 
+            "lng": 8.9803742, 
+            "type": "Arbeitslager f\u00fcr Emigranten, Schullager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Davesco"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.8452376, 
+            "lng": 9.4712304, 
+            "type": "Arbeitslager f\u00fcr Emigranten, Fl\u00fcchtlingslager", 
+            "name": "Felsberg"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.016667, 
+            "lng": 6.85, 
+            "type": "Auffanglager", 
+            "name": "Les Geneveys - sur - Coffrane"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.2941311, 
+            "lng": 7.5335362, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Fl\u00fcchtlingsheim", 
+            "name": "Sierre"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 45.9278156, 
+            "lng": 8.9078997, 
+            "type": "Fl\u00fcchtlingsheim, Fl\u00fcchtlingsheim und Werkst\u00e4tten", 
+            "name": "Morcote"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.2341791, 
+            "lng": 6.1393268, 
+            "type": "Fl\u00fcchtlingsheim, Schulheim", 
+            "name": "Pr\u00e9gny"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3260986, 
+            "lng": 9.226432, 
+            "type": "Arbeitslager f\u00fcr Emigranten, Auffanglager, Fl\u00fcchtlingsheim", 
+            "name": "Sch\u00f6nengrund"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.1502, 
+            "lng": 6.79282, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Champ\u00e9ry / Col de Coux"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.1809063, 
+            "lng": 8.8608089, 
+            "type": "Arbeitslager f\u00fcr Emigranten und Fl\u00fcchtlinge, Fl\u00fcchtlingsheim", 
+            "name": "Gordola"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.1273, 
+            "lng": 8.84662, 
+            "type": "Arbeitslager f\u00fcr Emigranten", 
+            "name": "Sattelegg"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.889989, 
+            "lng": 9.838752, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Serneus"
+        }, 
+        {
+            "color": "#ffaa00", 
+            "lat": 46.7570775, 
+            "lng": 9.4211036, 
+            "type": "Interniertenlager", 
+            "name": "Unterrealta"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.4440576, 
+            "lng": 9.5319772, 
+            "type": "Kinderheim", 
+            "name": "Heiden"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.55959860000001, 
+            "lng": 7.588576099999999, 
+            "type": "Quarant\u00e4nelager, Schulheim, Lehrlingsheim, Strafanstalt, Lehrlingsheim der Basler Hilfe f\u00fcr Emigrantenkinder, Sonderbetrieb, Fl\u00fcchtlingsheim, NULL, Waisenhaus, Fl\u00fcchtlingslager", 
+            "name": "Basel"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.7809052, 
+            "lng": 9.5434284, 
+            "type": "R\u00fcckwandererheim, Interniertenheim, Schulheim, Di\u00e4tstation, Fl\u00fcchtlingsheim", 
+            "name": "Churwalden"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.30957, 
+            "lng": 8.87265, 
+            "type": "Fl\u00fcchtlingsheim, Auffanglager", 
+            "name": "Girenbad bei Hinwil, Girenbad"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.391439, 
+            "lng": 7.5399922, 
+            "type": "Auffanglager", 
+            "name": "B\u00fcsserach"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.4215556, 
+            "lng": 8.5383447, 
+            "type": "Sonderbetrieb", 
+            "name": "Z\u00fcrich - Seebach"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.1982388, 
+            "lng": 6.1656826, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Belmont"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.5948288, 
+            "lng": 8.6789566, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Schullager", 
+            "name": "Andelfingen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3331334, 
+            "lng": 8.2465197, 
+            "type": "Schulheim, Fl\u00fcchtlingslager", 
+            "name": "Hilfikon"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.4807587, 
+            "lng": 7.6442005, 
+            "type": "Arbeitslager f\u00fcr Emigranten", 
+            "name": "Gempen - Stollen"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.4954046, 
+            "lng": 7.6833047, 
+            "type": "Arbeitslager f\u00fcr Emigranten", 
+            "name": "Schauenburg - Bad"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.5207317, 
+            "lng": 7.7832254, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Olsberg"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.6884826, 
+            "lng": 7.6791524, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Fl\u00fcchtlingsheim, unbekannt, R\u00fcckwandererheim", 
+            "name": "Spiez"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.3761486, 
+            "lng": 7.6887502, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "B\u00fcrten"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3784829, 
+            "lng": 8.3644236, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Interniertenheim, Auffanglager, Schullager, Ungarnfl\u00fcchtlinge", 
+            "name": "Hasenberg"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.1391, 
+            "lng": 8.53768, 
+            "type": "Jugendalijaheim, Kinderheim", 
+            "name": "Zugerberg"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.19697, 
+            "lng": 7.02724, 
+            "type": "Kinderheim, Auffanglager, Fl\u00fcchtlingsheim, Jugendalijahheim", 
+            "name": "Bex-les-Bains"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.484014900000005, 
+            "lng": 8.9044415, 
+            "type": "Flickstube, Freiplatzheim", 
+            "name": "T\u00e4nikon, Aadorf"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.7286653, 
+            "lng": 9.557472, 
+            "type": "Fl\u00fcchtlingsheim, Interniertenheim", 
+            "name": "Lenzerheide, Valbella - Lenzerheide"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.4988196, 
+            "lng": 8.7236889, 
+            "type": "Flickstube, Hochschullager", 
+            "name": "Winterthur"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.4155608, 
+            "lng": 9.248852, 
+            "type": "Emigrantenheim", 
+            "name": "Gossau"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 45.9907174, 
+            "lng": 8.9452618, 
+            "type": "Fl\u00fcchtlingsheim, Fl\u00fcchtlingslager", 
+            "name": "Lugano-Paradiso"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3842634, 
+            "lng": 7.9489303, 
+            "type": "Fl\u00fcchtlingslager", 
+            "name": "Lostorf"
+        }, 
+        {
+            "color": "#ffaaaa", 
+            "lat": 46.99576, 
+            "lng": 7.08635, 
+            "type": "Strafanstalt", 
+            "name": "Witzwil"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.4981894, 
+            "lng": 7.7009449, 
+            "type": "R\u00fcckwandererheim, Fl\u00fcchtlingsheim", 
+            "name": "Liestal / Bienenberg"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 47.4354, 
+            "lng": 8.84749, 
+            "type": "Erholungsheim", 
+            "name": "R\u00e4mism\u00fchle-Turbenthal, Turbenthal"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.30084, 
+            "lng": 7.04284, 
+            "type": "Fl\u00fcchtlingsheim, Kinderheim", 
+            "name": "Chesi\u00e8res"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.4244818, 
+            "lng": 9.3767173, 
+            "type": "Strafanstalt, Auffanglager", 
+            "name": "St. Gallen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.3491052, 
+            "lng": 6.9598484, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Corbeyrier"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 46.5488573, 
+            "lng": 6.674199, 
+            "type": "Rekonvaleszenten Station", 
+            "name": "Epalinges"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.08337, 
+            "lng": 6.97688, 
+            "type": "Fl\u00fcchtlingsheim, Interniertenheim", 
+            "name": "Finhaut"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.9899874, 
+            "lng": 6.9292732, 
+            "type": "Fl\u00fcchtlingsheim, Auffanglager", 
+            "name": "Neuch\u00e2tel"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.44521, 
+            "lng": 8.79801, 
+            "type": "Auffanglager, Fl\u00fcchtlingslager", 
+            "name": "Rikon"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 45.8484251, 
+            "lng": 9.0077495, 
+            "type": "Fl\u00fcchtlingslager", 
+            "name": "Balerna"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.45804906666667, 
+            "lng": 6.894655666666668, 
+            "type": "Fl\u00fcchtlingsheim, Kinderheim", 
+            "name": "Chailly, Brent sur Montreux, Blonay"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 45.8713339, 
+            "lng": 8.9841329, 
+            "type": "M\u00fctterheim", 
+            "name": "Mendrisio"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3173506, 
+            "lng": 9.0497485, 
+            "type": "Ungarnfl\u00fcchtlinge", 
+            "name": "Krinau"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.4053885, 
+            "lng": 8.39977, 
+            "type": "Schullager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Dietikon"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.1049798, 
+            "lng": 7.0755334, 
+            "type": "Fl\u00fcchtlingsheim, Auffanglager", 
+            "name": "Martigny"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.2981976, 
+            "lng": 7.8821701, 
+            "type": "Quarant\u00e4nelager, Auffanglager", 
+            "name": "Geisshubelbad/Rothrist/AG"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.1362592, 
+            "lng": 9.1052748, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Weesen"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.84027, 
+            "lng": 7.79592, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Eggiwil - Siehen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.0074649, 
+            "lng": 8.9287679, 
+            "type": "Freiplatzheim", 
+            "name": "Breganzona"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.1862897, 
+            "lng": 8.0237036, 
+            "type": "Landw. Arbeitslager, Auffanglager", 
+            "name": "Wauwil"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.2846, 
+            "lng": 8.55065, 
+            "type": "Fl\u00fcchtlingslager", 
+            "name": "Gattikon"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.7251614, 
+            "lng": 8.1909081, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Meiringen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.474339375, 
+            "lng": 7.285574199999999, 
+            "type": "Kinderheim, Altersheim, Sanatorium", 
+            "name": "Gstaad, Saanen"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.07975, 
+            "lng": 6.78707, 
+            "type": "Kinderheim", 
+            "name": "Cr\u00eat-du-Locle"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.244921, 
+            "lng": 7.396008, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Le Chaluet"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.4988452, 
+            "lng": 6.7691772, 
+            "type": "Auffanglager", 
+            "name": "Puidoux"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.3190253, 
+            "lng": 6.970566, 
+            "type": "Fl\u00fcchtlingslager", 
+            "name": "Aigle"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.7149943, 
+            "lng": 9.2116628, 
+            "type": "Holzleseaktion", 
+            "name": "Duvin"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.4866143, 
+            "lng": 7.7334272, 
+            "type": "Ungarnfl\u00fcchtlinge", 
+            "name": "Liestal"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.2958584, 
+            "lng": 8.3358746, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Arbeitslager f\u00fcr Emigranten", 
+            "name": "Murimoos"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.1884961, 
+            "lng": 6.1421869, 
+            "type": "M\u00fctterheim", 
+            "name": "Champel Val - Fleuri"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.4492037, 
+            "lng": 6.9138696, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Chamby"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.2235029, 
+            "lng": 7.102975, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Tramelan"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.77421, 
+            "lng": 9.20474, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Glion"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.5196535, 
+            "lng": 6.632273400000001, 
+            "type": "Auffanglager, Ungarnfl\u00fcchtlinge, Heim, unbekannt, Fl\u00fcchtlingsheim, Fl\u00fcchtlingslager", 
+            "name": "Vennes - Lausanne, Lausanne"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.1410511, 
+            "lng": 8.4298274, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Rotkreuz"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.65, 
+            "lng": 8.6166667, 
+            "type": "Auffanglager", 
+            "name": "G\u00fctsch"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 46.2521873, 
+            "lng": 6.9469598, 
+            "type": "Sanatorium", 
+            "name": "Monthey"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.3967887, 
+            "lng": 7.244786, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Arbeitslager f\u00fcr Emigranten", 
+            "name": "Bourrignon"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.2771375, 
+            "lng": 8.9155608, 
+            "type": "Erholungsheim, Auffanglager, Sanatorium", 
+            "name": "Wald, Wald bei Z\u00fcrich"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.5833371, 
+            "lng": 6.8412452, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Le Pont"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.35799, 
+            "lng": 8.47084, 
+            "type": "Fl\u00fcchtlingslager", 
+            "name": "Ringlikon"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.0338781, 
+            "lng": 9.0775529, 
+            "type": "Sonderbetrieb", 
+            "name": "Ennenda"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.5615687, 
+            "lng": 8.4090582, 
+            "type": "Arbeitsgruppe f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Fisibach"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3483495, 
+            "lng": 7.7686817, 
+            "type": "Fl\u00fcchtlingsheim, Kinderheim", 
+            "name": "Langenbruck"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.3389072, 
+            "lng": 7.2427009, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Bassecourt"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.821330100000004, 
+            "lng": 9.711274399999999, 
+            "type": "Kinderheim, Sanatorium, Kindersanatorium, Krankenhaus, unbekannt, Fl\u00fcchtlingsheim, NULL", 
+            "name": "Davos - Platz"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.4204213, 
+            "lng": 7.5004874, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Laufen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.390434, 
+            "lng": 8.0457015, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Aarau"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.4117837, 
+            "lng": 9.4416911, 
+            "type": "Kinderheim", 
+            "name": "Speicher"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 45.9686348, 
+            "lng": 8.9145642, 
+            "type": "Sanatorium", 
+            "name": "Agra"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.5092445, 
+            "lng": 8.9480645, 
+            "type": "Auffanglager", 
+            "name": "Jakobsbad"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.4777116, 
+            "lng": 8.9976291, 
+            "type": "Auffanglager", 
+            "name": "M\u00fcnchwilen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.86924832, 
+            "lng": 9.88329648, 
+            "type": "Fl\u00fcchtlingsheim, Schulheim, Kinderheim, unbekannt, Freiplatzheim", 
+            "name": "Klosters - Platz, Klosters"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.496944000000006, 
+            "lng": 6.819167, 
+            "type": "R\u00fcckwandererheim, Fl\u00fcchtlingsheim, Kinderheim", 
+            "name": "Mont P\u00e9lerin"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.286299, 
+            "lng": 9.100917, 
+            "type": "Kinderheim", 
+            "name": "Ulisbach/Wattwil"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.4715174, 
+            "lng": 7.1260114, 
+            "type": "unbekannt", 
+            "name": "Ch\u00e2teau-d' Oex"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.6140944, 
+            "lng": 6.507171, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Cossonay"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.1762332, 
+            "lng": 7.8045917, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "St. Niklaus"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.2658436, 
+            "lng": 7.5089231, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Chalais"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.8781484, 
+            "lng": 6.7550836, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Vaumarcus"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.178765, 
+            "lng": 8.7115777, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Golino"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.5123333, 
+            "lng": 9.8589518, 
+            "type": "Kinderheim, Fl\u00fcchtlingsheim", 
+            "name": "Celerina"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.447864, 
+            "lng": 9.509459, 
+            "type": "Kinderheim", 
+            "name": "Grub"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.7342377, 
+            "lng": 8.9588146, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Rabius"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3871386, 
+            "lng": 9.1610344, 
+            "type": "Auffanglager", 
+            "name": "Moosbad"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.4383358, 
+            "lng": 8.0530386, 
+            "type": "Schullager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Asp Herzberg"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.22204, 
+            "lng": 7.32894, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Ch\u00e2teauneuf"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.499576, 
+            "lng": 7.6192212, 
+            "type": "Kinderheim", 
+            "name": "Arlesheim"
+        }, 
+        {
+            "color": "#ffaa00", 
+            "lat": 47.4635617, 
+            "lng": 9.0479097, 
+            "type": "Interniertenheim f\u00fcr britische Soldaten", 
+            "name": "Wil"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.174232, 
+            "lng": 8.9489996, 
+            "type": "Auffanglager, Fl\u00fcchtlingslager", 
+            "name": "Gudo bei Bellinzona, Baraccamenti di Gudo-TI"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.12398, 
+            "lng": 9.31603, 
+            "type": "Fl\u00fcchtlingslager", 
+            "name": "Walenstadt"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.385700899999996, 
+            "lng": 9.2798472, 
+            "type": "Fl\u00fcchtlingsheim, NULL, Hochschullager", 
+            "name": "Herisau"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.723, 
+            "lng": 7.623, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Gwatt"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 47.5848274, 
+            "lng": 7.6499111, 
+            "type": "Altersheim", 
+            "name": "Riehen bei Basel"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3738511, 
+            "lng": 9.2003081, 
+            "type": "Emigrantenlager, Heim f\u00fcr Handicapped People", 
+            "name": "Degersheim"
+        }, 
+        {
+            "color": "#ffaaaa", 
+            "lat": 0.0, 
+            "lng": 0.0, 
+            "type": "Disziplinarlager", 
+            "name": "Wert fehlt"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.2765988, 
+            "lng": 7.8451321, 
+            "type": "Arbeitslager f\u00fcr Emigranten, Fl\u00fcchtlingsheim", 
+            "name": "Murgenthal"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.4513643, 
+            "lng": 9.6023288, 
+            "type": "Auffanglager, unbekannt", 
+            "name": "Walzenhausen"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.2886168, 
+            "lng": 7.0480782, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Les Enfers"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.9905027, 
+            "lng": 9.6372642, 
+            "type": "Fl\u00fcchtlingsheim, Interniertenheim", 
+            "name": "Seewis"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.47288, 
+            "lng": 8.30809, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Baden"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.7611642, 
+            "lng": 7.4445527, 
+            "type": "Quarant\u00e4nelager, Auffanglager", 
+            "name": "Gurnigelbad"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.1011132, 
+            "lng": 7.7840062, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Randa"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.3436459, 
+            "lng": 7.6069213, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Hinterguldental"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3927209, 
+            "lng": 7.9381142, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge, Fl\u00fcchtlingslager", 
+            "name": "Bad Lostorf"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 45.8366999, 
+            "lng": 9.0246111, 
+            "type": "Lazarett", 
+            "name": "Chiasso"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.5535997, 
+            "lng": 8.8987541, 
+            "type": "Ungarnfl\u00fcchtlinge", 
+            "name": "Frauenfeld"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 46.4806514, 
+            "lng": 6.7857606, 
+            "type": "Kinderheim, Schulheim", 
+            "name": "Chardonnes sur Vevey"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 47.6979625, 
+            "lng": 8.5736822, 
+            "type": "Altersheim", 
+            "name": "Beringen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.2602511, 
+            "lng": 7.0306219, 
+            "type": "Kinderheim, unbekannt", 
+            "name": "Gryon sur Bex"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.4495116, 
+            "lng": 8.5821648, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Kloten"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 47.3220092, 
+            "lng": 8.5452125, 
+            "type": "Sanatorium", 
+            "name": "Kilchberg"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.4158854, 
+            "lng": 9.2237105, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Pian San Giacomo"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.280577, 
+            "lng": 9.0049324, 
+            "type": "Arbeitslager f\u00fcr Emigranten und Fl\u00fcchtlinge", 
+            "name": "Cresciano"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.4742674, 
+            "lng": 8.0507173, 
+            "type": "Arbeitslager f\u00fcr Emigranten", 
+            "name": "Herznach"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.0266057, 
+            "lng": 9.5137762, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Fl\u00e4sch"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.8507835, 
+            "lng": 9.5319859, 
+            "type": "Ungarnfl\u00fcchtlinge, Zwischenlager", 
+            "name": "Chur"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 46.7610132, 
+            "lng": 7.0961217, 
+            "type": "Schulheim", 
+            "name": "Hauterive"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.2643669, 
+            "lng": 7.4891517, 
+            "type": "Arbeitsgruppe f\u00fcr Fl\u00fcchtlinge, Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Granges - Lens"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.66315, 
+            "lng": 7.08997, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Villars"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.224796, 
+            "lng": 7.3112943, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Pont de la Morge s / Sion"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.2200764, 
+            "lng": 7.198526, 
+            "type": "NULL", 
+            "name": "Tavannes"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.82735, 
+            "lng": 9.28848, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Flims - Waldhaus"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 46.8366348, 
+            "lng": 9.2846923, 
+            "type": "Kinderheim", 
+            "name": "Flims"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.483333, 
+            "lng": 6.85, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Joigny"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 46.5092681, 
+            "lng": 6.6654949, 
+            "type": "Schulheim", 
+            "name": "Pully"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.1368093, 
+            "lng": 8.5830915, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Aegeri, Unteraegeri, Unter\u00e4geri"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.3500605, 
+            "lng": 8.56131, 
+            "type": "Sonderbetrieb", 
+            "name": "Z\u00fcrich - Tiefenbrunnen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.2750387, 
+            "lng": 8.4737755, 
+            "type": "Fl\u00fcchtlingsheim, Kinderheim", 
+            "name": "Wengibad bei Affoltern, Aeugst am Alibis"
+        }, 
+        {
+            "color": "#ffaaaa", 
+            "lat": 47.3904443, 
+            "lng": 8.1721545, 
+            "type": "Strafanstalt", 
+            "name": "Lenzburg"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.6260107, 
+            "lng": 8.8287677, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Nussbaumen"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.5577475, 
+            "lng": 8.4945679, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Zweidlen - Weiach"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.7858188, 
+            "lng": 8.159704, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Lungern"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.26395, 
+            "lng": 7.01332, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "B\u00e9mont"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.81777, 
+            "lng": 9.60671, 
+            "type": "Fl\u00fcchtlingsheim, Interniertenheim", 
+            "name": "Tschiertschen"
+        }, 
+        {
+            "color": "#ffaa00", 
+            "lat": 45.9940883, 
+            "lng": 8.9156468, 
+            "type": "Interniertenheim", 
+            "name": "Agnuzzo"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 46.870953, 
+            "lng": 9.534251, 
+            "type": "Pflegeanstalt", 
+            "name": "Chur - Masans"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.5517429, 
+            "lng": 6.558615, 
+            "type": "Fl\u00fcchtlingslager", 
+            "name": "Bussigny-pr\u00e8s-Lausanne VD"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.00571, 
+            "lng": 9.530813, 
+            "type": "Ungarnfl\u00fcchtlinge", 
+            "name": "Maienfeld GB"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.2888449, 
+            "lng": 7.9447619, 
+            "type": "Milit\u00e4rlager", 
+            "name": "Zofingen"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.3478005, 
+            "lng": 8.5335226, 
+            "type": "Sonderbetrieb", 
+            "name": "Z\u00fcrich - Wollishofen"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.2242, 
+            "lng": 7.96311, 
+            "type": "Holzleseaktion", 
+            "name": "Nanztal"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.4533165, 
+            "lng": 6.8612781, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "La Tour de Peilz"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.07989899999999, 
+            "lng": 7.850674000000001, 
+            "type": "Fl\u00fcchtlingsheim, Auffanglager, Kinderheim", 
+            "name": "Eriswil"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.1615793, 
+            "lng": 8.7750131, 
+            "type": "Kinderheim, Fl\u00fcchtlingsheim", 
+            "name": "Ascona"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.4618426, 
+            "lng": 8.9968358, 
+            "type": "Fl\u00fcchtlingslager", 
+            "name": "Sirnach"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3176632, 
+            "lng": 9.1746211, 
+            "type": "Fl\u00fcchtlingslager", 
+            "name": "St. Peterzell"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.2331221, 
+            "lng": 7.360626, 
+            "type": "Ungarnfl\u00fcchtlinge", 
+            "name": "Sion"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.466256, 
+            "lng": 7.664098, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Gempen - Plateau"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.4496088, 
+            "lng": 9.6376089, 
+            "type": "Auffanglager, Desinfektionslager", 
+            "name": "St. Margarethen"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.3378619, 
+            "lng": 8.8528619, 
+            "type": "Kinderheim", 
+            "name": "B\u00e4retswil"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.8217968, 
+            "lng": 6.5022222, 
+            "type": "Ungarnfl\u00fcchtlinge", 
+            "name": "Ste. Croix"
+        }, 
+        {
+            "color": "#ffaa00", 
+            "lat": 47.456762, 
+            "lng": 7.440626, 
+            "type": "Interniertenheim", 
+            "name": "Schloss Burg bei Fl\u00fch"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.5266505, 
+            "lng": 7.814835, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Magden"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.2033339, 
+            "lng": 9.350492, 
+            "type": "Ungarnfl\u00fcchtlinge", 
+            "name": "Wildhaus"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.4388267, 
+            "lng": 9.8712089, 
+            "type": "Auffanglager", 
+            "name": "Samedan"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.3239301, 
+            "lng": 10.0573467, 
+            "type": "Auffanglager", 
+            "name": "Poschiavo"
+        }, 
+        {
+            "color": "#ffaaaa", 
+            "lat": 47.2273614, 
+            "lng": 8.5268129, 
+            "type": "Strafanstalt", 
+            "name": "Kappel am Albis"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.287840100000004, 
+            "lng": 6.1645663, 
+            "type": "Fl\u00fcchtlingsheim, Jugendalijahheim", 
+            "name": "Versoix, Pont - C\u00e9ard p. Versoix"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.2691091, 
+            "lng": 7.457052, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Granges p. Sion"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.416647, 
+            "lng": 7.0765657, 
+            "type": "Strafanstalt, Fl\u00fcchtlingsheim", 
+            "name": "Porrentruy"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.0338792, 
+            "lng": 8.425278, 
+            "type": "R\u00fcckwandererheim, Kinderheim, Jugendalijahheim", 
+            "name": "Weggis"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3974378, 
+            "lng": 9.3823039, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Sch\u00e4flisegg"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.278876, 
+            "lng": 7.1380556, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Lajoux"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.4078753, 
+            "lng": 9.4647144, 
+            "type": "Kinderheim", 
+            "name": "Trogen"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 47.41554, 
+            "lng": 7.97628, 
+            "type": "Sanatorium", 
+            "name": "Barmelweid"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.7823704, 
+            "lng": 9.6799111, 
+            "type": "Ungarnfl\u00fcchtlinge", 
+            "name": "Arosa"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.0034141, 
+            "lng": 9.5011062, 
+            "type": "Ungarnfl\u00fcchtlinge", 
+            "name": "Bad Ragaz"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.1034892, 
+            "lng": 6.8327838, 
+            "type": "Waisenhaus, NULL", 
+            "name": "La Chaux-de-Fonds"
+        }, 
+        {
+            "color": "#ffaa00", 
+            "lat": 46.9529982, 
+            "lng": 7.0231305, 
+            "type": "Interniertenlager f\u00fcr polnische Soldaten", 
+            "name": "Cudrefin"
+        }, 
+        {
+            "color": "#ffaa00", 
+            "lat": 47.169773, 
+            "lng": 8.975433, 
+            "type": "Interniertenlager f\u00fcr polnische Soldaten", 
+            "name": "Reichenburg"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.53389, 
+            "lng": 7.72135, 
+            "type": "Holzdepot", 
+            "name": "Augst"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.0295067, 
+            "lng": 7.3160225, 
+            "type": "Auffanglager", 
+            "name": "Baggwil - Seedorf"
+        }, 
+        {
+            "color": "#ffaa00", 
+            "lat": 45.402337, 
+            "lng": 4.498825, 
+            "type": "Interniertenlager f\u00fcr polnische Soldaten", 
+            "name": "Sordel"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.7647922, 
+            "lng": 9.460412, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Trans"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.3095856, 
+            "lng": 7.6883283, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Balsthal"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3428013, 
+            "lng": 9.5319606, 
+            "type": "Auffanglager", 
+            "name": "Eichberg"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.4571943, 
+            "lng": 7.4429104, 
+            "type": "Ungarnfl\u00fcchtlinge", 
+            "name": "Lenk im Simmental"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.2877778, 
+            "lng": 8.51, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Albis"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.1789419, 
+            "lng": 8.7989377, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Orselina"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3129528, 
+            "lng": 7.9198655, 
+            "type": "Auffanglager", 
+            "name": "Bad Lauterbach bei Oftringen"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 46.3943352, 
+            "lng": 6.2492927, 
+            "type": "Kinderheim", 
+            "name": "Prangins"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.3492167, 
+            "lng": 8.1879722, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Egetswil"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.2343502, 
+            "lng": 9.1288093, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Roveredo"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 46.6863481, 
+            "lng": 7.8632049, 
+            "type": "Rekonvaleszenten Station", 
+            "name": "Interlaken"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.5091076, 
+            "lng": 8.6904167, 
+            "type": "Berufslager", 
+            "name": "Winterthur - W\u00fclflingen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3491774, 
+            "lng": 8.3397905, 
+            "type": "Fl\u00fcchtlingslager", 
+            "name": "Bremgarten"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.55505, 
+            "lng": 8.31702, 
+            "type": "Holzleseaktion", 
+            "name": "Baldingen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.2392343, 
+            "lng": 8.7351356, 
+            "type": "Emigrantenlager", 
+            "name": "St\u00e4fa"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.7046823, 
+            "lng": 9.715258, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Wiesen"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.3214469, 
+            "lng": 8.1568605, 
+            "type": "Kinderheim", 
+            "name": "D\u00fcrren\u00e4sch"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3228773, 
+            "lng": 7.9286785, 
+            "type": "Fl\u00fcchtlingslager", 
+            "name": "Lauterbach / Oftringen"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.6734153, 
+            "lng": 9.6863771, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Filisur"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.4730927, 
+            "lng": 8.6778198, 
+            "type": "Arbeitsgruppe f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Br\u00fctten"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.3267872, 
+            "lng": 8.2054516, 
+            "type": "Fl\u00fcchtlingslager", 
+            "name": "Seengen"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 46.6611155, 
+            "lng": 7.7282129, 
+            "type": "Jugendalijahheim", 
+            "name": "Krattigen"
+        }, 
+        {
+            "color": "#ffaaaa", 
+            "lat": 47.0019933, 
+            "lng": 7.5651374, 
+            "type": "Strafanstalt", 
+            "name": "Thorberg"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 46.7751149, 
+            "lng": 7.6632737, 
+            "type": "Kinderheim", 
+            "name": "Schwendibach/Thun"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.5288234, 
+            "lng": 9.3621163, 
+            "type": "Kinderheim", 
+            "name": "Neukirch"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.9110687, 
+            "lng": 9.807416, 
+            "type": "Holzleseaktion", 
+            "name": "Saas"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 47.35233, 
+            "lng": 7.81498, 
+            "type": "Sanatorium", 
+            "name": "Allerheiligenberg"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.7606448, 
+            "lng": 8.6094638, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Merishausen"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.189468, 
+            "lng": 7.7077698, 
+            "type": "Flickstube, Interniertenlager f\u00fcr polnische Soldaten", 
+            "name": "Herzogenbuchsee"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.7278608, 
+            "lng": 8.9383016, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Somvix"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 47.1655403, 
+            "lng": 9.4708594, 
+            "type": "Landw. Arbeitslager", 
+            "name": "Buchs"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.0581255, 
+            "lng": 7.0730626, 
+            "type": "Strafanstalt, Interniertenheim", 
+            "name": "Le Landeron"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 46.181622, 
+            "lng": 8.9008936, 
+            "type": "Sanatorium", 
+            "name": "Medoscio"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.3117718, 
+            "lng": 7.5704709, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Salgesch"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 46.541104, 
+            "lng": 7.38532, 
+            "type": "Schulheim", 
+            "name": "Blankenburg bei Zweisimmen"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 46.9205627, 
+            "lng": 7.3947358, 
+            "type": "Erziehungsheim", 
+            "name": "Landdorf"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.7784736, 
+            "lng": 6.641183, 
+            "type": "Milit\u00e4rlager", 
+            "name": "Yverdon"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.8280926, 
+            "lng": 9.4063148, 
+            "type": "Arbeitslager f\u00fcr Fl\u00fcchtlinge", 
+            "name": "Tamins"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 47.5160671, 
+            "lng": 8.5419603, 
+            "type": "Ungarnfl\u00fcchtlinge", 
+            "name": "B\u00fclach"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 47.0362841, 
+            "lng": 8.5686947, 
+            "type": "Kinderheim", 
+            "name": "Arth am See"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 46.292425, 
+            "lng": 7.028818, 
+            "type": "Kinderheim", 
+            "name": "Hu\u00e9moz s/ Ollon"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.856582, 
+            "lng": 9.8827525, 
+            "type": "Ungarnfl\u00fcchtlinge", 
+            "name": "Klosters - Selfranga"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 46.6859659, 
+            "lng": 7.8932422, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "B\u00f6nigen"
+        }, 
+        {
+            "color": "#ffaa00", 
+            "lat": 46.3435262, 
+            "lng": 6.1621477, 
+            "type": "Interniertenlager f\u00fcr polnische Soldaten", 
+            "name": "Chavannes-de-Bogis"
+        }, 
+        {
+            "color": "#cccccc", 
+            "lat": 45.9479341, 
+            "lng": 8.911712, 
+            "type": "Fl\u00fcchtlingsheim", 
+            "name": "Rovina"
+        }, 
+        {
+            "color": "#c47853", 
+            "lat": 46.8794597, 
+            "lng": 7.6208263, 
+            "type": "Flickstube", 
+            "name": "Konolfingen"
+        }, 
+        {
+            "color": "#aaaaff", 
+            "lat": 46.4771074, 
+            "lng": 6.8959938, 
+            "type": "Kinderheim", 
+            "name": "Les Chevalleyres"
+        }, 
+        {
+            "color": "#aaffaa", 
+            "lat": 46.510617, 
+            "lng": 8.690151, 
+            "type": "Sanatorium", 
+            "name": "Ambri - Piotta"
+        }, 
+        {
+            "color": "#ffaaaa", 
+            "lat": 47.0281883, 
+            "lng": 7.050374, 
+            "type": "Straflager", 
+            "name": "Gals"
         }, 
         {
             "color": "#cccccc", 
