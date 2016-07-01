@@ -156,7 +156,7 @@
                     updateMap();
                 });
                 
-                jQuery('#daterange').attr('min', new Date(1898, 1, 1).getTime()).attr('max', new Date(1975, 12, 31).getTime()).change(updateMap);
+                jQuery('#daterange').attr('min', new Date(1898, 1, 1).getTime()).attr('max', new Date(1975, 12, 31).getTime()).val(new Date(1939, 1, 1).getTime()).change(updateMap);
                 updateMap();
                 
                 setInterval(function() {

@@ -1,0 +1,94 @@
+[
+{
+    "color": "#ffaaaa",
+    "names": [
+        "Strafanstalt",
+        "Straflager",
+        "Disziplinarlager"
+    ]
+},
+{
+    "color": "#ffccaa",
+    "names": [
+        "Interniertenheim",
+        "Interniertenlager",
+        "Interniertenlager für polnische Soldaten",
+        "Interniertenheim für britische Soldaten"
+    ]
+},
+{
+    "color": "#ccccaa",
+    "names": [
+        "Arbeitslager für Emigranten und Flüchtlinge",
+        "Arbeitslager für Emigranten",
+        "Arbeitslager für Flüchtlinge",
+        "Landw. Arbeitslager",
+        "Arbeitsgruppe für Flüchtlinge",
+        "Sonderbetrieb",
+        "Holzleseaktion",
+        "Werkstätten",
+        "Berufslager",
+        "Flickstube",
+        "Flüchtlingsheim und Werkstätten",
+        "Holzdepot"
+    ]
+},
+{
+    "color": "#aaffaa",
+    "names": [
+        "Quarantänelager für Rückwanderer",
+        "Krankenhaus",
+        "Sanatorium",
+        "Altersheim",
+        "Diätstation",
+        "Rekonvaleszenten Station",
+        "Quarantänelager",
+        "Lazarett",
+        "Pflegeanstalt",
+        "Desinfektionslager",
+        "Kindersanatorium",
+        "Erholungsheim"
+    ]
+},
+{
+    "color": "#aaaaff",
+    "names": [
+        "Schulheim",
+        "Schul- und Werkstättenlager",
+        "Kinderheim",
+        "Schullager",
+        "Hochschullager",
+        "Schullager für Flüchtlinge",
+        "Jugendalijahheim",
+        "Waisenhaus",
+        "Jugendalijaheim",
+        "Lehrlingsheim der Basler Hilfe für Emigrantenkinder",
+        "Erziehungsheim",
+        "Lehrlingsheim"
+    ]
+},
+{
+    "color": "#cccccc",
+    "names": [
+        "Flüchtlingsheim",
+        "Heim für Intellektuelle",
+        "unbekannt",
+        "Auffanglager",
+        "Emigrantenlager",
+        "Freiplatzheim",
+        "Emigrantenheim",
+        "Flüchtlingslager",
+        "Umschulungslager",
+        "Mütterheim",
+        "Ungarnflüchtlinge",
+        "Rückwandererheim",
+        "NULL",
+        "Heim für Handicapped People",
+        "Hachscharah",
+        "Militärlager",
+        "Heim",
+        "Wohnlager",
+        "Zwischenlager"
+    ]
+}
+]
