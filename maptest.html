@@ -62,14 +62,26 @@
                             p.marker.setIcon('no_marker.png');
                         }
                     } else {
-                        p.marker.setIcon('tiny_marker.png');
                         var loc = p.locations[0];
+                        var newLocationIndex = 0;
                         for (var i = 0; i < p.locations.length; i++) {
                             if (currentTime >= p.locations[i].time.getTime()) {
                                 loc = p.locations[i];
+                                newLocationIndex = i;
                             }
                         }
-                        p.marker.setPosition(loc.position);
+                        if (p.marker.getIcon() == 'no_marker.png') {
+                            p.marker.setIcon('tiny_marker.png');
+                            p.marker.setPosition(loc.position);
+                        } else if (p.locationIndex != newLocationIndex) {
+                            p.animating = true;
+                            p.animProgress = 0;
+                            p.srcLat = p.marker.getPosition().lat();
+                            p.srcLng = p.marker.getPosition().lng();
+                            p.dstLat = loc.position.lat;
+                            p.dstLng = loc.position.lng;
+                        }
+                        p.locationIndex = newLocationIndex;
                     }
                 });
             }
@@ -98,7 +110,12 @@
                         var person = {
                             id: l.id,
                             locations: [],
-                            marker: null
+                            locationIndex: 0,
+                            marker: null,
+                            animating: false,
+                            animProgress: 0,
+                            srcLat: 0, srcLng: 0,
+                            dstLat: 0, dstLng: 0
                         };
                         peopleMap[l.id] = person;
                         people.push(person);
@@ -128,22 +145,6 @@
                         icon: 'tiny_marker.png'
                     });
                 });
-                /*var mi = 0;
-                setInterval(function() {
-                    var marker = markers[mi++ % 100];
-                    var oldPosition = marker.getPosition();
-                    var newPosition = { lat: Math.random() * 180 - 90, lng: Math.random() * 360 - 180 };
-                    var lerp = 0.0;
-                    var anim = setInterval(function() {
-                        if (lerp >= 1) {
-                            clearInterval(anim);
-                            return;
-                        }
-                        lerp = Math.min(1, lerp + 0.004);
-                        var position = { lat: oldPosition.lat() * (1 - lerp) + newPosition.lat * lerp, lng: oldPosition.lng() * (1 - lerp) + newPosition.lng * lerp };
-                        marker.setPosition(position);
-                    }, 15);
-                }, 3000);*/
                 
                 jQuery('#prev').click(function() {
                     jQuery('#daterange').val(parseInt(jQuery('#daterange').val()) - 3600 * 24 * 30 * 1000);
@@ -157,6 +158,17 @@
                 
                 jQuery('#daterange').attr('min', new Date(1898, 1, 1).getTime()).attr('max', new Date(1975, 12, 31).getTime()).change(updateMap);
                 updateMap();
+                
+                setInterval(function() {
+                    for (var i = 0; i < people.length; i++) {
+                        var person = people[i];
+                        if (!person.animating) { continue; }
+                        person.animProgress = Math.min(1, person.animProgress + 0.025);
+                        var position = { lat: person.srcLat * (1 - person.animProgress) + person.dstLat * person.animProgress, lng: person.srcLng * (1 - person.animProgress) + person.dstLng * person.animProgress };
+                        person.marker.setPosition(position);
+                        person.animating = person.animProgress < 1;
+                    }
+                }, 15);
             }
 
             function loadData() {
