@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jewish Refugees</title>
+        <style>
+          html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+          }
+          #map {
+            height: 100%;
+          }
+        </style>
+    </head>
+    <body>
+        <div id="map"></div>
+        <script>
+          var map;
+          function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+              center: {lat: 40, lng: 0},
+              zoom: 2
+            });
+            
+            var markers = [];
+            for (var i = 0; i < 100; i++) {
+                markers.push(new google.maps.Marker({
+                  position: { lat: Math.random() * 180 - 90, lng: Math.random() * 360 - 180 },
+                  map: map,
+                  icon: 'tiny_marker.png'
+                }));
+            }
+            var mi = 0;
+            setInterval(function() {
+                var marker = markers[mi++ % 100];
+                var oldPosition = marker.getPosition();
+                var newPosition = { lat: Math.random() * 180 - 90, lng: Math.random() * 360 - 180 };
+                var lerp = 0.0;
+                var anim = setInterval(function() {
+                    if (lerp >= 1) {
+                        clearInterval(anim);
+                        return;
+                    }
+                    lerp = Math.min(1, lerp + 0.004);
+                    var position = { lat: oldPosition.lat() * (1 - lerp) + newPosition.lat * lerp, lng: oldPosition.lng() * (1 - lerp) + newPosition.lng * lerp };
+                    marker.setPosition(position);
+                }, 15);
+            }, 3000);
+          }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQ8YLJ3J5CcGUBB9t9SdL-bSJRrbD_3po&callback=initMap"
+        async defer></script>
+    </body>
+</html>
