@@ -17,7 +17,7 @@
     <body>
         <div id="map"></div>
         <div id="footer">
-            1898 <input type="submit" value="<" id="prev"><input type="range" id="daterange"><input type="submit" value=">" id="next"> 1975 <span id="currentdate"></span>
+            1898 <input type="submit" value="<" id="prev"><input type="range" id="daterange" value="-1041379200"><input type="submit" value=">" id="next"> 1975 <span id="currentdate"></span>
         </div>
         <script>
             var map;
@@ -176,7 +176,7 @@
                     "url": "data.tsv",
                     "success": function(rawData) {
                         jQuery.ajax({
-                            "url": "geocodes.tsv",
+                            "url": "geocodes_switzerland.tsv",
                             "success": function(rawGeocodes) {
                                 initMap(rawData, rawGeocodes);
                             }
