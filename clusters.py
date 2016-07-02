@@ -65,7 +65,7 @@ for zoom_level in range(5, 13):
             if not color or color == cluster_type_by_name[l["type"].decode('utf-8')]:
                 color = cluster_type_by_name[l["type"].decode('utf-8')]
             else:
-                color = "#cccccc"
+                color = "#aaaaaa"
         lat = sum(l["position"][0] for l in c) / len(c)
         lng = sum(l["position"][1] for l in c) / len(c)
         zoom_level_info.append({

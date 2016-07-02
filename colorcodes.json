@@ -68,11 +68,10 @@
     ]
 },
 {
-    "color": "#cccccc",
+    "color": "#aaaaaa",
     "names": [
         "Flüchtlingsheim",
         "Heim für Intellektuelle",
-        "unbekannt",
         "Auffanglager",
         "Emigrantenlager",
         "Freiplatzheim",
@@ -82,13 +81,19 @@
         "Mütterheim",
         "Ungarnflüchtlinge",
         "Rückwandererheim",
-        "NULL",
         "Heim für Handicapped People",
         "Hachscharah",
         "Militärlager",
         "Heim",
         "Wohnlager",
         "Zwischenlager"
+    ]
+},
+{
+    "color": "#ffffff",
+    "names": [
+        "unbekannt",
+        "NULL"
     ]
 }
 ]

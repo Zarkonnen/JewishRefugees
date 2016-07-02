@@ -120,9 +120,10 @@
                                         map: map,
                                         icon: 'markers/' + c["color"].substring(1) + '-' + sz + '.png'
                                     });
-                                } else {
+                                } else if (c.markerSize != sz) {
                                     c.marker.setIcon('markers/' + c["color"].substring(1) + '-' + sz + '.png');
                                 }
+                                c.markerSize = sz;
                             }
                         });
                     } else {
@@ -241,7 +242,7 @@
                             person.marker = new google.maps.Marker({
                                 position: position,
                                 map: map,
-                                icon: 'markers/cccccc-1.png'
+                                icon: 'markers/aaaaaa-1.png'
                             });
                         } else {
                             person.marker.setPosition(position);
