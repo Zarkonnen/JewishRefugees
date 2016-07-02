@@ -35,7 +35,7 @@ def is_close(clusterA, clusterB, cluster_dist):
 print "Locations:", len(locations)
 
 clusters_info = {}
-for zoom_level in range(5, 13):
+for zoom_level in range(3, 13):
     cluster_dist = pow(2, 11 - zoom_level) * 0.02
     clusters = [[x] for x in locations]
     progress = True
@@ -68,7 +68,8 @@ for zoom_level in range(5, 13):
             typ = l["type"]
             if typ == "NULL":
                 typ = "unbekannt"
-            info[l["name"] + l["type"]] = ["<li style=\"background:" + cluster_type_by_name[l["type"].decode('utf-8')].encode('utf-8') + "\">", " " + l["name"] + ", " + typ + "</li>"]
+            fontc = "white" if cluster_type_by_name[l["type"].decode('utf-8')].encode('utf-8') == "#000000" else "black"
+            info[l["name"] + l["type"]] = ["<li style=\"background:" + cluster_type_by_name[l["type"].decode('utf-8')].encode('utf-8') + "; color: " + fontc + "\">", " " + l["name"] + ", " + typ + "</li>"]
         zoom_level_info.append({
             "name": name,
             "type": typ,

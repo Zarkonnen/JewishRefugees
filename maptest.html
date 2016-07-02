@@ -46,6 +46,7 @@
                     <td>Medical</td>
                 </tr>
             </table>
+            <div id="event" style="float: right; padding-right: 1em;"></div>
         </div>
         <script>
             var map;
@@ -76,10 +77,11 @@
             }];
             
             function parseDate(s) {
-                return new Date(parseInt(s.split("-")[0]), parseInt(s.split("-")[1]), parseInt(s.split("-")[2]));
+                return new Date(parseInt(s.split("-")[0]), parseInt(s.split("-")[1]) - 1, parseInt(s.split("-")[2]));
             }
             
             var people = [];
+            var importantEvents = [];
             
             function getZoomLevel() {
                 return Math.min(12, Math.max(5, Math.ceil(map.getZoom())));
@@ -169,6 +171,19 @@
                         p.locationIndex = newLocationIndex;
                     }
                 });
+                
+                var event = null;
+                for (var i = 0; i < importantEvents.length; i++) {
+                    var dist = Math.abs(currentTime - importantEvents[i].date.getTime());
+                    if (dist < 1000 * 3600 * 24 * 18) {
+                        event = importantEvents[i];
+                    }
+                }
+                if (event == null) {
+                    jQuery('#event').html('');
+                } else {
+                    jQuery('#event').html('<b>' + event.name + '<b> ' + event.rawDate + '<br><img src="' + event.image + '" width=200>');
+                }
             }
             
             function recalculateClusterSizes(clusters, people, place_index) {
@@ -257,6 +272,16 @@
             }
           
             function initMap(rawData, rawGeocodes, clusters, famousPeople, rawImportantEvents) {
+                importantEvents = rawImportantEvents.split("\n").filter(function(l) { return l.length > 1; }).map(function(l) {
+                    l = l.split("\t");
+                    return {
+                        name: l[0],
+                        date: parseDate(l[1]),
+                        rawDate: l[1],
+                        image: l[2]
+                    }
+                });
+            
                 var place_index = {};
                 for (var zl in clusters) {
                     clusters[zl].forEach(function(c) {
