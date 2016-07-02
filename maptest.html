@@ -53,7 +53,25 @@
             
             var people = [];
             
-            function updateMap() {
+            function getZoomLevel() {
+                return Math.min(12, Math.max(5, Math.ceil(map.getZoom())));
+            }
+            
+            function getClusterForZoomLevel(loc, place_index, zoomLevel) {
+                var clusters = place_index[loc.name + loc.type];
+                for (var i = 0; i < clusters.length; i++) {
+                    if (clusters[i].zoomLevel == zoomLevel) {
+                        return clusters[i];
+                    }
+                }
+            }
+            
+            function inSameCluster(locA, locB, place_index, zoomLevel) {
+                return getClusterForZoomLevel(locA, place_index, zoomLevel) == getClusterForZoomLevel(locB, place_index, zoomLevel);
+            }
+            
+            function updateMap(place_index) {
+                var zoomLevel = getZoomLevel();
                 var currentTime = parseInt(jQuery('#daterange').val());
                 jQuery('#currentdate').html(" - " + ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][new Date(currentTime).getMonth()] + " " + new Date(currentTime).getFullYear());
                 people.forEach(function(p) {
@@ -73,13 +91,13 @@
                                 newLocationIndex = i;
                             }
                         }
-                        if (p.locationIndex != -1 && p.locationIndex != newLocationIndex) {
+                        if (p.locationIndex != -1 && p.locationIndex != newLocationIndex && !inSameCluster(p.locations[p.locationIndex], loc, place_index, zoomLevel)) {
                             p.animating = true;
                             p.animProgress = 0;
-                            p.srcLat = p.locations[p.locationIndex].position.lat;
-                            p.srcLng = p.locations[p.locationIndex].position.lng;
-                            p.dstLat = loc.position.lat;
-                            p.dstLng = loc.position.lng;
+                            p.srcLat = getClusterForZoomLevel(p.locations[p.locationIndex], place_index, zoomLevel).lat;
+                            p.srcLng = getClusterForZoomLevel(p.locations[p.locationIndex], place_index, zoomLevel).lng;
+                            p.dstLat = getClusterForZoomLevel(loc, place_index, zoomLevel).lat;
+                            p.dstLng = getClusterForZoomLevel(loc, place_index, zoomLevel).lng;
                         }
                         p.locationIndex = newLocationIndex;
                         p.locationKey = loc.name + loc.type;
@@ -103,7 +121,7 @@
             }
             
             function updateClusters(clusters) {
-                var zoomLevel = Math.min(12, Math.max(5, Math.ceil(map.getZoom())));
+                var zoomLevel = getZoomLevel();
                 for (var zl in clusters) {
                     if (zl == zoomLevel) {
                         clusters[zl].forEach(function(c) {
@@ -148,6 +166,7 @@
                                 place_index[m].push(c);
                             }
                         });
+                        c.zoomLevel = zl;
                     });
                 }
                 var geocodes = {};
@@ -210,25 +229,25 @@
                 
                 jQuery('#prev').click(function() {
                     jQuery('#daterange').val(parseInt(jQuery('#daterange').val()) - 3600 * 24 * 30 * 1000);
-                    updateMap();
+                    updateMap(place_index);
                     recalculateClusterSizes(clusters, people, place_index);
                     updateClusters(clusters);
                 });
                 
                 jQuery('#next').click(function() {
                     jQuery('#daterange').val(parseInt(jQuery('#daterange').val()) + 3600 * 24 * 30 * 1000);
-                    updateMap();
+                    updateMap(place_index);
                     recalculateClusterSizes(clusters, people, place_index);
                     updateClusters(clusters);
                 });
                 
                 jQuery('#daterange').attr('min', new Date(1898, 1, 1).getTime()).attr('max', new Date(1975, 12, 31).getTime()).val(new Date(1939, 1, 1).getTime()).change(function() {
-                    updateMap();
+                    updateMap(place_index);
                     recalculateClusterSizes(clusters, people, place_index);
                     updateClusters(clusters);
                 });
                 
-                updateMap();
+                updateMap(place_index);
                 recalculateClusterSizes(clusters, people, place_index);
                 updateClusters(clusters);
                 
