@@ -25,25 +25,25 @@
             <table style="float: right;">
                 <tr>
                     <td><img src="markers/ffaaaa-17.png"></td>
-                    <td>Red places</td>
+                    <td>Imprisoned</td>
                     <td><img src="markers/aaaaff-17.png"></td>
-                    <td>Blue places</td>
+                    <td>Minors</td>
                 </tr>
                 <tr>
                     <td><img src="markers/ffaa00-17.png"></td>
-                    <td>Orange places</td>
+                    <td>Interned</td>
                     <td><img src="markers/aaaaaa-17.png"></td>
-                    <td>Grey places</td>
+                    <td>General</td>
                 </tr>
                 <tr>
                     <td><img src="markers/c47853-17.png"></td>
-                    <td>Brown places</td>
+                    <td>Labour</td>
                     <td><img src="markers/ffffff-17.png"></td>
-                    <td>White places</td>
+                    <td>Free</td>
                 </tr>
                 <tr>
                     <td><img src="markers/aaffaa-17.png"></td>
-                    <td>Green places</td>
+                    <td>Medical</td>
                 </tr>
             </table>
         </div>
@@ -190,7 +190,7 @@
                                 } else if (c.markerSize != sz || c.markerColor != color) {
                                     c.marker.setIcon('markers/' + color.substring(1) + '-' + sz + '.png');
                                 }
-                                var info = "<b>" + c.size + " Menschen</b><ul style=\"list-style: none; padding: 0;\">";
+                                var info = "<b>" + c.size + " people</b><ul style=\"list-style: none; padding: 0;\">";
                                 var memberKeys = [];
                                 for (var m in c.activeMembers) {
                                     memberKeys.push(m);
