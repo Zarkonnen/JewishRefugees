@@ -289,7 +289,7 @@
                     fp.dstLat = 0;
                     fp.dstLng = 0;
                     fp.infoWindow = new google.maps.InfoWindow({
-                        content: "<h1>" + fp.name + "</h1><img src=\"people/" + fp.image + "\" width=240>"
+                        content: "<h1>" + fp.name + "</h1><small><a href=\"" + fp.wiki + "\" target=\"_blank\">Wikipedia</a></small><br><img src=\"people/" + fp.image + "\" width=240>"
                     });
                 });
                 var data = rawData.split("\n").filter(function(l) {

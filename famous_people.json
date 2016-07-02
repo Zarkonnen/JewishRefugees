@@ -3,6 +3,7 @@
         "name": "Lou Andreas-Salomé",
         "image": "salome.jpg",
         "icon": "salome.png",
+        "wiki": "https://en.wikipedia.org/wiki/Lou_Andreas-Salom%C3%A9",
         "locations": [
             {
                 "name": "Zürich",
@@ -26,6 +27,7 @@
         "name": "Albert Einstein",
         "image": "einstein.jpg",
         "icon": "einstein.png",
+        "wiki": "https://en.wikipedia.org/wiki/Albert_Einstein",
         "locations": [
             {
                 "name": "München",
@@ -69,6 +71,7 @@
         "name": "Robert Musil",
         "image": "musil.jpg",
         "icon": "musil.png",
+        "wiki": "https://en.wikipedia.org/wiki/Robert_Musil",
         "locations": [
             {
                 "name": "Komotau, Böhmen",
@@ -116,6 +119,7 @@
         "name": "Stefan Zweig",
         "image": "zweig.jpg",
         "icon": "zweig.png",
+        "wiki": "https://en.wikipedia.org/wiki/Stefan_Zweig",
         "locations": [
             {
                 "name": "Zürich",
@@ -143,6 +147,7 @@
         "name": "Erich Maria Remarque",
         "image": "remarque.jpg",
         "icon": "remarque.png",
+        "wiki": "https://en.wikipedia.org/wiki/Erich_Maria_Remarque",
         "locations": [
             {
                 "name": "Ascona",
