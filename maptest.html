@@ -154,6 +154,9 @@
                                 map: map,
                                 icon: 'people/' + p.icon
                             });
+                            p.marker.addListener('click', function() {
+                              p.infoWindow.open(map, p.marker);
+                            });
                         }
                         if (p.locationIndex != -1 && p.locationIndex != newLocationIndex) {
                             p.animating = true;
@@ -285,6 +288,9 @@
                     fp.srcLng = 0;
                     fp.dstLat = 0;
                     fp.dstLng = 0;
+                    fp.infoWindow = new google.maps.InfoWindow({
+                        content: "<h1>" + fp.name + "</h1><img src=\"people/" + fp.image + "\" width=240>"
+                    });
                 });
                 var data = rawData.split("\n").filter(function(l) {
                     return l.split("\t").length > 5;
