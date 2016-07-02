@@ -60,25 +60,19 @@ for zoom_level in range(5, 13):
     for c in clusters:
         name =  ", ".join(set(l["name"] for l in c))
         typ =  ", ".join(set(l["type"] for l in c))
-        color = None
-        for l in c:
-            if not color or color == cluster_type_by_name[l["type"].decode('utf-8')]:
-                color = cluster_type_by_name[l["type"].decode('utf-8')]
-            else:
-                color = "#aaaaaa"
+        colorByMember = {l["name"] + l["type"]:cluster_type_by_name[l["type"].decode('utf-8')] for l in c}
         lat = sum(l["position"][0] for l in c) / len(c)
         lng = sum(l["position"][1] for l in c) / len(c)
-        info = "<ul>"
+        info = {}
         for l in c:
             typ = l["type"]
             if typ == "NULL":
                 typ = "unbekannt"
-            info += "<li style=\"background:" + cluster_type_by_name[l["type"].decode('utf-8')].encode('utf-8') + "\">" + l["name"] + ", " + typ + "</li>"
-        info += "</ul>"        
+            info[l["name"] + l["type"]] = ["<li style=\"background:" + cluster_type_by_name[l["type"].decode('utf-8')].encode('utf-8') + "\">", " " + l["name"] + ", " + typ + "</li>"]
         zoom_level_info.append({
             "name": name,
             "type": typ,
-            "color": color,
+            "colorByMember": colorByMember,
             "lat": lat,
             "lng": lng,
             "members": list(set(l["name"] + l["type"] for l in c)),

@@ -109,12 +109,18 @@
                 for (var zl in clusters) {
                     clusters[zl].forEach(function(c) {
                         c.size = 0;
+                        c.activeMembers = {};
                     });
                 }
                 people.forEach(function(p) {
                     if (p.locationKey) {
                         place_index[p.locationKey].forEach(function(c) {
                             c.size++;
+                            if (!c.activeMembers[p.locationKey]) {
+                                c.activeMembers[p.locationKey] = 1;
+                            } else {
+                                c.activeMembers[p.locationKey]++;
+                            }
                         });
                     }
                 });
@@ -132,22 +138,45 @@
                                 }
                             } else {
                                 var sz = c.size > 99 ? "99+" : "" + c.size;
+                                var color = null;
+                                for (var m in c.activeMembers) {
+                                    var colorForMember = c.colorByMember[m];
+                                    if (color == null || color == colorForMember) {
+                                        color = colorForMember;
+                                    } else {
+                                        color = "#aaaaaa";
+                                    }
+                                }
                                 if (!c.marker) {
                                     c.marker = new google.maps.Marker({
                                         position: c,
                                         map: map,
-                                        icon: 'markers/' + c["color"].substring(1) + '-' + sz + '.png'
+                                        icon: 'markers/' + color.substring(1) + '-' + sz + '.png'
                                     });
                                     c.infoWindow = new google.maps.InfoWindow({
-                                        content: c.info
+                                        content: ""
                                     });
                                     c.marker.addListener('click', function() {
                                       c.infoWindow.open(map, c.marker);
                                     });
-                                } else if (c.markerSize != sz) {
-                                    c.marker.setIcon('markers/' + c["color"].substring(1) + '-' + sz + '.png');
+                                } else if (c.markerSize != sz || c.markerColor != color) {
+                                    c.marker.setIcon('markers/' + color.substring(1) + '-' + sz + '.png');
                                 }
+                                var info = "<b>" + c.size + " Menschen</b><ul style=\"list-style: none; padding: 0;\">";
+                                var memberKeys = [];
+                                for (var m in c.activeMembers) {
+                                    memberKeys.push(m);
+                                }
+                                memberKeys.sort(function(a, b) {
+                                    return c.activeMembers[b] - c.activeMembers[a];
+                                });
+                                memberKeys.forEach(function(m) {
+                                    info += c.info[m][0] + c.activeMembers[m] + c.info[m][1];
+                                });
+                                info += "</ul>";
+                                c.infoWindow.setContent(info);
                                 c.markerSize = sz;
+                                c.markerColor = color;
                             }
                         });
                     } else {
