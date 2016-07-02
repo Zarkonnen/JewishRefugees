@@ -9,7 +9,7 @@ for ctype in cluster_type_info:
         cluster_type_by_name[n] = ctype["color"]
 
 geocodes = {}
-with open("geocodes_switzerland.tsv") as f:
+with open("geocodes.tsv") as f:
     for l in f:
         l2 = l[:-1].split("\t")
         geocodes[l2[0]] = (float(l2[1]), float(l2[2]))

@@ -98,7 +98,7 @@
                 return getClusterForZoomLevel(locA, place_index, zoomLevel) == getClusterForZoomLevel(locB, place_index, zoomLevel);
             }
             
-            function updateMap(place_index, famousPeople) {
+            function updateMap(place_index, famousPeople, jump) {
                 var zoomLevel = getZoomLevel();
                 var currentTime = parseInt(jQuery('#daterange').val());
                 jQuery('#currentdate').html(" - " + ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][new Date(currentTime).getMonth()] + " " + new Date(currentTime).getFullYear());
@@ -119,7 +119,7 @@
                                 newLocationIndex = i;
                             }
                         }
-                        if (p.locationIndex != -1 && p.locationIndex != newLocationIndex && !inSameCluster(p.locations[p.locationIndex], loc, place_index, zoomLevel)) {
+                        if (!jump && p.locationIndex != -1 && p.locationIndex != newLocationIndex && !inSameCluster(p.locations[p.locationIndex], loc, place_index, zoomLevel)) {
                             p.animating = true;
                             p.animProgress = 0;
                             p.srcLat = getClusterForZoomLevel(p.locations[p.locationIndex], place_index, zoomLevel).lat;
@@ -256,7 +256,7 @@
                 }
             }
           
-            function initMap(rawData, rawGeocodes, clusters, famousPeople) {
+            function initMap(rawData, rawGeocodes, clusters, famousPeople, rawImportantEvents) {
                 var place_index = {};
                 for (var zl in clusters) {
                     clusters[zl].forEach(function(c) {
@@ -347,25 +347,25 @@
                 
                 jQuery('#prev').click(function() {
                     jQuery('#daterange').val(parseInt(jQuery('#daterange').val()) - 3600 * 24 * 30 * 1000);
-                    updateMap(place_index, famousPeople);
+                    updateMap(place_index, famousPeople, false);
                     recalculateClusterSizes(clusters, people, place_index);
                     updateClusters(clusters);
                 });
                 
                 jQuery('#next').click(function() {
                     jQuery('#daterange').val(parseInt(jQuery('#daterange').val()) + 3600 * 24 * 30 * 1000);
-                    updateMap(place_index, famousPeople);
+                    updateMap(place_index, famousPeople, false);
                     recalculateClusterSizes(clusters, people, place_index);
                     updateClusters(clusters);
                 });
                 
                 jQuery('#daterange').attr('min', new Date(1898, 1, 1).getTime()).attr('max', new Date(1975, 12, 31).getTime()).val(new Date(1939, 1, 1).getTime()).change(function() {
-                    updateMap(place_index, famousPeople);
+                    updateMap(place_index, famousPeople, true);
                     recalculateClusterSizes(clusters, people, place_index);
                     updateClusters(clusters);
                 });
                 
-                updateMap(place_index, famousPeople);
+                updateMap(place_index, famousPeople, true);
                 recalculateClusterSizes(clusters, people, place_index);
                 updateClusters(clusters);
                 
@@ -414,7 +414,12 @@
                                         jQuery.ajax({
                                             "url": "famous_people.json",
                                             "success": function(famousPeople) {
-                                                initMap(rawData, rawGeocodes, clusters, famousPeople);
+                                                jQuery.ajax({
+                                                    "url": "important_events.tsv",
+                                                    "success": function(rawImportantEvents) {
+                                                        initMap(rawData, rawGeocodes, clusters, famousPeople, rawImportantEvents);
+                                                    }
+                                                });
                                             }
                                         });
                                     }

@@ -93,7 +93,14 @@
     "color": "#ffffff",
     "names": [
         "unbekannt",
-        "NULL"
+        "NULL",
+        ""
+    ]
+},
+{
+    "color": "#000000",
+    "names": [
+        "KZ"
     ]
 }
 ]
