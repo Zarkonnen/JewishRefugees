@@ -9,7 +9,11 @@
                 padding: 0;
             }
             #map {
-                height: 80%;
+                height: 70%;
+                margin-bottom: 1em;
+            }
+            td {
+                padding-right: 1em;
             }
         </style>
         <script src="jquery-3.0.0.min.js"></script>
@@ -18,6 +22,30 @@
         <div id="map"></div>
         <div id="footer">
             1898 <input type="submit" value="<" id="prev"><input type="range" id="daterange" value="-1041379200"><input type="submit" value=">" id="next"> 1975 <span id="currentdate"></span>
+            <table style="float: right;">
+                <tr>
+                    <td><img src="markers/ffaaaa-17.png"></td>
+                    <td>Red places</td>
+                    <td><img src="markers/aaaaff-17.png"></td>
+                    <td>Blue places</td>
+                </tr>
+                <tr>
+                    <td><img src="markers/ffaa00-17.png"></td>
+                    <td>Orange places</td>
+                    <td><img src="markers/aaaaaa-17.png"></td>
+                    <td>Grey places</td>
+                </tr>
+                <tr>
+                    <td><img src="markers/c47853-17.png"></td>
+                    <td>Brown places</td>
+                    <td><img src="markers/ffffff-17.png"></td>
+                    <td>White places</td>
+                </tr>
+                <tr>
+                    <td><img src="markers/aaffaa-17.png"></td>
+                    <td>Green places</td>
+                </tr>
+            </table>
         </div>
         <script>
             var map;
