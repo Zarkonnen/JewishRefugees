@@ -98,7 +98,7 @@
                 return getClusterForZoomLevel(locA, place_index, zoomLevel) == getClusterForZoomLevel(locB, place_index, zoomLevel);
             }
             
-            function updateMap(place_index) {
+            function updateMap(place_index, famousPeople) {
                 var zoomLevel = getZoomLevel();
                 var currentTime = parseInt(jQuery('#daterange').val());
                 jQuery('#currentdate').html(" - " + ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][new Date(currentTime).getMonth()] + " " + new Date(currentTime).getFullYear());
@@ -129,6 +129,41 @@
                         }
                         p.locationIndex = newLocationIndex;
                         p.locationKey = loc.name + loc.type;
+                    }
+                });
+                
+                famousPeople.forEach(function(p) {
+                    if (currentTime < p.locations[0].time.getTime()) {
+                        if (p.marker != null) {
+                            p.marker.setMap(null);
+                            p.marker = null;
+                        }
+                        p.animating = false;
+                    } else {
+                        var loc = p.locations[0];
+                        var newLocationIndex = 0;
+                        for (var i = 0; i < p.locations.length; i++) {
+                            if (currentTime >= p.locations[i].time.getTime()) {
+                                loc = p.locations[i];
+                                newLocationIndex = i;
+                            }
+                        }
+                        if (p.marker == null) {
+                            p.marker = new google.maps.Marker({
+                                position: loc.position,
+                                map: map,
+                                icon: 'people/' + p.icon
+                            });
+                        }
+                        if (p.locationIndex != -1 && p.locationIndex != newLocationIndex) {
+                            p.animating = true;
+                            p.animProgress = 0;
+                            p.srcLat = p.locations[p.locationIndex].position.lat;
+                            p.srcLng = p.locations[p.locationIndex].position.lng;
+                            p.dstLat = loc.position.lat;
+                            p.dstLng = loc.position.lng;
+                        }
+                        p.locationIndex = newLocationIndex;
                     }
                 });
             }
@@ -218,7 +253,7 @@
                 }
             }
           
-            function initMap(rawData, rawGeocodes, clusters) {
+            function initMap(rawData, rawGeocodes, clusters, famousPeople) {
                 var place_index = {};
                 for (var zl in clusters) {
                     clusters[zl].forEach(function(c) {
@@ -236,6 +271,20 @@
                 rawGeocodes.split("\n").map(function(l) {
                     l = l.split("\t");
                     geocodes[l[0]] = {lat:parseFloat(l[1]), lng:parseFloat(l[2])};
+                });
+                famousPeople.forEach(function(fp) {
+                    fp.locations.forEach(function(l) {
+                        l.position = geocodes[l.name];
+                        l.time = new Date(l.time, 1, 1);
+                    });
+                    fp.locationIndex = -1;
+                    fp.marker = null;
+                    fp.animating = false;
+                    fp.animProgress = 0;
+                    fp.srcLat = 0;
+                    fp.srcLng = 0;
+                    fp.dstLat = 0;
+                    fp.dstLng = 0;
                 });
                 var data = rawData.split("\n").filter(function(l) {
                     return l.split("\t").length > 5;
@@ -292,25 +341,25 @@
                 
                 jQuery('#prev').click(function() {
                     jQuery('#daterange').val(parseInt(jQuery('#daterange').val()) - 3600 * 24 * 30 * 1000);
-                    updateMap(place_index);
+                    updateMap(place_index, famousPeople);
                     recalculateClusterSizes(clusters, people, place_index);
                     updateClusters(clusters);
                 });
                 
                 jQuery('#next').click(function() {
                     jQuery('#daterange').val(parseInt(jQuery('#daterange').val()) + 3600 * 24 * 30 * 1000);
-                    updateMap(place_index);
+                    updateMap(place_index, famousPeople);
                     recalculateClusterSizes(clusters, people, place_index);
                     updateClusters(clusters);
                 });
                 
                 jQuery('#daterange').attr('min', new Date(1898, 1, 1).getTime()).attr('max', new Date(1975, 12, 31).getTime()).val(new Date(1939, 1, 1).getTime()).change(function() {
-                    updateMap(place_index);
+                    updateMap(place_index, famousPeople);
                     recalculateClusterSizes(clusters, people, place_index);
                     updateClusters(clusters);
                 });
                 
-                updateMap(place_index);
+                updateMap(place_index, famousPeople);
                 recalculateClusterSizes(clusters, people, place_index);
                 updateClusters(clusters);
                 
@@ -335,6 +384,14 @@
                             person.marker = null;
                         }
                     }
+                    for (var i = 0; i < famousPeople.length; i++) {
+                        var person = famousPeople[i];
+                        if (!person.animating) { continue; }
+                        person.animProgress = Math.min(1, person.animProgress + 0.025);
+                        var position = { lat: person.srcLat * (1 - person.animProgress) + person.dstLat * person.animProgress, lng: person.srcLng * (1 - person.animProgress) + person.dstLng * person.animProgress };
+                        person.marker.setPosition(position);
+                        person.animating = person.animProgress < 1;
+                    }
                 }, 15);
             }
 
@@ -348,7 +405,12 @@
                                 jQuery.ajax({
                                     "url": "clusters.json",
                                     "success": function(clusters) {
-                                        initMap(rawData, rawGeocodes, clusters);
+                                        jQuery.ajax({
+                                            "url": "famous_people.json",
+                                            "success": function(famousPeople) {
+                                                initMap(rawData, rawGeocodes, clusters, famousPeople);
+                                            }
+                                        });
                                     }
                                 });
                             }
