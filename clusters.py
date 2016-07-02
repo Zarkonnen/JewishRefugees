@@ -73,7 +73,8 @@ for zoom_level in range(5, 13):
             "type": typ,
             "color": color,
             "lat": lat,
-            "lng": lng
+            "lng": lng,
+            "members": list(set(l["name"] + l["type"] for l in c))
         })
         
 with open("clusters.json", "w") as f:

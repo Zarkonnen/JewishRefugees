@@ -58,9 +58,12 @@
                 jQuery('#currentdate').html(" - " + ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][new Date(currentTime).getMonth()] + " " + new Date(currentTime).getFullYear());
                 people.forEach(function(p) {
                     if (currentTime < p.locations[0].time.getTime()) {
-                        if (p.marker.getIcon() != 'no_marker.png') {
-                            p.marker.setIcon('no_marker.png');
+                        if (p.marker != null) {
+                            p.marker.setMap(null);
+                            p.marker = null;
                         }
+                        p.locationKey = null;
+                        p.animating = false;
                     } else {
                         var loc = p.locations[0];
                         var newLocationIndex = 0;
@@ -70,23 +73,82 @@
                                 newLocationIndex = i;
                             }
                         }
-                        if (p.marker.getIcon() == 'no_marker.png') {
-                            p.marker.setIcon('tiny_marker.png');
-                            p.marker.setPosition(loc.position);
-                        } else if (p.locationIndex != newLocationIndex) {
+                        if (p.locationIndex != -1 && p.locationIndex != newLocationIndex) {
                             p.animating = true;
                             p.animProgress = 0;
-                            p.srcLat = p.marker.getPosition().lat();
-                            p.srcLng = p.marker.getPosition().lng();
+                            p.srcLat = p.locations[p.locationIndex].position.lat;
+                            p.srcLng = p.locations[p.locationIndex].position.lng;
                             p.dstLat = loc.position.lat;
                             p.dstLng = loc.position.lng;
                         }
                         p.locationIndex = newLocationIndex;
+                        p.locationKey = loc.name + loc.type;
                     }
                 });
             }
+            
+            function recalculateClusterSizes(clusters, people, place_index) {
+                for (var zl in clusters) {
+                    clusters[zl].forEach(function(c) {
+                        c.size = 0;
+                    });
+                }
+                people.forEach(function(p) {
+                    if (p.locationKey) {
+                        place_index[p.locationKey].forEach(function(c) {
+                            c.size++;
+                        });
+                    }
+                });
+            }
+            
+            function updateClusters(clusters) {
+                var zoomLevel = Math.min(12, Math.max(5, Math.ceil(map.getZoom())));
+                for (var zl in clusters) {
+                    if (zl == zoomLevel) {
+                        clusters[zl].forEach(function(c) {
+                            if (c.size == 0) {
+                                if (c.marker) {
+                                    c.marker.setMap(null);
+                                    c.marker = null;
+                                }
+                            } else {
+                                var sz = c.size > 99 ? "99+" : "" + c.size;
+                                if (!c.marker) {
+                                    c.marker = new google.maps.Marker({
+                                        position: c,
+                                        map: map,
+                                        icon: 'markers/' + c["color"].substring(1) + '-' + sz + '.png'
+                                    });
+                                } else {
+                                    c.marker.setIcon('markers/' + c["color"].substring(1) + '-' + sz + '.png');
+                                }
+                            }
+                        });
+                    } else {
+                        clusters[zl].forEach(function(c) {
+                            if (c.marker) {
+                                c.marker.setMap(null);
+                                c.marker = null;
+                            }
+                        });
+                    }
+                }
+            }
           
-            function initMap(rawData, rawGeocodes, rawClusters) {
+            function initMap(rawData, rawGeocodes, clusters) {
+                var place_index = {};
+                for (var zl in clusters) {
+                    clusters[zl].forEach(function(c) {
+                        c.members.forEach(function(m) {
+                            if (!place_index[m]) {
+                                place_index[m] = [c];
+                            } else {
+                                place_index[m].push(c);
+                            }
+                        });
+                    });
+                }
                 var geocodes = {};
                 rawGeocodes.split("\n").map(function(l) {
                     l = l.split("\t");
@@ -110,7 +172,7 @@
                         var person = {
                             id: l.id,
                             locations: [],
-                            locationIndex: 0,
+                            locationIndex: -1,
                             marker: null,
                             animating: false,
                             animProgress: 0,
@@ -133,39 +195,41 @@
                     zoom: 8
                 });
                 
-                rawClusters[12].forEach(function(c) {
-                    new google.maps.Marker({
-                        position: c,
-                        map: map,
-                        icon: 'markers/' + c["color"].substring(1) + '-20.png'
-                    });
-                });
-                
                 map.setOptions({styles: labelsOff});
+                
+                map.addListener("zoom_changed", function() {
+                    updateClusters(clusters);
+                });
 
                 people.forEach(function(p) {
                     p.locations.sort(function(a, b) {
                         return a.time.getTime() - b.time.getTime();
-                    });
-                    p.marker = new google.maps.Marker({
-                        position: p.locations[0].position,
-                        map: map,
-                        icon: 'tiny_marker.png'
                     });
                 });
                 
                 jQuery('#prev').click(function() {
                     jQuery('#daterange').val(parseInt(jQuery('#daterange').val()) - 3600 * 24 * 30 * 1000);
                     updateMap();
+                    recalculateClusterSizes(clusters, people, place_index);
+                    updateClusters(clusters);
                 });
                 
                 jQuery('#next').click(function() {
                     jQuery('#daterange').val(parseInt(jQuery('#daterange').val()) + 3600 * 24 * 30 * 1000);
                     updateMap();
+                    recalculateClusterSizes(clusters, people, place_index);
+                    updateClusters(clusters);
                 });
                 
-                jQuery('#daterange').attr('min', new Date(1898, 1, 1).getTime()).attr('max', new Date(1975, 12, 31).getTime()).val(new Date(1939, 1, 1).getTime()).change(updateMap);
+                jQuery('#daterange').attr('min', new Date(1898, 1, 1).getTime()).attr('max', new Date(1975, 12, 31).getTime()).val(new Date(1939, 1, 1).getTime()).change(function() {
+                    updateMap();
+                    recalculateClusterSizes(clusters, people, place_index);
+                    updateClusters(clusters);
+                });
+                
                 updateMap();
+                recalculateClusterSizes(clusters, people, place_index);
+                updateClusters(clusters);
                 
                 setInterval(function() {
                     for (var i = 0; i < people.length; i++) {
@@ -173,8 +237,20 @@
                         if (!person.animating) { continue; }
                         person.animProgress = Math.min(1, person.animProgress + 0.025);
                         var position = { lat: person.srcLat * (1 - person.animProgress) + person.dstLat * person.animProgress, lng: person.srcLng * (1 - person.animProgress) + person.dstLng * person.animProgress };
-                        person.marker.setPosition(position);
+                        if (person.marker == null) {
+                            person.marker = new google.maps.Marker({
+                                position: position,
+                                map: map,
+                                icon: 'markers/cccccc-1.png'
+                            });
+                        } else {
+                            person.marker.setPosition(position);
+                        }
                         person.animating = person.animProgress < 1;
+                        if (!person.animating) {
+                            person.marker.setMap(null);
+                            person.marker = null;
+                        }
                     }
                 }, 15);
             }
@@ -188,8 +264,8 @@
                             "success": function(rawGeocodes) {
                                 jQuery.ajax({
                                     "url": "clusters.json",
-                                    "success": function(rawClusters) {
-                                        initMap(rawData, rawGeocodes, rawClusters);
+                                    "success": function(clusters) {
+                                        initMap(rawData, rawGeocodes, clusters);
                                     }
                                 });
                             }
