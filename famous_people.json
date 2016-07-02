@@ -1,0 +1,161 @@
+[
+    {
+        "name": "Lou Andreas-Salomé",
+        "image": "salome.jpg",
+        "icon": "salome.png",
+        "locations": [
+            {
+                "name": "Zürich",
+                "time": "1880"
+            },
+            {
+                "name": "Rome",
+                "time": "1882"
+            },
+            {
+                "name": "Göttingen",
+                "time": "1903"
+            },
+            {
+                "name": "Zürich",
+                "time": "1880"
+            }
+        ]
+    },
+    {
+        "name": "Albert Einstein",
+        "image": "einstein.jpg",
+        "icon": "einstein.png",
+        "locations": [
+            {
+                "name": "München",
+                "time": "1880"
+            },
+            {
+                "name": "Mailand",
+                "time": "1894"
+            },
+            {
+                "name": "Aarau",
+                "time": "1895"
+            },
+            {
+                "name": "Zürich",
+                "time": "1896"
+            },
+            {
+                "name": "Bern",
+                "time": "1903"
+            },
+            {
+                "name": "Prag",
+                "time": "1911"
+            },
+            {
+                "name": "Zürich",
+                "time": "1912"
+            },
+            {
+                "name": "Berlin",
+                "time": "1914"
+            },
+            {
+                "name": "Princeton",
+                "time": "1932"
+            }
+        ]
+    },
+    {
+        "name": "Robert Musil",
+        "image": "musil.jpg",
+        "icon": "musil.png",
+        "locations": [
+            {
+                "name": "Komotau, Böhmen",
+                "time": "1881"
+            },
+            {
+                "name": "Steyr, Österreich",
+                "time": "1882"
+            },
+            {
+                "name": "Brünn",
+                "time": "1891"
+            },
+            {
+                "name": "Stuttgart",
+                "time": "1902"
+            },
+            {
+                "name": "Berlin",
+                "time": "1903"
+            },
+            {
+                "name": "Wien",
+                "time": "1910"
+            },
+            {
+                "name": "Berlin",
+                "time": "1931"
+            },
+            {
+                "name": "Wien",
+                "time": "1933"
+            },
+            {
+                "name": "Zürich",
+                "time": "1938"
+            },
+            {
+                "name": "Genf",
+                "time": "1939"
+            }
+        ]
+    },
+    {
+        "name": "Stefan Zweig",
+        "image": "zweig.jpg",
+        "icon": "zweig.png",
+        "locations": [
+            {
+                "name": "Zürich",
+                "time": "1917"
+            },
+            {
+                "name": "Salzburg",
+                "time": "1919"
+            },
+            {
+                "name": "London",
+                "time": "1934"
+            },
+            {
+                "name": "Bath",
+                "time": "1939"
+            },
+            {
+                "name": "New York",
+                "time": "1940"
+            }
+        ]
+    },
+    {
+        "name": "Erich Maria Remarque",
+        "image": "remarque.jpg",
+        "icon": "remarque.png",
+        "locations": [
+            {
+                "name": "Ascona",
+                "time": "1932"
+            },
+            {
+                "name": "USA",
+                "time": "1939"
+            },
+            {
+                "name": "Ascona",
+                "time": "1951"
+            }
+        ]
+    },
+]

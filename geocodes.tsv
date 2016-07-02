@@ -1,28 +1,27 @@
-Villars	46.29854	7.05527
+Villars	46.66315	7.08997
 Mezzovico	46.0931375	8.9228556
-St. Niklausen	46.6932323	7.8364878
-Gütsch	47.1151038	8.3210479
+Gütsch	46.65	8.6166667
 Basel	47.5595986	7.5885761
 Petit-Saconnex	46.2168876	6.130688
 Birmensdorf	47.35367	8.43714
-Geisshof - Bremgarten	47.3322961	8.3587401
-Büsserach	47.391439	7.5399922
+Geisshof - Bremgarten	47.3322334	8.3613723
+Chavannes-de-Bogis	46.3435262	6.1621477
 Zürich - Wollishofen	47.3478005	8.5335226
 Bad Lostorf	47.3927209	7.9381142
 Les Avants sur Montreux	46.45322	6.9428
 Engelberg	46.8200266	8.4069918
-Cudrefin	46.9529982	7.0231305
+Sugiez - Les Verrières	46.9051166	6.4844577
 Lenzburg	47.3904443	8.1721545
 Raron	46.3090067	7.80016
 Adliswil	47.3124347	8.5270459
 Lugano - Ruvigliana	46.012324	8.971355
 Rotkreuz	47.1410511	8.4298274
-Thorberg	47.0009528	7.5650619
+Thorberg	47.0019933	7.5651374
 Gossau	47.4155608	9.248852
-Pont de la Morge s / Sion 	46.224796	7.313483
-Chalais	46.246329   7.4879506
+Chalais	46.2658436	7.5089231
 Vevey	46.4628333	6.8419192
 Baggwil - Seedorf	47.0295067	7.3160225
+Les Geneveys - sur - Coffrane	47.01735	6.85254
 Zürich	47.3768866	8.541694
 Rikon	47.44521	8.79801
 Cassarate - Lugano	46.006424	8.970191
@@ -33,11 +32,11 @@ Stäfa	47.2392343	8.7351356
 Jakobsbad	47.5092445	8.9480645
 Gelterkinden - Waldegg	47.4928921	7.852398
 Celerina	46.5123333	9.8589518
-Ste. Croix	45.0497844	-92.3875695
-Chavannes-de-Bogis	46.3435262	6.1621477
+Ste. Croix	46.8217968	6.5022222
+Büsserach	47.391439	7.5399922
 Moudon	46.6698891	6.7975224
 Bern	46.9479739	7.4474468
-Thalheim	47.4413276  8.0557555
+Thalheim	47.438287	8.1035688
 Albis	47.2877778	8.51
 Cresciano	46.280577	9.0049324
 Bad Ragaz	47.0034141	9.5011062
@@ -49,13 +48,13 @@ Kloten	47.4495116	8.5821648
 Chailly	46.4530668	6.8919334
 Winterthur - Wülflingen	47.5091076	8.6904167
 Sirnach	47.4618426	8.9968358
-Chesières	46.2041473	6.8859017
+Chesières	46.30084	7.04284
 Visp	46.2947277	7.8821204
 Fribourg	46.8064773	7.1619719
 Andelfingen	47.5948288	8.6789566
 Churwalden	46.7809052	9.5434284
-Heiden	47.4460277  9.5016155
-Trogen	47.4018327  9.4641754
+Heiden	47.4440576	9.5319772
+Trogen	47.4078753	9.4647144
 Martigny	46.1049798	7.0755334
 Murimoos	47.2958584	8.3358746
 Diepoldsau	47.385988	9.6547802
@@ -67,29 +66,24 @@ Chiasso	45.8366999	9.0246111
 Bäretswil	47.3378619	8.8528619
 Baldingen	47.55505	8.31702
 Ruvigliana	46.012324	8.971355
-Tänikon	47.4796906	8.9063451
+Tänikon	47.479595	8.9053419
 Krinau	47.3173506	9.0497485
-Kemleten	47.4494826	8.7188565
+Kemleten	47.4505063	8.7191851
 Bremgarten	47.3491774	8.3397905
 Gempen - Plateau	47.466256	7.664098
-Granges p. Sion	52.6598698	-7.26245
-Birmensdorf   / Aesch 	47.3368912	8.4427102
+Granges p. Sion	46.2691091	7.457052
 Aegeri	47.1368093	8.5830915
-Balsthal	47.3095856	7.6883283
 Poschiavo	46.3239301	10.0573467
 Interlaken	46.6863481	7.8632049
-Lugano-Paradiso	45.9891759	8.9465252
-Neukirch 	47.6584035	9.7035594
+Lugano-Paradiso	45.9907174	8.9452618
 Vaumarcus	46.8781484	6.7550836
-Rovina	49.1254087	16.6687825
+Rovina	45.9479341	8.911712
 Augst	47.53389	7.72135
 Weggis	47.0338792	8.425278
 Dietikon	47.4053885	8.39977
-Mont Pélérin	46.496944	6.819167
-Wiesen	47.7377921	16.339096
-Les Geneveys - sur  - Coffrane	47.01735	6.85254
-Grub	50.2278016	11.0222093
-Baden	40.6350668	-80.2281159
+Wiesen	46.7046823	9.715258
+Grub	47.447864	9.509459
+Baden	47.47288	8.30809
 Breganzona	46.0074649	8.9287679
 Flims - Waldhaus	46.82735	9.28848
 Porrentruy	47.416647	7.0765657
@@ -99,7 +93,6 @@ Champéry	46.1816543	6.8747591
 Corbeyrier	46.3491052	6.9598484
 Oberglatt	47.4766643	8.5194782
 La Chaux-de-Fonds	47.1034892	6.8327838
-Riehen bei  Basel	47.5848274	7.6499111
 Winterthur	47.4988196	8.7236889
 Magden	47.5266505	7.814835
 Rabius	46.7342377	8.9588146
@@ -110,16 +103,15 @@ Sattelegg	47.1273	8.84662
 Davesco	46.0371639	8.9803742
 Gurnigelbad	46.7611642	7.4445527
 Blonay	46.4647104	6.8946536
-Gryon sur Bex	46.2743322	7.0538105
+Gryon sur Bex	46.2602511	7.0306219
 Saanen	46.4741066	7.2854921
 Münchwilen	47.4777116	8.9976291
 Kappel am Albis	47.2273614	8.5268129
 Huémoz s/ Ollon	46.292425	7.028818
-Aeugst  am Alibis	47.2677487	8.4852115
 Champéry / Col de Coux	46.1502	6.79282
 Lausanne	46.5196535	6.6322734
 Zweidlen - Weiach	47.5577475	8.4945679
-Davos - Platz	46.7947955	9.8162434
+Davos - Platz	46.8213301	9.7112744
 Herznach	47.4742674	8.0507173
 Herzogenbuchsee	47.189468	7.7077698
 Ascona	46.1615793	8.7750131
@@ -128,10 +120,11 @@ Davos - Dorf	46.8027453	9.8359701
 St. Niklaus	46.1762332	7.8045917
 Les Chevalleyres	46.4771074	6.8959938
 Saas	46.9110687	9.807416
+Cudrefin	46.9529982	7.0231305
 Hilfikon	47.3331334	8.2465197
 Lauterbach / Oftringen	47.3228773	7.9286785
 Grand Lancy	46.1781048	6.1233726
-Lajoux	46.37446	5.972055
+Lajoux	47.278876	7.1380556
 Oberhelfenschwil	47.3540918	9.1129175
 Morgins	46.2382	6.8519
 Prêles	47.0994968	7.130459
@@ -143,42 +136,37 @@ Schwendibach/Thun	46.7751149	7.6632737
 Nussbaumen	47.6260107	8.8287677
 Genf	46.2043907	6.1431577
 Mont Pélerin	46.496944	6.819167
-Olsberg	51.3556649	8.4801828
+Olsberg	47.5207317	7.7832254
 Yverdon	46.7784736	6.641183
 Ennenda	47.0338781	9.0775529
 Unteraegeri	47.1368093	8.5830915
 Leysin-Les Diablerets	46.3466108	7.0155219
-Speicher	49.9361405	6.6374691
-Büren a/A	51.55092	8.5597678
+Speicher	47.4117837	9.4416911
+Aeugst am Alibis	47.2677487	8.4852115
+Büren a/A	47.1395743	7.3747968
 Montreux	46.4312213	6.9106799
-Pont - Céard p. Versoix	46.2881327	6.1621363
 Sumiswald	47.0284465	7.7446642
 Unterrealta	46.7570775	9.4211036
 Chardonnes sur Vevey	46.4806514	6.7857606
-Felsberg	51.1363534	9.4191818
+Felsberg	46.8452376	9.4712304
 Zugerberg	47.1391	8.53768
-Chésières	46.2041473	6.8859017
 Salgesch	46.3117718	7.5704709
-Sordel	45.402337	4.498825
-Paradiso - Lugano	45.9907174	8.9452618
 Zofingen	47.2888449	7.9447619
-Baugy	47.08103	2.7282449
-Bellechasse	29.8549287	-89.9906253
-Beatenberg	46.7035407	7.8095511
+Baugy	46.4478839	6.8919963
+Bellechasse	46.9743127	7.1334812
 Girenbad	47.30957	8.87265
 Agnuzzo	45.9940883	8.9156468
 Bourrignon	47.3967887	7.244786
 Château-d' Oex	46.4715174	7.1260114
 Aadorf	47.4884348	8.9035411
 Girenbad bei Hinwil	47.30957	8.87265
-Randa	39.5264417	2.915879
-Medoscio	46.1816817	8.903175
+Randa	46.1011132	7.7840062
+Medoscio	46.181622	8.9008936
 Duvin	46.7149943	9.2116628
-Allerheiligenberg	51.1033622	5.1904746
+Allerheiligenberg	47.35233	7.81498
 Chamby	46.4492037	6.9138696
 Rämismühle-Turbenthal	47.4354	8.84749
 Le Chaluet	47.244921	7.396008
-Leysin 	46.3435634	7.012033
 Buchs	47.1655403	9.4708594
 Eggiwil - Siehen	46.84027	7.79592
 Lungern	46.7858188	8.159704
@@ -186,25 +174,24 @@ Epalinges	46.5488573	6.674199
 Oberglatt - Elekt.	47.4766643	8.5194782
 Mendrisio	45.8713339	8.9841329
 Bellinzona	46.1946216	9.0244124
-Caux	43.503448	3.368448
-Neuhausen	48.6820992	9.2758255
+Caux	46.43245	6.9369
+Neuhausen	47.68371	8.61259
 Brissago	46.1200438	8.7112657
 Baraccamenti di Gudo-TI	46.174232	8.9489996
 Puidoux	46.4988452	6.7691772
 Fällanden	47.3706194	8.6388249
 Trevano (bei Lugano)	46.0287548	8.9617594
 Lausanne-Ouchy	46.510155	6.626487
-Schauenburg - Bad	47.4953726	7.6814601
+Schauenburg - Bad	47.4954046	7.6833047
 Samedan	46.4388267	9.8712089
 Arlesheim	47.499576	7.6192212
-St. Margarethen	53.8908692	9.2559123
-Arth am See	47.064709	8.522324
-Bémont	49.2588549	2.967339
+St. Margarethen	47.4496088	9.6376089
+Arth am See	47.0362841	8.5686947
+Bémont	47.26395	7.01332
 Granges - Lens	46.2643669	7.4891517
 Ambri - Piotta	46.510617	8.690151
 Monthey	46.2521873	6.9469598
 St. Cergue	46.4460412	6.1581382
-Zugerberg ZG	47.1391	8.53768
 Zürich - Seebach	47.4215556	8.5383447
 Täsch	46.0679692	7.7759045
 Leysin	46.3435634	7.012033
@@ -219,40 +206,36 @@ Lenk im Simmental	46.4571943	7.4429104
 Sion	46.2331221	7.360626
 Kriens	47.0341978	8.2772552
 Les Enfers	47.2886168	7.0480782
-Clarens	46.4420139  6.8852452
+Clarens	46.442	6.894
 St. Gallen	47.4244818	9.3767173
 Bussigny-près-Lausanne VD	46.5517429	6.558615
 Möhlin	47.5591304	7.8442531
 Morcote	45.9278156	8.9078997
-Tschiertschen	46.81777	9.60671
-Eichberg	47.6417523	16.18409
+Leyisin	46.3435634	7.012033
+Eichberg	47.3428013	9.5319606
 Gstaad	46.4750377	7.2858205
-Gordola	46.1809063	8.8608089
+Tavannes	47.2200764	7.198526
 Orselina	46.1789419	8.7989377
-Rickenbach - Waldegg	47.438274	9.0684058
-Trans	47.3368524	-0.91935
-Beatenberg BE	46.7035407	7.8095511
+Rickenbach - Waldegg	47.4928921	7.852398
+Trans	46.7647922	9.460412
 Wildhaus	47.2033339	9.350492
-Glion s/Montreux	46.431776	6.924732
 Bassecourt	47.3389072	7.2427009
 Wauwil	47.1862897	8.0237036
 Filisur	46.6734153	9.6863771
 Prégny	46.2341791	6.1393268
 Glion sur Montreux	46.431776	6.924732
-Rickenbach -  Waldegg	47.438274	9.0684058
+Balsthal	47.3095856	7.6883283
 Finhaut	46.08337	6.97688
 Degersheim	47.3738511	9.2003081
 Arosa	46.7823704	9.6799111
 Lugano - Castagnola	46.0037781	8.9775656
-Ardez	46.7749013	10.2017095
 Neuchâtel	46.9899874	6.9292732
-Eriswil 	47.079899	7.850674
 Arisdorf	47.5129592	7.7652075
 Tramelan	47.2235029	7.102975
 Asp Herzberg	47.4383358	8.0530386
 Bönigen	46.6859659	7.8932422
 St. Peterzell	47.3176632	9.1746211
-Hauterive	46.088374	3.439236
+Hauterive	46.7610132	7.0961217
 Pully	46.5092681	6.6654949
 Schönengrund	47.3260986	9.226432
 Fläsch	47.0266057	9.5137762
@@ -261,94 +244,94 @@ La Tour de Peilz	46.4533165	6.8612781
 Gattikon	47.2846	8.55065
 Gwatt	46.723	7.623
 Konolfingen	46.8794597	7.6208263
-Hasenberg	48.2889071	14.3869155
+Hasenberg	47.3784829	8.3644236
 Luzern	47.0501682	8.3093072
 Les Avants	46.4533014	6.9429046
 Krattigen	46.6611155	7.7282129
 Cossonay	46.6140944	6.507171
 Kilchberg	47.3220092	8.5452125
 Balgrist	47.3549198	8.5748037
-Joigny	47.981432	3.398961
+Le Pont	46.583338	6.85
+Joigny	46.483333	6.85
 Brent sur Montreux	46.45637	6.89738
-Pian San  Giacomo	46.4158854	9.2237105
 Aeugsterthal	47.28417	8.48708
 Aarau	47.390434	8.0457015
-Belmont	37.5202145	-122.2758008
-Rheinfelden	47.5896468	7.768779
-Châteauneuf	43.678847	6.980777
-Witzwil	46.9885561	7.0614011
-Agra	45.9686488  8.9058094
+Belmont	46.1982388	6.1656826
+Pont de la Morge s / Sion	46.224796	7.313483
+Rheinfelden	47.55219	7.7922914
+Châteauneuf	46.22204	7.32894
+Witzwil	46.99576	7.08635
+Agra	45.9686348	8.9145642
 Champel	46.1896788	6.1575397
 Zürichhorn	47.3535289	8.5514208
 Hedingen	47.2977669	8.4482542
 Locarno	46.1669988	8.7942643
-Castagnola - Lugano	46.0037781	8.9775656
 Laufen	47.4204213	7.5004874
 Viège	46.2947277	7.8821204
 Unterägeri	47.1368093	8.5830915
 Bad Lauterbach bei Oftringen	47.3129528	7.9198655
-Montana	46.2997239  7.4558705
+Montana	46.3102173	7.4774587
 Blankenburg bei Zweisimmen	46.541104	7.38532
 Valbella - Lenzerheide	46.7286653	9.557472
-Burg - Schloss	47.6930981	10.0427853
+Burg - Schloss	46.7065902	7.7271909
 Klosters - Selfranga	46.856582	9.8827525
 Liestal	47.4866143	7.7334272
 Liestal / Bienenberg	47.4981894	7.7009449
 Merishausen	47.7606448	8.6094638
 Vennes - Lausanne	46.5196535	6.6322734
 Gals	47.0281883	7.050374
-Pont	44.4989466	3.2692247
 La Rosiaz	46.5205474	6.6612619
 Rovio	45.9362506	8.9836424
 Seewis	46.9905027	9.6372642
+Neukirch	47.51056	9.17108
 Böckten	47.4626895	7.8361995
-Chur - Masans	46.8507835	9.5319859
+Chur - Masans	46.870953	9.534251
 Lugano	46.0036778	8.951052
 Flims	46.8366348	9.2846923
 Hemberg	47.3004487	9.1760617
 Bex-les-Bains	46.19697	7.02724
 Prangins	46.3943352	6.2492927
-Chardonnes s/Vevey	46.4806514	6.7857606
 Vicosoprano	46.351022	9.6220807
+Pian San Giacomo	46.4181055	9.2254587
 Lenzerheide	46.7286653	9.557472
 Klosters - Platz	46.86663	9.8850036
 Territet	46.4268939	6.9231307
 Magliaso	45.9834646	8.8886323
 Frauenfeld	47.5535997	8.8987541
 Dürrenäsch	47.3214469	8.1568605
-Leyisin	46.3435634	7.012033
-Wald	47.380037	10.2190541
-Bonstetten	48.4399512	10.7101161
+Tschiertschen	46.81777	9.60671
+Wald	47.2771375	8.9155608
+Riehen bei Basel	47.5848274	7.6499111
+Bonstetten	47.31516	8.4680573
 Klosters	46.8699029	9.8828697
 Wald bei Zürich	47.2771375	8.9155608
 Murgenthal	47.2765988	7.8451321
 Roveredo	46.2343502	9.1288093
 Golino	46.178765	8.7115777
-Castagnola	46.0037781	8.9775656
-Geneveys s/Coffrane	47.01735	6.85254
-Tavannes	47.2200764	7.198526
+Pont - Céard p. Versoix	46.2881327	6.1621363
 Ringlikon	47.35799	8.47084
 Ligornetto	45.8627987	8.9516366
 Sierre	46.2941311	7.5335362
-Moosbad	46.9490712	7.7175823
-Egetswil	47.4718756	8.5826148
+Moosbad	47.3871386	9.1610344
+Egetswil	47.3492167	8.1879722
 Le Landeron	47.0581255	7.0730626
 Spiez	46.6884826	7.6791524
 Bellizona	46.1946216	9.0244124
 Schäflisegg	47.3974378	9.3823039
 Büren an der Aare	47.1395743	7.3747968
 Gudo bei Bellinzona	46.174232	8.9489996
+Hinterguldental	47.3339327	7.5924212
 Serneus	46.889989	9.838752
-Beringen	51.04793	5.21862
-Engelberg OW	46.8200266	8.4069918
+Beringen	47.6979625	8.5736822
+Beatenberg	46.7035407	7.8095511
 Eriswil	47.079899	7.850674
-Porrentruy /  Puntrut	47.42091	7.080074
 Reichenburg	47.169773	8.975433
-Klosters - Dorf	46.8699029	9.8828697
 Crêt-du-Locle	47.07975	6.78707
 Wil	47.4635617	9.0479097
 Balerna	45.8484251	9.0077495
 Barmelweid	47.41554	7.97628
+Landdorf	46.6140786	9.5932874
+Gordola	46.1809063	8.8608089
 Gempen - Stollen	47.4807587	7.6442005
 Les Verriéres - Sugiez	46.9156786	6.4031901
 Gyron sur Bex	46.2881897	7.0668606
@@ -375,3 +358,1677 @@ Pont de la Morge s / Sion	46.224796	7.3112943
 Neukirch	47.5288234	9.3621163
 Pian San Giacomo	46.4158854	9.2237105
 Riehen bei Basel	47.5848274	7.6499111
+Sordel	45.402337	4.498825
+Mégère	45.598876	5.716548
+Dobrzyn / Polen	50.943644	17.4718826
+Pinczow / Polen	50.52034	20.5264571
+Gladenbach bei Giessen, Deutschland	50.7647016	8.5778368
+Zolynia / Polen	50.1633219	22.3095775
+Regensburg / Deutschland	49.0134297	12.1016236
+Mühlhausen / Mulhouse , Frankreich	47.752096	7.25172
+Urnäsch	47.3170588	9.2826442
+Usingen / Deutschland	50.3353122	8.5320064
+Modena / Italien	44.647128	10.9252269
+Stabio	45.8530292	8.9366943
+Tête de Géant / Morgins	46.2382	6.8519
+Nagykanizsa / Ungarn	46.4590218	16.9896796
+Genf Verrier	46.2043907	6.1431577
+Deutschkreutz / Oesterreich	47.6016309	16.6234422
+Litauen	55.169438	23.881275
+Tokay / Ungarn	47.433214	21.392965
+Deutschland / Altenburg	50.9931202	12.4366572
+Gy	4.860416	-58.93018
+Aix-en-Provence / Frankreich	43.529742	5.447427
+Flughafen Dübendorf	47.4071945	8.6395978
+Krems an der Donau / Oesterreich	48.40999	15.60384
+Compatsch / Samnaun	46.959268	10.4047994
+Polen	51.919438	19.145136
+Pruchnik / Polen	49.9061322	22.5155104
+Sighet / Rumänien	44.4579033	26.1424023
+Slavonski Brod / Jugoslawien	45.1631431	18.0116081
+Voiron, Frankreich	45.362713	5.591349
+St. Petersburg / Sowjetunion	59.9342802	30.3350986
+Siret / Rumänien	47.9552669	26.0641684
+La Verrerie	46.5976765	6.9226051
+Dresden / Deutschland	51.0504088	13.7372621
+Rheydt / Deutschland	51.1686686	6.4469619
+Monte Generoso	45.9313	9.01988
+Stettin / Deutschland	53.4285438	14.5528116
+Opolzno , Polen	51.3753379	20.2787631
+Muri	47.2735792	8.3415566
+Münster	51.9606649	7.6261347
+Bélmont	37.5202145	-122.2758008
+Zweibrücken/Pfalz / Deutschland	49.2450528	7.3634022
+Arad / Rumänien	46.1865606	21.3122677
+Lyon	45.764043	4.835659
+Grand - Fontaine	47.90274	-0.622452
+Podul, Rumänien	46.9062889	26.2104454
+Revereulaz	46.314923	6.8773989
+Stanislau / Polen;	54.3873252	18.2353736
+Tübingen / Deutschland	48.5216364	9.0576448
+Bielitz / Deutschland	50.8815193	12.0791699
+Saarlouis / Saargebiet	49.32394	6.7677965
+Dardagny	46.1947347	5.9949263
+St. Louis Haute / Rhin (Frankreich)	47.5859949	7.563934
+Nähe Champéry	46.1816543	6.8747591
+Salgotarjan / Paks / Ungarn	46.6060722	18.8546832
+Mieux	35.1066543	137.0197521
+Col du Tour - Arsières	45.9555753	7.0362478
+Italien / Frankreich	42.212776	9.465026
+Rheingold	50.1559539	7.6858889
+Randegg / Deutschland	47.7226694	8.7545619
+Deutschland	51.165691	10.451526
+Esslingen	48.7433425	9.3201122
+Mühldorf / Deutschland (KZ)	48.2457722	12.5219895
+Kolomea / Polen	53.0767877	22.3547573
+Chansy	48.4198822	5.4448651
+Danzig	54.3520252	18.6466384
+Limoges / Frankreich	45.833619	1.261105
+Ballaigues	46.7296887	6.4159236
+Végy 	24.7489603	84.9436793
+Ruvigliano	46.012324	8.971355
+Mattersburg / Oesterreich	47.73625	16.39663
+Bruchsal / Deutschland	49.1249712	8.5844108
+Florensac, Frankreich	43.382125	3.462905
+Vidy Lausanne	46.5186217	6.5942472
+Liesing bei Wien / Oesterreich	48.1373221	16.2981671
+Possy	45.988638	6.218467
+Paks / Ungarn	46.6060722	18.8546832
+Bacau / Rumänien	46.5670437	26.9145748
+Savoyen, Frankreich	45.4932045	6.4724
+Poznau / Polen	52.406374	16.9251681
+Lons - le - Saunier / Frankreich	46.671361	5.550796
+Dubrovnik, Jugoslawien	42.6506606	18.0944238
+Campolongo	41.7655503	9.1440514
+La Brionne [?] / Frankreich	46.168571	1.787041
+Dzierzoniow / Polen	50.7308605	16.6567892
+Steffisburg	46.7788438	7.6347832
+St. Luziensteig	47.0301116	9.5280271
+Pirmasens / Deutschland	49.201555	7.6002161
+Ksar-es-Souk / Marokko	31.927236	-4.4284985
+Dahn / Deutschland	49.1537096	7.7820727
+Pont de La Morge	46.2247744	7.3129833
+Hinteregg	47.4675924	9.9440916
+Neuilly sur Seine / Frankreich	48.884831	2.26851
+Oesterreich / Ungarn	47.7649251	15.3279877
+Langenthal	47.2120786	7.7905623
+Kaunas / Litauen	54.8985207	23.9035965
+Lostetten	47.6293933	8.5736406
+Lüttich / Belgien	50.6325574	5.5796662
+Zypern	35.126413	33.429859
+Genève	46.2043907	6.1431577
+Dörflingen / Merishausen	47.7606448	8.6094638
+Lettland	56.879635	24.603189
+Lodz	51.7592485	19.4559833
+Sterbfritz bei Kassel / Deutschland	51.3127114	9.4797461
+Perly / St. Julien	46.1267786	6.0431732
+Hainstadt am Main / Deutschland	50.0820243	8.9412146
+Saignelégier	47.2561774	6.9964022
+Eisenstadt, Burgenland, Oesterreich	47.84637	16.52796
+Oesterreich / Deutschland	52.3267991	8.2792259
+Chêne-de-Bourg	46.7433402	6.8009815
+St. Louis / Basel	47.5780488	7.5319404
+Constanta / Rumänien	44.1598013	28.6348138
+Buchs oder Genf	52.6373024	13.5264145
+Pogorz / Polen	54.1030474	15.1198988
+Marseille	43.296482	5.36978
+Szekesfehervar / Ungarn	47.1860262	18.4221358
+Besançon / Frankreich	47.237829	6.0240539
+Zürich / Schweiz	47.3768866	8.541694
+Forbach / Frankreich	49.186515	6.895295
+Flensburg / Deutschland	54.7937431	9.4469964
+Turin / Italien	45.070312	7.6868565
+Clichy bei Paris / Frankreich	48.856614	2.3522219
+Giessen / Deutschland	50.5840512	8.6784031
+Koblenz / Deutschland	50.3569429	7.5889959
+Gelterkinden	47.4656125	7.8560314
+Mommenheim, Deutschland	49.883763	8.2686611
+Basel / Riehen	47.5848274	7.6499111
+Khartoum , Sudan	15.5006544	32.5598994
+Cherson / Sowjetunion	46.635417	32.616867
+Mont Choisi	46.4557625	6.2657925
+Bielefeld / Deutschland	52.0302285	8.5324708
+Nagykaroly / Rumänien	47.6814513	22.462143
+Vegesack b.Bremen / Deutschland	53.1804023	8.6350091
+Sedan / Frankreich	49.70349	4.93863
+Tartakow	50.4587251	24.4045614
+Mannheim / Deutschland	49.4874592	8.4660395
+Bobigny bei Paris / Frankreich	48.856614	2.3522219
+Astano	46.0122589	8.8158937
+Bratislava / Tscheslowakei	48.1485965	17.1077477
+Freiburg im Breisgau / Deutschland	47.9990077	7.8421043
+Bourg d’Orsan	47.2756936	6.3793446
+Dolnji Miholjac	45.762142	18.1651379
+Irak	33.223191	43.679291
+Auschwitz / Deutschland (KZ)	50.0343982	19.2097782
+Feldkirch / Liechtenstein	47.24128	9.6019
+Höchst	49.7993827	8.993743
+Charbonier	-30.7758624	-64.5439372
+Genua / Italien	44.4056499	8.946256
+Carra	44.979194	4.646461
+Waldshut / Deutschland	47.6327253	8.2719155
+Hofen	51.2755742	7.2289145
+Alexandria / Aegypten 	31.2000924	29.9187387
+Uganda	1.373333	32.290275
+Augsburg / Deutschland	48.3705449	10.89779
+Kalisz / Polen	51.7672799	18.0853462
+Mittersdorf, Oesterreich	47.9974655	16.474808
+Stein am Rhein	47.6558193	8.8579556
+Berlin - Halensee / Deutschland	52.4975299	13.2928398
+Indura b/ Grodno / Polen	53.459814	23.876912
+Königsberg / Deutschland	50.0808691	10.5664483
+Holon-Mifde / Israel	32.022102	34.790338
+Locarno, Schweiz	46.1669988	8.7942643
+Izbica / Polen	50.8934674	23.1589156
+Hergershausen, Deutschland	49.9398663	8.913508
+Kolobiel / Polen	52.0646474	21.4836639
+Bratislava / Tschechoslowakei	48.1485965	17.1077477
+Rzeszow, Polen	50.0411867	21.9991196
+Viseul-de-Jos , Rumänien	47.7291638	24.3539897
+Haute Nendaz	46.18408	7.29974
+Kirchhain / Deutschland	50.8206953	8.9212901
+Aschbach / Deutschland	49.6011848	7.5761328
+Zürich / Thalwil	47.2949282	8.5644799
+Tel Aviv / Israel	32.0852999	34.7817676
+Worms am Rhein, Deutschland	49.6372113	8.3738367
+Frankfurt / Deutschland	50.1109221	8.6821267
+Itschnach	47.3275161	8.6015641
+Remoulins / Frankreich	43.939518	4.564296
+Delémont	47.365837	7.3451555
+Australien	-25.274398	133.775136
+Dübendorf	47.3971476	8.6180128
+Zdunska-Wola / Polen	51.5990328	18.9393251
+Mühlhausen / Frankreich	47.750839	7.335888
+Lichtenau / Baden, Deutschland	48.7254281	8.0068444
+Felben b. Frauenfeld	47.583333	8.933333
+Cartaggio, Brissago	46.1200438	8.7112657
+Bochum, Deutschland	51.4818445	7.2162363
+Bino	39.7537048	-77.8094401
+Konstanz / Deutschland	47.6779496	9.1732384
+Bolkenhain / Deutschland	52.2276307	10.5178523
+Hanau / Deutschland	50.1264123	8.9283105
+Pressburg (KZ)	48.1485965	17.1077477
+Bnei Brak / Israel	32.084932	34.835226
+Mühlhausen / Elsass	47.750839	7.335888
+Wanne, Deutschland	51.537505	7.148475
+Col du Coux	-49.4833333	69.2666667
+Benfeld / Frankreich	48.3713553	7.5930244
+Elsass, Frankreich	48.3181795	7.4416241
+Schleins	46.8696575	10.4252447
+Sanok / Polen	49.5550187	22.2060658
+La Chassotte	46.8111929	7.1374347
+Metz (bis September 1939)	49.1193089	6.1757156
+Zawirzcie / Polen 1907	50.505605	19.4107912
+Monnetier	46.2021439	5.82058
+Jogny	30.457345	-83.8769148
+Alexandria / Ägypten	31.2000924	29.9187387
+Chomutov / Tschechoslowakei	50.4634975	13.410737
+Ellwangen / Deutschland	48.9626833	10.1301513
+Saarbrücken	49.2401572	6.9969327
+Sousse, Tunesien	35.825603	10.608395
+Beuthen / Deutschland	52.2314909	10.5251481
+Bistritza	42.5840971	23.3595986
+Bregenz / Oesterreich	47.50075	9.74231
+Szydlowiec / Polen	51.2279908	20.8611466
+Castasegna	46.3333	9.5140999
+Dachau / Deutschland (KZ)	48.270124	11.4682724
+Ciserano (Bergamo) / Italien	45.5855615	9.6029498
+Tiszacsege / Ungarn;	47.6997085	20.9917041
+Landcy 	46.1885168	6.1144546
+Frankenthal / Deutschland	49.5431853	8.3512342
+Emmendingen, Deutschland	48.1170918	7.8539047
+Ramssen	-37.705563	141.4480862
+Rundik, Polen	50.8780371	19.2461281
+Montreuse / Frankreich	48.53617	6.884068
+Shaffhausen	47.6958897	8.6380488
+Corsier	46.2626576	6.2250271
+Sylvana	60.6937853	23.4558773
+Aix les Bains / Frankreich	45.692341	5.908998
+Prag, Tschechoslowkei	50.0755381	14.4378005
+Altkirch / Frankreich	47.620391	7.243036
+Vac / Ungarn	47.7841803	19.1351781
+Altach	47.3535474	9.6494337
+Cocconato / Italien	45.0861556	8.042154
+Gotha, Deutschland	50.9469188	10.7092884
+Cortaggio	35.7345547	139.7715378
+Dzialoszym / Polen	51.1166563	18.8651227
+Crassier	46.3744662	6.1635803
+Körmend / Ungarn	47.014104	16.5957667
+Verney Genf	46.17559	6.0360115
+Le Puy / Frankreich	45.042768	3.882936
+Tunesien	33.886917	9.537499
+Pilismarot , Ungarn	47.7838071	18.8757708
+St. Denis s/ Seine / Frankreich	48.936181	2.357443
+Almagell	46.1	7.95
+Schleitheim	47.75009	8.4868
+Elgg	47.4910721	8.8665461
+Puplingen	46.2105553	6.2317139
+Monte Carlo / Monaco	43.7400718	7.4266436
+Anières	46.2777904	6.2240679
+Treviso / Italien	45.6668893	12.2430437
+Hannover / Deutschland	52.3758916	9.7320104
+Timisoara / Rumänien	45.7488716	21.2086793
+Jonava / Litauen	55.0727242	24.2793337
+Berlin-Charlottenburg, Deutschland	52.5166023	13.3041054
+Breslau / Deutschland	50.3180199	11.933824
+Ebnat-Kappel	47.265485	9.1235471
+Chauffailles / Frankreich	46.207548	4.338252
+Kattowitz / Polen	50.2648919	19.0237815
+Muggio	45.591052	9.2264175
+Gliwice / Polen	50.2944923	18.6713802
+Dublin, Irland	53.3498053	-6.2603097
+Zürich - Kloten	47.4495116	8.5821648
+Hagenau / Deutschland	48.813288	7.79125
+Nove-Zamky / Tschechoslowakei	47.9881643	18.1571098
+Italien	41.87194	12.56738
+Chancy	46.1494996	5.9727228
+Zloczew bei Sieradz / Polen	51.5956014	18.7302994
+Nitra / Tschechoslowakei	48.3061414	18.076376
+Sargans	47.0478519	9.4406105
+Charleroi / Belgien	50.4108095	4.444643
+Schaan - Buchs	47.1655403	9.4708594
+Les Brenets	47.0680788	6.7047551
+Baden-Baden / Deutschland	48.76564	8.2285242
+Eberswalde, Deutschland	52.837133	13.7875871
+Gamat (Allier) [?] / Frankreich	46.3115552	3.4167655
+Tirana, Albanien	41.3275459	19.8186982
+Cole du Loux	46.5776679	5.803696
+Ungarn	47.162494	19.503304
+Solothurn	47.2088348	7.532291
+Cuneo / Italien	44.3844766	7.5426711
+Colmar [?]	48.0793589	7.358512
+Oradea	47.0465005	21.9189438
+Dessau / Deutschland	51.8222436	12.2424516
+Lemgo / Deutschland	52.0266732	8.9018625
+Siedlce / Polen	52.1676031	22.2901645
+Pruntrut	47.416647	7.0765657
+Lindau	47.5797815	9.6789333
+Liege / Belgien	50.6325574	5.5796662
+Cabia	19.7409738	-70.8684802
+Boëge / Frankreich	46.208763	6.406528
+Kobersdorf / Oesterrreich	47.5960798	16.3909778
+Budapest	47.497912	19.040235
+Riga, Lettland	56.9496487	24.1051864
+Annemasse / Frankreich	46.193253	6.234158
+Cadca bei Zilina / Tschechoslowakei	49.4385551	18.7897828
+Müllheim / Ruhr / Deutschland	51.4185682	6.8845226
+Waldshut	47.6327253	8.2719155
+Tschenstochau / Polen	50.8118195	19.1203094
+Montauban / Frankreich	44.0221252	1.3529599
+Sofia, Bulgarien	42.6977082	23.3218675
+Campocologno	46.23235	10.13202
+Karslruhe Deutschland	49.0068901	8.4036527
+Ramat Gan / Israel	32.068424	34.824785
+Guatemala City, Guatemala	14.6349149	-90.5068824
+St. Didier	44.008459	5.109316
+Toulouse / Frankreich	43.604652	1.444209
+Pforzheim (seit 1925) / Deutschland	48.8921862	8.6946286
+Vicela 	27.3393583	-82.4041724
+Haifa / Palästina	32.4814111	34.994751
+Weil am Rhein	47.5934368	7.6198121
+Mülhausen / Frankreich	47.750839	7.335888
+Charbin / Harbin China	45.6788554	126.6108154
+Berlin - Schönenberg / Deutschland	52.4893436	13.352548
+Einsiedel an der Göllnitz	48.8	20.8
+La Brévine	46.98035	6.60687
+Le Sentier	47.745313	-0.19656
+Pedrinate	45.833333	9.016667
+Jaszapati / Ungarn	47.512244	20.142285
+Bellegarde	43.7541102	4.5138361
+Carouge, Genf	46.1829674	6.1378539
+Tiberias / Israël	32.795859	35.530973
+Tel-Aviv, Israël	32.0852999	34.7817676
+Charost, Frankreich	46.994318	2.1166649
+Fürth , Deutschland	49.4771169	10.988667
+Alexandria,Aegypten	31.2000924	29.9187387
+Ludwigshafen / Deutschland	49.47741	8.44518
+Rossdorf / Darmstadt	49.8594669	8.7524067
+Tilsit / Deutschland	51.0101219	7.0148736
+Flawil	47.4133707	9.1870297
+Vitznau	47.0102021	8.4833558
+Burgenland / Oesterreich	47.1537165	16.2688797
+Wallbach	47.5591058	7.9042193
+Satoraljaujhely / Ungarn	48.3960601	21.6551122
+Briansk / Sowjetunion	53.2635306	34.41611
+Mannheim,Deutschland	49.4874592	8.4660395
+Roggiano	45.9603165	8.7409863
+Couret	43.051899	0.821962
+Wien / Oesterreich	48.2081743	16.3738189
+Aussig, Tschechoslowakei	50.6611164	14.0531456
+Freiburg i. Breisgau	47.9990077	7.8421043
+Prag / Tschechoslowakei	50.0755381	14.4378005
+Ozarow / Polen	50.88758	21.66654
+Oesterreich od. Italien	47.1833333	12.5333333
+Aegypten	26.820553	30.802498
+Horgen	47.260742	8.596363
+Nordhausen / Deutschland	51.4990791	10.791581
+Böchingen bei Landau / Deutschland	49.198886	8.1185622
+Mehring	49.7971999	6.8237034
+Krumbach / Oesterreich	47.5219	16.193685
+Tschenstochau oder Czenstochau/ Polen	50.8449275	19.1531192
+Gauting	48.0696838	11.3784087
+Mattesburg b. Wien	48.2081743	16.3738189
+St. Margrethen	47.4496088	9.6376089
+Bure / Porrentruy	47.44242	7.00681
+St. Genis / Meyrin	46.2554284	6.0712846
+Weil a/Rhein / Deutschland	47.5934368	7.6198121
+Morlaas / Frankreich	43.3453019	-0.26266
+Oradea / Grosswardein, Rumänien	47.0465005	21.9189438
+Lübeck / Deutschland	53.8654673	10.6865593
+Lampertheim, Deutschland	49.5997267	8.466599
+Cabbio	45.8983756	9.0453339
+Neuwied a. R. / Deutschland	50.4361866	7.4664546
+Alzey (Hessen) / Deutschland	49.9825517	8.3960477
+Soral	46.1444245	6.043746
+Berlin - Karlshorst / Deutschland	52.4823259	13.5309106
+Samsonow / Polen	50.9941121	20.6182584
+Kreuznach / Deutschland	49.8440162	7.8731346
+Ambylly , Genf	46.194109	6.223001
+Graz / Oesterreich	47.070714	15.439504
+Aesch	47.4672734	7.5979344
+Miednyrzec / Polen	51.9853496	22.7848432
+Jaworzno, Polen	50.204987	19.2739314
+Viry	48.837781	-0.888482
+Burgerau / Buchs	47.15002	9.485103
+Boveresse	46.91666	6.60085
+Kiel, Deutschland	54.3232927	10.1227652
+Vips	20.6415394	-103.4154942
+Col de Verne 	46.3233191	6.7986068
+Hassloch, Deutschland	49.3610149	8.2578059
+Basel / Schaffhausen	47.6958897	8.6380488
+Eschwege / Deutschland	51.1876662	10.0397725
+Florenz / Italien	43.7695604	11.2558136
+Buchillon	46.4693789	6.4200054
+Zweibrücken, Deutschland	49.2450528	7.3634022
+Stadlo / Polen	49.5840311	20.6115065
+Le Cure	44.373146	0.274389
+Athen / Griechenland	37.9838096	23.7275388
+Halberstadt	51.8948709	11.0496159
+Deggendorf / Deutschland	48.8408515	12.9574787
+Kolo / Polen	52.19986	18.63847
+Uzhorod	48.6208	22.287883
+Niederlande	52.132633	5.291266
+Oppenheim a.Rhein / Deutschland	49.8555932	8.3670323
+Reutlingen, Deutschland	48.5069389	9.2038043
+Brünn / Tschechoslowakei	49.1950602	16.6068371
+Detmold / Deutschland	51.9384783	8.868638
+Oppeln / Deutschland	51.1375323	14.6939706
+Sandomierz / Polen	50.6822405	21.7501781
+Liechtenstein / Buchs	47.1655403	9.4708594
+Kaiserslautern / Deutschland	49.4400657	7.7491265
+Hamburg / Deutschland	53.5510846	9.9936818
+Pino	20.3354846	-99.2359739
+Rheinau	48.6610305	7.9369349
+Sedan (Ardennes) / Frankreich	49.70349	4.93863
+Wädenswil	47.2296871	8.6718189
+Bure	53.5933498	-2.2966054
+Liebefeld	46.933331	7.416668
+Nürnberg / Deutschland 1922	52.2354763	12.9706591
+Fürth i/Bay / Deutschland	49.3065203	12.8449288
+Teplice / Tschechoslowakei	50.6444579	13.835284
+Zürich / Hünikon	47.5519705	8.6683024
+Rypin / Polen	53.0657106	19.4094097
+Martigny (Col de Bagne)	46.1092	7.25685
+Talsen / Lettland	57.2480409	22.5873859
+Bergen-Belsen	52.7814296	9.934552
+Krakau,Polen	50.0646501	19.9449799
+Freiburg / Deutschland	47.9990077	7.8421043
+Casablanca / Marokko	33.5731104	-7.5898434
+Luzern / Schweiz	47.0501682	8.3093072
+Pierre à Bochet	46.19926	6.21485
+Les Ponts de Martel	46.999113	6.7335548
+Hüttengesäss / Deutschland	50.217281	9.0424929
+Cadca / Tschechoslowakei	49.4385551	18.7897828
+Nancy / Frankreich	48.692054	6.184417
+Harbin / China	45.803775	126.534967
+Evian	29.65894	-98.508498
+Libanon	33.854721	35.862285
+Ugine, Frankreich	45.752939	6.419968
+Madris / Spanien	40.4167754	-3.7037902
+Kairo	30.0444196	31.2357116
+Annemasse / Genf	46.193253	6.234158
+Chelm, Polen	51.1431232	23.4711986
+Amsoldingen	46.7280309	7.58392
+Opatow / Polen	50.8018537	21.427194
+Silvana	48.2023214	-122.2537589
+Waldegg-Rickenbach	47.438274	9.0684058
+Prag / Ferienaufenthalt im Westen / Tschechoslowakei	50.0755381	14.4378005
+Hohenau / Oesterreich	48.6058694	16.9044585
+Ulisbach	47.2871636	9.1013296
+Fahy	47.4180013	6.9502285
+Neustrelitz	53.3601147	13.0730197
+Lörrach / Deutschland	47.6169191	7.6709248
+Agen / Frankreich	44.203142	0.616363
+Morges	46.5088127	6.4961301
+Sarny / Polen	51.5807444	22.0038752
+Wilna, Polen bzw. Litauen	54.6871555	25.2796514
+Tirano / Campocologno	46.23235	10.13202
+Castellamonte, Italien	45.3829469	7.7119076
+Louvigny / Frankreich	49.156373	-0.391493
+Feldkirch	47.24128	9.6019
+Gera / Deutschland	50.8850706	12.0807203
+Baia - Sprie / Rumänien	47.6607985	23.6977348
+Kutno, Polen	52.230618	19.364278
+Radvilishki / Litauen	55.8108399	23.546487
+Champel / Frankreich	48.610682	6.533681
+Bischheim (Bas. Rhin) / Frankreich	48.614813	7.751991
+Kolbuszowa, Polen	50.24417	21.77627
+Mont Hoisi	46.4557625	6.2657925
+Modlikorzyce / Polen	50.7541638	22.3294471
+Tours / Frankreich	47.394144	0.68484
+Genf / Jussy	46.2347656	6.2652187
+Alexandrien / Aegypten	31.2000924	29.9187387
+Verona, Italien	45.4383842	10.9916215
+Carouge	46.1829674	6.1378539
+Colmar / Frankreich	48.0793589	7.358512
+de la Paix	37.9164006	-90.638763
+Lampertheim, DP-Camp, Deutschland	49.5997267	8.466599
+Gabbio / Bruzella	45.8816279	9.0365533
+S. Pietro	45.5407244	13.6599549
+Bex	46.2499847	7.0142664
+Chemnitz / Deutschland	50.827845	12.9213697
+Trencin, Tschechoslowakei	48.884936	18.0335209
+Antwerpen	51.2194475	4.4024643
+La Chaux de Fonds / Schweiz	47.1034892	6.8327838
+Ravensburg, Deutschland (KZ)	47.7782704	9.6121303
+Nagyvarad / Oradeamare, Rumänien	47.048926	21.9391796
+Antalya / Türkei	36.8968908	30.7133233
+Chambon / Frankreich	46.127128	-0.84987
+Aubagne / Frankreich	43.2926781	5.5676425
+Verrières	46.412685	0.59291
+Montpellier / Frankreich	43.610769	3.876716
+Differdange, Luxemburg	49.52273	5.88896
+Oberwald	46.532881	8.3454764
+Spruga	46.2008694	8.5680153
+Ravensburg, D.R. / Deutschland	47.7782704	9.6121303
+Pierre-Grande	46.0835746	2.7855892
+Laverne / Frankreich	44.7988905	4.8962863
+Annemasse, Eaux-vives	46.193253	6.234158
+Hägendorf	47.3331438	7.843562
+Sieradz bei Lodz, Polen	51.7592485	19.4559833
+Sarajevo / Jugoslawien	43.8562586	18.4130763
+Strassburg / Frankreich	48.5734053	7.7521113
+Rastatt / Deutschland	48.8591174	8.2059096
+Solingen, Deutschland	51.1702072	7.0831408
+Sergy-St.Senis	42.9545281	1.6245153
+Chalus / Frankreich	45.649832	0.979809
+Zagreb / Jugoslawien	45.8150108	15.981919
+Beggingen	47.7667072	8.536764
+Argentinien	-38.416097	-63.616672
+Kopenhagen / Dänemark	55.6760968	12.5683371
+Chevran	50.3813414	5.7341996
+Bossey	46.151615	6.158267
+Zeist / Niederlande	52.0906015	5.2332526
+Schaan	47.167522	9.5105582
+Guben / Deutschland	51.9514863	14.695565
+Görz / Italien	45.9401812	13.6201754
+Wien, Oesterreich	48.2081743	16.3738189
+Montlucon	46.3415466	2.6019912
+Wiesbaden / Deutschland	50.0782184	8.2397608
+Jura	46.762475	5.6729159
+Sezegnieus 	46.1446225	6.0077763
+München / Deutschland	48.1351253	11.5819806
+Boncourt	47.4960637	7.0157468
+Allaman	46.4709528	6.3957297
+Losone	46.1688136	8.7608755
+Stansstad	46.977594	8.3374207
+Frankfurt an der Oder / Deutschland	52.3472237	14.5505673
+Breno	45.9570004	10.3027318
+Bad Mergentheim / Deutschland	49.488537	9.7704158
+St. Cergues	46.236319	6.322394
+Rymanow / Polen	49.57642	21.86815
+Obernai / Elsass / Frankreich	48.46226	7.48168
+Ulmerfeld / Oesterreich	48.07605	14.82245
+Lörrach / Riehen Basel	47.5709512	7.6180502
+Mainz / Deutschland	49.9928617	8.2472526
+Kanada	56.130366	-106.346771
+Gauting b. München	48.0853896	11.4793395
+Pas-de-Calais / Frankreich	50.5732769	2.3244679
+Brünn (Mährisch-Kromau) / Tschechoslowakei	49.1950602	16.6068371
+Wadowice / Polen	49.8827856	19.4939579
+Gailingen / Deutschland	47.696864	8.7550748
+Lunéville / Frankreich	48.592237	6.492339
+Macuto / Venezuela	10.603847	-66.8945591
+Forcalquier / Frankreich	43.959933	5.780712
+Kruezlingen	47.6447397	9.1707858
+Lubelski / Polen	51.2493519	23.1011392
+Varese / Stabio	45.8530292	8.9366943
+Ponte Tresa	45.9697799	8.8581667
+Adelboden	46.4930889	7.5595123
+Ratzersdorf, Oesterreich	48.30483	15.56822
+Vallorbe	46.7119965	6.3791102
+Kalchrain (Hüttwilen)	47.6107543	8.8897864
+Fornasette	45.99245	8.7889
+Mont Blanc	45.8326227	6.8651788
+Carcassonne / Frankreich	43.212161	2.353663
+Oppau am Rhein, Deutschland	49.5200648	8.4012329
+Szombathely / Ungarn	47.2306851	16.6218441
+Col de Nueva	18.9322415	-103.9602264
+Vichy / Frankreich	46.131859	3.425488
+Sauerbrunn / Oesterreich	47.20986	14.56403
+Sasso di Gallo	44.4314515	11.3543573
+Drohobycz, Polen	49.3580116	23.5123193
+Isbica / Polen	50.8934674	23.1589156
+Chamonix	45.923697	6.869433
+Neustadt / Deutschland	49.3501864	8.1486886
+Bonneville / Frankreich	46.0780249	6.409053
+Bromberg / Deutschland	48.5833333	9
+Bukarest, Rumänien (1926)	46.5257547	24.5715699
+Ettelbrück / Luxemburg	49.8478019	6.0985234
+San Remo / Italien	43.8159671	7.7760567
+Zolkiew / Polen	50.8854642	22.8529528
+Bulgarien	42.733883	25.48583
+Brünig / Goldern	29.576031	-98.4294029
+Hermance	46.3006983	6.2449688
+Szeghalom / Ungarn	47.0239347	21.1666571
+Mexico	23.634501	-102.552784
+Dürnten	47.266564	8.8505112
+Breisach / Deutschland	48.0348382	7.5836067
+Algier / Algerien	36.7537703	3.0587927
+Genf / Charmilles	46.207813	6.127218
+Warka , Polen	51.7840019	21.1909879
+Lac de Villers	47.0510641	6.6202174
+Stuttgart / Deutschland	48.7758459	9.1829321
+Ryki, Polen	51.6256317	21.9326302
+Col de Conche	46.3088264	6.8276857
+Belgrad / Jugoslawien	44.786568	20.4489216
+Venezuela	6.42375	-66.58973
+Höchst / St. Margrethen	47.45165	9.63447
+Collonges sous Salève	46.141043	6.144852
+Pastorello	44.5678792	10.2305608
+Belfort / Frankreich	47.639674	6.863849
+Como / Chiasso	45.8366999	9.0246111
+Györ / Ungarn	47.6874569	17.6503974
+Schanghai	31.230416	121.473701
+Bruzzella	45.8816279	9.0365533
+Col de Balme	45.900905	7.3733615
+Charmille b. Genf	46.2079254	6.1268782
+Tarnopol (Polen)	52.9046928	23.7808258
+Lahr, Deutschland	48.33915	7.8781487
+Mühlhausen (Elsass) / Frankreich	47.750839	7.335888
+Amsterdam	52.3702157	4.8951679
+Telsiai, Litauen	55.9869779	22.2485534
+Pardubice / Tschechoslowakei	50.0343092	15.7811994
+Artemare / Frankreich	45.875285	5.693363
+Epinal / Frankreich	48.172402	6.449403
+Dej / Ungarn	46.1998078	21.2967691
+Kobbersdorf / Oesterreich	47.5960798	16.3909778
+Sasow / Polen	50.1310572	21.342334
+Moissac / Frankreich	44.104852	1.08468
+Madonna Del Piano	45.9879707	8.8326926
+Veryier	46.1685728	6.1689583
+Ravensburg, Deutschland	47.7782704	9.6121303
+Muralto-Locarno	46.1729618	8.8056081
+Nördlingen / Deutschland	48.8508157	10.4894906
+Würenlos	47.4416652	8.363131
+Banila / Rumänien	45.3565618	21.8890963
+Paris / Frankreich	48.856614	2.3522219
+Przeworsk , Polen	50.0587	22.49377
+Tiszaszentmarton, Ungarn	48.3787027	22.2283189
+Lottstetten	47.6293933	8.5736406
+Ansbach / Deutschland	49.3004246	10.5719357
+Lauenburg / Deutschland	53.3762523	10.5496697
+Offenbach / Deutschland	50.0956362	8.7760843
+Franzensbad / Tschechoslowakei	50.120059	12.3496812
+Karlsbad / Tschechoslowakei	50.2318521	12.8719616
+Vorarlberg / Oesterreich	47.2497427	9.9797373
+Berlin	52.5200066	13.404954
+La Caux-de-Fonds / Delémont	47.365837	7.3451555
+Bernex	46.360752	6.675433
+Rona de Sus / Rumänien	47.8988976	24.0397747
+St. Gervais / Frankreich	46.902738	-1.998738
+Algerien	28.033886	1.659626
+Morteau / Col de Roche	47.05698	6.604106
+Lustenau	47.4208426	9.6594464
+Salzburg / Oesterreich	47.80949	13.05501
+Col de Coux / Val d’ Illiez	46.2044076	6.8927592
+Buttenhausen / Deutschland	48.358077	9.480694
+Rowno / Polen	53.0587667	15.1685124
+Nice / Frankreich	43.7101728	7.2619532
+Novi Sad / Jugoslawien	45.2671352	19.8335496
+Marienbad / Oesterreich	46.5878644	14.2815186
+Sarrebourg	48.732663	7.052587
+Ensisheim / Frankreich	47.86593	7.351814
+Carat	29.1608991	-111.0112796
+Regensdorf	47.4421954	8.4649434
+Avignon / Frankreich	43.949317	4.805528
+Mainz / Deutschland; Paris / Frankreich	48.856614	2.3522219
+freie Stadt Danzig	54.3520252	18.6466384
+Kreuzlingen	47.6447397	9.1707858
+München	48.1351253	11.5819806
+Schlettstadt, Frankreich	48.259386	7.454241
+verm. Basel	47.5595986	7.5885761
+Campocologno / Viano	46.23235	10.13202
+Pilsen, Tschechoslowakei	49.7384314	13.3736371
+Jagielnica / Polen	50.6449459	17.2277513
+Feldkirch / Buchs	47.1774741	9.5218327
+Herrliberg	47.2895818	8.6134257
+Angers / Frankreich	47.478419	-0.563166
+Müllheim (Baden) / Deutschland	47.8091623	7.6180353
+Freistett / Deutschland	48.6686109	7.9408098
+Tanay (Valais)	46.3452467	6.8308493
+Hamburg - Wansbeck / Deutschland	53.6536454	10.1070232
+Völklingen / Saar / Deutschland	49.1962115	6.8470129
+Offenbach am Main / Deutschland	50.0956362	8.7760843
+Mühlhausen	51.2098649	10.4571001
+Piotrkow / Polen	51.4051721	19.7030244
+Honkong / China	22.396428	114.109497
+Brive / Frankreich	44.58958	0.592284
+Sudan	12.862807	30.217636
+Israël	31.046051	34.851612
+Aachen / Deutschland	50.7753455	6.0838868
+St. Gingolph / Frankreich	46.393382	6.801963
+Targu Mures / Rumänien	46.5385862	24.5514392
+Szatmarnemeti, Ungarn	47.8016702	22.8575926
+Ellierode / Deutschland ()	51.6310004	9.8067368
+Collonges	46.169781	7.033227
+Slovakei	48.669026	19.699024
+Brno / Tschechoslowakei	49.1950602	16.6068371
+Lugano / De la Paix	46.0036778	8.951052
+Warburg / Deutschland	51.4899078	9.14519
+Jalowe / Polen	49.4112283	22.6461393
+Split / Italien	43.5648606	14.9574432
+Schloss-Burg	51.1376851	7.1528011
+Lublin / Polen	51.2464536	22.5684463
+Thionville / Frankreich	49.357571	6.168426
+Düsseldorf / Deutschland	51.2277411	6.7734556
+Clermont-Ferrand / Frankreich	45.777222	3.087025
+Vasarosnameny / Ungarn	48.1161031	22.3108004
+Colonges / Frankreich	45.331445	1.162956
+Memmingen / Deutschland	47.9837999	10.1801883
+Czernowitz / Rumänien	48.2920787	25.9358367
+Charmilles	46.207813	6.127218
+Chêne-Bourg	46.19735	6.19731
+Arogno	45.9588493	8.9871695
+Hamborn, Deutschland	51.4984137	6.7768115
+Münsterlingen	47.6302623	9.2263294
+Karlsruhe in Baden / Deutschland	49.0068901	8.4036527
+Teglio / Italien	46.171494	10.0609586
+Gundershoffen / Frankreich	48.906357	7.659777
+Altenburg	50.9931202	12.4366572
+Wittlich / Deutschland	49.9854178	6.8953377
+New York / USA	40.7127837	-74.0059413
+Aussig	50.6611164	14.0531456
+Kursk / Sowjetunion	51.7091957	36.1562241
+Bristol-Territet	51.454513	-2.58791
+Theodul	46.1006737	7.782304
+Bad Wörishofen / Deutschland	48.0051291	10.5949358
+Klobuck / Polen	50.9009168	18.9367931
+Dombrowa / Polen	50.3216897	19.1949126
+Karlsruhe / Deutschland	49.0068901	8.4036527
+Belz (Polen)	50.3815209	24.0089352
+Heidelberg / Deutschland	49.3987524	8.6724335
+Anvers	51.2194475	4.4024643
+Aeschi	46.6582768	7.6963226
+Frankeich	46.227638	2.213749
+Ranzo	44.0583101	8.0117297
+Sopron / Ungarn	47.6816619	16.5844795
+Tain, Frankreich	49.3621347	3.7465457
+Schiltigheim-Strassburg / Frankreich	48.5940416	7.7358261
+London	51.5073509	-0.1277583
+Flora Lugano	-22.5288304	-43.158608
+Dinslaken, Deutschland	51.5674264	6.747534
+Birsfelden	47.5516505	7.6272499
+Essen / Deutschland	51.4556432	7.0115552
+Csokva / Ungarn	48.1757895	20.3723695
+Chambon s/ Lignon 	45.061316	4.3021269
+Ljubljana, Jugoslawien	46.0569465	14.5057515
+Glattfelden	47.5598578	8.4993768
+Sully	51.407086	-3.219262
+Müllhausen / Elsass / Frankreich	47.750839	7.335888
+Mörs am Rhein	49.021117	8.2499603
+Warschau / Polen	52.2296756	21.0122287
+Altena (Deutschland)	51.3015239	7.6714387
+Wunstorf / Deutschland	52.4207534	9.4432827
+Magdeburg / Deutschland	52.1205333	11.6276237
+Vietnam	14.058324	108.277199
+Linz / Oesterreich	48.30694	14.28583
+Nowy - Targ	49.4774647	20.032096
+Pforzheim / Deutschland	48.8921862	8.6946286
+Neu-Weissensee bei Berlin/ Deutschland	52.5806767	13.4936048
+Jassy / Rumänien	47.1584549	27.6014418
+Perpignan, Frankreich	42.6886591	2.8948332
+Shaar Menashe, Israel	32.509997	35.0052
+Alpe Valeggio	45.4073311	10.723516
+Rynanow, Polen	49.57642	21.86815
+Châtelat	47.2722344	7.1941773
+Henishofen / Schaffhausen	47.6768604	8.8319084
+Gerra	-7.6937862	131.0696413
+Annecy	45.899247	6.129384
+Rotterdam	51.9244201	4.4777325
+Luzern AL Tivoli	47.0574792	8.3261937
+Lackenbach / Oesterreich	47.592281	16.4656785
+Subotica / Jugoslawien	46.1005467	19.6650593
+Tel Aviv / Palästina	31.7524226	35.2123998
+Zollikon	47.3412096	8.5772146
+Marokko	31.791702	-7.09262
+Pinkafeld / Oesterreich	47.3738655	16.1252697
+Weiach	47.5564342	8.4375977
+Le Noiremont	47.2256223	6.9572116
+Lignieres	46.750499	2.176182
+Bromberg, Polen	53.1234804	18.0084378
+Vrable, Tschechoslowakei	48.2435625	18.3086177
+Singen	47.7670971	8.8722387
+Le Locle	47.0577195	6.7487354
+Radolfzell / Deutschland	47.745237	8.9669098
+Schwendibach	46.7751149	7.6632737
+Saloniki / Griechenland	40.6400629	22.9444191
+Aix sur Vienne / Frankreich	45.795444	1.134253
+Oberwarth, Oesterreich	47.29482	16.19914
+Zopot / Polen	54.441581	18.5600956
+Dänemark	56.26392	9.501785
+Castagnola	46.0037781	8.9775656
+Dirmstein / Deutschland	49.5646683	8.2499272
+Merzig / Saar / Deutschland	49.1962115	6.8470129
+Lörrach / Basel	47.6169191	7.6709248
+Selestat / Frankreich	48.259386	7.454241
+Grodek, Polen	53.0955034	23.6595153
+London / Grossbritannien	53.7190281	-2.0727839
+Philadelphia / USA	39.9525839	-75.1652215
+St. Prex	46.4829113	6.4583435
+Pultusk / Polen	52.6974595	21.085207
+Altenburg / Thüringen	50.9931202	12.4366572
+Vaduz	47.1410303	9.5209277
+Bruzella	45.8816279	9.0365533
+Konstanz / Kreuzlingen	47.6779496	9.1732384
+Alamgell	46.1	7.95
+Samorin / Tschechoslowakei	48.0280123	17.3138117
+Rehetobel	47.4260992	9.4829689
+Ruzomberok / Tschechoslowakei	49.0752393	19.3066002
+Przemysl / Polen	49.7838623	22.7677908
+Oberdorf - Bopfingen	48.9017606	10.3144708
+Joachimsthal / Deutschland	52.9781724	13.7455599
+Genf / Gaillard	46.184685	6.208959
+Büttenhausen 	48.358077	9.480694
+Lugano / Monte Bré	46.0103461	8.9854431
+Trient	46.0747793	11.1217486
+Palermo / Italien	38.1156879	13.3612671
+Reinach	47.4906819	7.5894365
+Schaffhausen	47.6958897	8.6380488
+Miskolc / Ungarn	48.0963631	20.762386
+Osijek, Jugoslawien	45.5549624	18.6955144
+Santiago de Chile / Chile	-33.4488897	-70.6692655
+Kalisch / Polen	51.7672799	18.0853462
+Gelsenkirchen / Deutschland	51.517744	7.0857172
+Laibach (Ljublijana), Jugoslawien	46.0569465	14.5057515
+Den Haag / Niederlande	52.0704978	4.3006999
+La Plaine	45.7906046	-73.7646627
+Dörflingen	47.7097116	8.7219004
+Essen / Ruhr / Deutschland	51.3659097	7.6282792
+Cento Campi	46.1027701	8.7616196
+Storojinetz / Rumänien	48.1547935	25.7100722
+Venloo / Niederlande	51.3703748	6.1724031
+Charmil	42.2340305	-72.1464616
+Mannheim	49.4874592	8.4660395
+Grindelwald	46.624164	8.0413962
+Carlton-Rivoli	53.865752	-1.6857183
+Dairen / China	38.914003	121.614682
+Rom / Italien	41.9027835	12.4963655
+Lully	46.284639	6.414633
+Grande Fontaine / Porrentruy	47.4321195	7.2312078
+Bouzonville / Frankreich	49.290564	6.536161
+Landsberg a. d. Warthe / Deutschland	50.5215378	7.6940946
+Fontaine bei Grenoble	45.188529	5.724524
+Elberfeld / Deutschland	51.2496426	7.1486237
+Satigny	46.215764	6.0332425
+Paris	48.856614	2.3522219
+Berlin - Wilmersdorf / Deutschland	52.4926939	13.3232913
+Schidlowicz (Lodz) / Polen	51.7592485	19.4559833
+Eisenstadt / Oesterreich	47.84637	16.52796
+Bouveret	46.3852842	6.8530962
+Bratislava	48.1485965	17.1077477
+Weinheim / Deutschland	49.544964	8.6602703
+Mainz am Rhein / Deutschland	49.345124	7.8669227
+Urdorf	47.3867071	8.420693
+St. Gingolph	46.390824	6.8048266
+Bergen-Belsen / Deutschland	52.7814296	9.934552
+Gaillard / Frankreich	46.184685	6.208959
+Hagen / Deutschland	51.3670777	7.4632841
+Veyrier	46.1685728	6.1689583
+Chaux de Doubs	47.3206642	6.8100071
+La Colline	37.7933334	-84.8649846
+Saut du Doubs	47.0877643	6.7222262
+Davos-Platz	46.7947955	9.8162434
+Jaslo / Polen	49.7445663	21.4722875
+Leicester / Grossbritannien	52.6368778	-1.1397592
+Porto Allegre / Brasilien	-30.0346471	-51.2176584
+Tuszyn / Polen	51.6103612	19.534931
+Kolberg / Deutschland	52.2388207	13.8031212
+Banovce n/Bekrava / Tschechoslowakei	48.7188456	18.260344
+Eisenach / Deutschland	50.9795715	10.3146872
+Halberstadt, Deutschland	51.8948709	11.0496159
+Presov, Tschechoslowakei	49.0018324	21.2393119
+Dijon / Frankreich	47.322047	5.04148
+Spanien	40.463667	-3.74922
+Annemasse/Varembé	46.193253	6.234158
+Hong Kong	22.396428	114.109497
+Zollikerberg	47.345954	8.603357
+Ensisheim	47.86593	7.351814
+Tel Aviv / Israël	32.0852999	34.7817676
+Bayreuth / Deutschland	49.9456399	11.5713346
+Grandfontaine - Rocourt	47.4075171	6.9459102
+Bernerhof-Lugano	46.0036778	8.951052
+Heilbronn / Deutschland	49.1426929	9.210879
+Essert Belfort / Frankreich	47.632651	6.816756
+Furtwangen / Oesterreich	48.0501442	8.2014192
+Thonon les Bains, Frankreich	46.373565	6.477635
+Sarvar / Ungarn	47.2524196	16.9294867
+Amsterdam / Niederlande	52.3702157	4.8951679
+Châtel	46.267395	6.841152
+Loo	59.4342152	24.9466284
+Viano	44.5434135	10.6207562
+Wien	48.2081743	16.3738189
+Rülzheim, Deutschland	49.1528834	8.2920695
+Basel / Schweiz	47.5595986	7.5885761
+Zagreb	45.8150108	15.981919
+Prijedor / Jugoslawien	44.9778368	16.7060617
+Val de Lieux	36.7676426	3.0548885
+Radom / Polen	51.4027236	21.1471333
+Immendingen	47.9383007	8.7347452
+Gondo	46.19574	8.14055
+Villeneuve	45.7025599	7.2073384
+Presov / Tschechoslowakei	49.0018324	21.2393119
+Pruntrut / Porrentruy	47.416647	7.0765657
+Israel	31.046051	34.851612
+Babelsberg / Deutschland	52.3875629	13.1028718
+Bamberg / Deutschland	49.8988135	10.9027636
+Bergen-Belsen, Deutschland (KZ)	52.7814296	9.934552
+Haifa / Israel	32.7940463	34.989571
+Soral II 	46.1433457	6.0617222
+Fürth / Deutschland	49.4771169	10.988667
+Berlin / Deutshes Reich	52.5200066	13.404954
+La Renfil	46.3598407	5.9855202
+Le Brassus	46.5818772	6.2116101
+Dej / Rumänien	47.1415878	23.8787342
+Türkei	38.963745	35.243322
+Vacheres	43.9311099	5.637707
+Carona	46.0220394	9.7859709
+Varembé	46.2198801	6.1371299
+Teschen, Polen	49.7470441	18.6237961
+Tiszakeszi / Ungarn	47.7879554	20.9904672
+Thonon	46.373565	6.477635
+Porte Ceresie	45.9047458	8.9090724
+Oesterreich-Ungarn	47.7649251	15.3279877
+Mulhouse / Frankreich	47.750839	7.335888
+Stein	52.0038221	4.7817374
+Pressburg	48.1485965	17.1077477
+Kiskörös / Ungarn	46.6224967	19.2874568
+Ostrowiec / Polen	50.9295234	21.3851915
+Rotterdam / Niederlande	51.9244201	4.4777325
+Aleksandrow bei Lodz, Polen	51.7592485	19.4559833
+Bordeaux, Frankreich	44.837789	-0.57918
+St. Moritz 	46.4907973	9.8355079
+Stein / Bockenheim / Rheinhessen / Deutschland	49.8017204	7.9259483
+Gelnhausen / Deutschland	50.2045664	9.1863725
+Ptuj, Jugoslawien	46.4199535	15.8696884
+Singen - Schaffhausen	47.7670971	8.8722387
+Eysden / Belgien	50.9854566	5.7140769
+Sézegnin	46.1446225	6.0077763
+Carena	-33.6152298	-70.5659822
+Damvant	47.37246	6.89688
+Dörflingen / Schaffhausen	47.7097116	8.7219004
+La Lunière	46.785294	-0.7498669
+Istanbul / Türkei	41.0082376	28.9783589
+Hasselt / Deutschland	50.93069	5.33248
+Worms / Deutschland	49.6341372	8.3507182
+Stolp / Pommern / Deutschland	50.1702272	7.27264
+Sompuis / Frankreich	48.6848219	4.380829
+Brunelles / Frankreich	48.323915	0.893639
+Schenveningen, Niederlande	52.1024015	4.3021834
+Ladendorf / Oesterreich	48.5348081	16.4909925
+Mornex	46.163102	6.233936
+Chambon sur Lignon (Haute Savoie) / Frankreich	46.1756788	6.5389621
+St. Paul de Fenouillet / Frankreich	42.810758	2.502815
+Muraz	54.1597375	56.6885326
+Corniers	46.4469977	3.1985714
+Ombilly [?], Haute Savoie, Frankreich	46.194109	6.223001
+Beau-Lieu / Frankreich	45.85005	-0.626658
+Bogno	46.09	9.06234
+Neustadt bei Loburg / Deutschland	50.3272159	11.1190321
+Biecz / Polen	49.73554	21.26331
+Wilna / Polen	52.2778236	21.0801185
+Grenzach, Basel	47.5409355	7.667253
+Ensisheiim, Frankreich	47.86593	7.351814
+Montlucon (Frankreich)	46.3415466	2.6019912
+Feldkirch / A	47.24128	9.6019
+Pinsk / Polen	52.1124967	26.0634602
+Mugio	30.2558788	130.5992996
+Metz / Frankreich	49.1193089	6.1757156
+Bregenz	47.50075	9.74231
+Bossy	46.907622	-0.434516
+Liverpool / Grossbritannien	53.4083714	-2.9915726
+Vacallo	45.8451832	9.0317351
+Lemberg	49.839683	24.029717
+Vireloup / Genf	46.2624516	6.1222817
+Kitzingen am Main / Deutschland	49.9156201	9.8445709
+Dirinella	46.10408	8.75729
+Meyrin	46.2283204	6.070988
+Carena / Bellinzona	46.16818	9.08671
+Fulda / Deutschland	50.5558095	9.6808449
+Col Ferret	45.8984	7.0683
+Mateszalka / Ungarn	47.9515675	22.3161391
+Brunella	24.0415896	-104.6379724
+Potok Zloty / Polen	50.70827	19.435063
+Mailand / Italien	45.4654219	9.1859243
+Belchatow / Polen	51.3687535	19.3564248
+Saas Almagell	46.0945114	7.9575088
+Odessa	46.482526	30.7233095
+Jaroslaw / Polen	50.0161463	22.6777169
+Ihringen b/ Kaiserstuhl, Deutschland	48.11	7.6641667
+Bologna / Italien	44.494887	11.3426163
+Sulzburg / Deutschland	47.8418096	7.707405
+Zürich - Dübendorf	47.3971476	8.6180128
+Potsdam / Deutschland	52.3905689	13.0644729
+Triest / Italien	45.6495264	13.7768182
+Thusis	46.6960141	9.439494
+Sauerbrunn, Burgenland, Oesterreich	47.70411	16.2549
+Berlin, Deutschesa Reich	52.5200066	13.404954
+Thonon - Aigle	46.373565	6.477635
+Daruvar / Jugoslawien	45.5930156	17.2238397
+Altstätten	47.3774633	9.5469133
+Rüti	47.2566995	8.854421
+Croix de Rozon	46.14465	6.13602
+Teheran / Persien	35.6125919	51.3659227
+Ebertswil	47.22745	8.54911
+Ouchy	46.510155	6.626487
+Arbon	47.5140905	9.4268301
+Widnau	47.4055145	9.6375563
+Glogau / Deutschland	52.2274089	10.5237212
+Kajteny	52.0926931	20.8141243
+Stolp / Deutschland	52.4840213	12.9002489
+Memel / Deutschland	52.2397566	11.0064784
+Granges	47.1922876	7.3958907
+Vallery	48.2426699	3.04611
+Romanshorn	47.5657078	9.3771959
+Bad. Bahnhof / Basel	47.5673583	7.6070665
+Villa di Tirano / Campocologno	46.23235	10.13202
+Taluyers / Frankreich	45.640338	4.722216
+Neckarbischofsheim / Deutschland	49.2938214	8.9649065
+Hausen a.A.	48.3509231	10.7540871
+Waldegg	47.86888	16.05146
+Katowice / Polen	50.2648919	19.0237815
+St. Wendel / Deutschland	49.4677707	7.1690625
+Bubenberg	47.0949703	9.3224641
+Lausanne / Schweiz	46.5196535	6.6322734
+Jindrichuv Hradec / Tschechoslowakei	49.1444823	15.0061389
+Nizza / Frankreich	43.7101728	7.2619532
+Paradiso / Lugano	45.9907174	8.9452618
+Boryslaw, Polen	51.8476303	20.0973968
+Lagetta	46.7703706	7.0738279
+Thayngen	47.7476886	8.7106201
+Nimes / Frankreich	43.836699	4.360054
+Southampton	50.9097004	-1.4043509
+Servey	45.0676	4.134796
+Arlon / Belgien	49.6851364	5.8104804
+St. Julienne	32.2811899	-90.1930497
+Brent s. Vevey	46.4598431	6.896752
+Ambilly	46.194109	6.223001
+Valerie 	33.5689152	-116.1802834
+Breslau, Polen	51.1078852	17.0385376
+Bengazi, Lybien	32.0947711	20.1879106
+Greifenhagen / Deutschland	51.6264221	11.4186029
+Wanne-Eickel, Deutschland	51.5366784	7.1991275
+Marcinkowice / Polen	49.6694393	20.6502687
+St. Pölten / Oesterreich	48.20353	15.63817
+Saarbrücken / Deutschland	49.2401572	6.9969327
+Grenznach - Bettingen	47.5331271	7.6814376
+Bydgoszcz / Polen	53.1234804	18.0084378
+La Roche, Frankreich	46.670511	-1.426442
+Diana/Lugano	45.916892	8.925394
+Bassersdorf	47.4434608	8.6287132
+Usti Nad Labem / Tschechoslowakei	50.6611164	14.0531456
+Sokolow / Polen	52.1438294	20.8678041
+Müllheim, Deutschland	47.8091623	7.6180353
+Greifswald / Deutschland	54.0865463	13.3923414
+Certoux	46.1565	6.08236
+Cara	35.79154	-78.7811169
+Havanna / Kuba	23.1135925	-82.3665956
+Malagny 	46.138522	6.00986
+Huèmoz s. Ollon	46.292425	7.028818
+Evian les Bains	46.401488	6.590949
+Sinsheim, Deutschland	49.2488637	8.8884905
+Konstanz oder Kreuzlingen	47.6447397	9.1707858
+Antibes	43.580418	7.125102
+Bodenfels	-33.4811099	150.132677
+Ennetbaden	47.4795038	8.3143249
+Stropkow / Polen	49.2026115	21.6518049
+Rolles	45.8540413	6.6797598
+Mandelieu / Belgien	43.546232	6.938309
+Dubno, Polen	52.6320226	23.1038262
+Berehovo / Tschechoslowakei	48.1971868	22.6370954
+Tanne	51.699343	10.721942
+Rabka / Polen	49.6090128	19.9671769
+Baudol / Frankreich	43.136418	5.754186
+Chiasso / Ponte Faloppia	45.8173648	8.9574764
+Poligny / Frankreich	46.836429	5.7091
+Neustrelitz, Deutschland	53.3601147	13.0730197
+Wyborg oder Viborg / Finnland	60.7139529	28.7571571
+Wola Krzysztoporska	51.3441306	19.5817954
+St. Paul / Frankreich	43.696973	7.122138
+Marcali / Ungarn	46.585193	17.4099961
+Mont Sion	31.7709233	35.2284626
+Zweidlen-Weiach	47.5564342	8.4375977
+Perroy	46.4681574	6.361877
+Ostrava / Tschechoslowakei	49.8209226	18.2625243
+Gampelen	47.014664	7.0578947
+Asp	47.41565	7.79974
+Den Haag, Niederlande	52.0704978	4.3006999
+Thonon / Frankreich	46.373565	6.477635
+Baja / Ungarn	46.1817951	18.9543051
+Brévine	46.98129	6.60684
+Monte Moro	45.9992119	7.9749558
+Lörrach	47.6169191	7.6709248
+Bartenstein / Deutschland	50.6675	8.165278
+Bad Reichenhall	47.7303361	12.881588
+Wuppertal-Eberfeld / Deutschland	51.2496426	7.1486237
+Bielitz / Polen	49.8223768	19.0583845
+Kronbühl	47.4586726	9.3930717
+Bremen	53.0792962	8.8016937
+Lörrach Basel	47.6169191	7.6709248
+Erlosen	47.1946381	8.1827079
+Schanghai / China	31.230416	121.473701
+Venedig / Italien	45.4408474	12.3155151
+Syrien	34.802075	38.996815
+Rorschach	47.4788825	9.4916808
+Neumarkt, Deutschland	49.2772606	11.4671996
+Lomier, 	45.5045042	4.0404677
+Schaulen, Litauen	55.9349085	23.3136823
+Bukarest / Rumänien	44.4267674	26.1025384
+Glasgow / Schottland	55.864237	-4.251806
+Frankfurt am Main / Deutschland	50.1109221	8.6821267
+Bludenz / Buchs	47.1655403	9.4708594
+Brzesko / Polen	49.9647187	20.6034471
+Buch / Gottmadingen	47.7292883	8.78073
+Pakistan	30.375321	69.345116
+Crajova / Rumänien	44.3301785	23.7948808
+Schweden	60.128161	18.643501
+Biblis, Deutschland	49.6882507	8.4530559
+Tschenstochau	50.8118195	19.1203094
+Reims / Frankreich	49.258329	4.031696
+Bjelovar / Jugoslawien	45.8987972	16.8423093
+Erfurt, Deutschland	50.9847679	11.0298799
+Sachsenhausen / Deutschland	50.0985815	8.6803344
+Lens / Frankreich	50.42893	2.83183
+Bonn / Deutschland	50.73743	7.0982068
+Brno /Tschechoslowakei	49.1950602	16.6068371
+Martinsbruck / Deutschland ()	46.883333	10.466667
+Libau / Lettland	56.5046678	21.010806
+Medzilaborce / Tschechoslowakei	49.2748349	21.9065029
+Prag	50.0755381	14.4378005
+Steinamanger	47.2306851	16.6218441
+Sarlat (Dordogne) / Frankreich	44.890891	1.217292
+St. Etienne / Frankreich	45.439695	4.3871779
+Wettingen	47.4659503	8.3265988
+Oradea / Rumänien	47.0465005	21.9189438
+Krynica / Polen	49.4215158	20.9594208
+Neustift, Oesterreich	47.1090461	11.3052459
+Clarens s/Montreux	46.4395695	6.8941499
+Bratislava / PressburgTschechoslowakei	48.1485965	17.1077477
+St. Antönien	46.9695874	9.8142825
+Dedes-Miskolc / Ungarn	48.0963631	20.762386
+Bagdad / Irak	33.3128057	44.3614875
+Nyiregyhaza / Ungarn	47.9495324	21.7244053
+Landau / Saargebiet / Deutschland	49.2043928	7.9643966
+Riehen	47.5848274	7.6499111
+Solingen, Deutsces Reich	51.1702072	7.0831408
+Berlin / Deutschland	52.5200066	13.404954
+Gombin / Polen	52.3974171	19.7356531
+Haigerloch, Deutschland	48.3667098	8.7919702
+Bremen / Deutschland	53.0792962	8.8016937
+Nyirbator / Ungarn	47.8390013	22.130818
+St. Marie aux Mines / Frankreich	48.2807011	7.388511
+Luccino	45.4712517	10.6110324
+Como	45.8080597	9.0851765
+Bischwiller / Frankreich	48.768088	7.860032
+Dzialoschyn / Polen	51.1166563	18.8651227
+Oberlangenstadt / Deutschland	50.1880891	11.2571681
+Mährisch Ostrau / Tschechoslowakei	49.8209226	18.2625243
+Krefeld / Deutschland	51.3387609	6.5853417
+Feldkirch / Oesterreich	47.24128	9.6019
+Soultz, Elsass / Frankreich	48.937649	7.88229
+Flughafen Zürich	47.4582165	8.5554755
+Tibolddaroc / Ungarn	47.9206758	20.6355357
+Zermatt	46.0207133	7.749117
+Brig	46.3158992	7.9878208
+Genf-Verrier	46.2043907	6.1431577
+Trie / Frankreich	46.525614	-0.656657
+Neuilly / Frankreich	47.239244	3.500867
+Antwerpen / Belgien	51.2194475	4.4024643
+Duisburg / Deutschland	51.4344079	6.7623293
+Tunis / Tunesien	36.8064948	10.1815316
+Darmstadt / Deutschland	49.8728253	8.6511929
+Scheveningen / Niederlande	52.1024015	4.3021834
+Kerzers	46.97489	7.1954365
+Liège, Lüttich / Belgien	50.6325574	5.5796662
+Oberhausen / Deutschland	51.4963341	6.8637765
+Nantes / Frankreich	47.218371	-1.553621
+Luxemburg	49.815273	6.129583
+Klagenfurt / Oesterreich	46.6364598	14.3122246
+Maintenon / Frankreich	48.58715	1.57774
+Vesenaz	46.23936	6.19754
+Hoffenheim, Deutschland	49.2728471	8.8429961
+Kosice / Tschechoslowakei	48.7163857	21.2610746
+Nizza	43.7101728	7.2619532
+Zug	47.1661672	8.5154946
+Hohenlimburg / Deutschland	51.3581706	7.5643059
+Karlovac / Jugoslawien	45.4928973	15.5552683
+St. Julien	48.453224	-2.814378
+Bully	45.852879	4.583386
+Sonnenberg	53.0188689	13.0890382
+Genf / Schweiz	46.2043907	6.1431577
+Belgien	50.503887	4.469936
+Hodmezövasarhely (Ungarn)	46.4181262	20.3300315
+Au	-25.274398	133.775136
+San Fermo / Chiasso	45.8053844	9.0548762
+Dubrovnik / Jugoslavien	42.6506606	18.0944238
+Hohenems	47.3608313	9.6867191
+Epernay, Frankreich	49.043411	3.956242
+Carpentras / Frankreich	44.0555639	5.048722
+Düren / Deutschland	50.8029513	6.481105
+Jerusalem / Israel	31.768319	35.21371
+Aix-les-Bains	45.692341	5.908998
+Col de Con	47.3737968	7.061744
+Plauen / Deutschland	50.4976133	12.1368679
+Perly	54.2958934	21.6682939
+Rechnitz / Oesterreich	47.3047435	16.4406798
+Bossey Genf	46.151615	6.158267
+Lezajsk / Polen	50.2620534	22.4210807
+Nyon	46.3832683	6.2347852
+Mallée Saxée 	50.001461	3.0910479
+Kairo / Aegypten	30.0444196	31.2357116
+Bergamo	45.6982642	9.6772698
+Brüssel / Belgien	50.8503396	4.3517103
+Maastricht / Niederlande	50.8513682	5.6909725
+Haguenau, Frankreich	48.813288	7.79125
+Les Verrières	46.9051166	6.4844577
+Tarzal / Ungarn	47.1135344	19.5995154
+Komarno, Tschechoslowakei	47.7625785	18.1294132
+Gauting / Deutschland	48.0696838	11.3784087
+Gauting / Bayern / Deutschland	48.0696838	11.3784087
+Deutschland - Liechtenstein	51.2992752	12.3882522
+Miex Martigny	48.8799816	-0.2583509
+Dombovar / Ungarn	46.3828653	18.1452879
+Bombay / Indien	19.0759837	72.8776559
+Saint-Julien	10.2726809	-61.3414356
+Failli	48.2264001	-1.9700835
+Karlovac Kroatien / Jugoslawien	45.4928973	15.5552683
+Olmütz / Tschechoslowakei	49.593778	17.2508787
+St. Julien / Genf	46.1696593	6.1203675
+Annecy / Frankreich	45.899247	6.129384
+Kleinhüningen	47.5839834	7.5925562
+Tientsin / China	39.084158	117.200983
+Chrzanow / Polen	50.1345643	19.4001765
+Holon-Mifde	32.022102	34.790338
+Santiago	42.8782132	-8.5448445
+St. Sulpice	43.77835	1.685528
+Saverne, Frankreich	48.741963	7.361647
+Beirut, LIbanon	33.8937913	35.5017767
+Kaunas	54.8985207	23.9035965
+Montluçan / Frankreich	46.3415466	2.6019912
+Pottenstein / Oesterreich	47.9610734	16.0929324
+Ligorneto	45.8627987	8.9516366
+Tarnow / Polen	50.0121011	20.9858407
+Hermence	47.7300582	-80.505259
+Konstanz	47.6779496	9.1732384
+Saut-Pré	45.2369288	6.2630145
+Lindenhof Churwalden	46.7809052	9.5434284
+Pully / Haute-Rampe	46.5092681	6.6654949
+Luck / Polen	49.1230095	18.6882855
+Kowno, Kaunas / Litauen	54.8985207	23.9035965
+Hindenburg / Deutschland	52.7531895	11.9313654
+Carva	41.4129461	-7.5569968
+Bergen-Belsen / Deutschland (KZ)	52.7814296	9.934552
+Wels bei Linz / Oesterreich	48.16542	14.03664
+Lugniez Lugnez	47.4850099	7.0947835
+Frankreich	46.227638	2.213749
+Feldmeilen	47.277833	8.616667
+Camp de Savigny / Frankreich	47.0382058	4.8405439
+Lens	50.42893	2.83183
+Siehen / Eggiwil	46.84027	7.79592
+Uffheim / Frankreich	47.6500709	7.442884
+Caracas, Venezuela	10.4805937	-66.9036063
+Szeged, Ungarn	46.2530102	20.1414253
+St. Louis / Frankreich	47.5859949	7.563934
+Büren a. A.	51.55092	8.5597678
+St. Jean	45.2733153	-66.0633081
+Wangen, Deutschland	47.6874999	9.8318005
+Gürzenich / Deutschland	50.7956027	6.4481162
+Hamberg / Belgien	50.7275789	5.1150774
+Annemasse	46.193253	6.234158
+Besançon	47.237829	6.0240539
+Lodz / Polen	51.7592485	19.4559833
+Fossard - Genf	46.1911875	6.1692432
+Wädenwil	47.2296871	8.6718189
+Leipzig / Deutschland	51.3396955	12.3730747
+Bardonex	46.1503619	6.1052649
+Moskau / Sowjetunion	55.755826	37.6173
+Kapuvar, Ungarn	47.5912437	17.0301952
+Ponte Chiasso	46.3375622	8.9777768
+Ozorkow / Polen	51.9632917	19.291386
+Mon Idée	49.8917033	3.2648227
+Wroclaw / Polen	51.1078852	17.0385376
+Sorol 	8.1333333	140.4108333
+Les Bois	49.0073948	0.3773485
+Perly Genf	46.1553483	6.0945809
+Cavaillon / Frankreich	43.8366045	5.0407814
+Charny	47.883446	3.0964839
+Lille / Frankreich	50.62925	3.057256
+Chaney	32.391371	-98.8230108
+Borbeck - Essen, Deutschland	51.4751573	6.948362
+Domodossola	46.113222	8.2919754
+Badischer Bahnhof	47.6821622	8.613823
+Herisau / Schweiz	47.3857009	9.2798472
+Gandria / Lugano	46.0055821	9.0028604
+Penmirabeau / Frankreich	48.4081656	-4.4868338
+Kehl am Rhein, Deutschland	49.345124	7.8669227
+La-Chaux-de-Fonds	47.1034892	6.8327838
+Nagyvarad / Ungarn	47.0465005	21.9189438
+Chardonne	46.4769475	6.8342278
+Airmans	34.9238429	-117.9077253
+Como - Muggio	45.7837588	9.0919324
+Cernauti / Czernowitz / Rumänien	48.2493905	26.0046816
+Bad Homburg / Deutschland	50.2268308	8.6181618
+Monte Bré	46.0103461	8.9854431
+Bois Bougy	46.3767984	6.2245497
+Wattwil	47.3031293	9.0880639
+Béziers / Frankreich	43.344233	3.215795
+Kezmarok / Tschechoslowakei	49.1332664	20.4306967
+Caslano	45.9734019	8.8803597
+Cuorgne / Italien	45.391341	7.650233
+Sta. Maria im Münstertal	46.6020161	10.4249076
+Col de Vernaz	46.323273	6.798471
+Col de Coux	46.262471	6.453863
+Bex les Bains	46.19697	7.02724
+Pforzheim oder Stuttgart / Deutschland	48.7758459	9.1829321
+Esch, Luxembourg	49.611621	6.1319346
+Sagno	45.8566349	9.0390304
+Kazimierz / Polen	51.7682256	19.2041417
+Esch / Luxemburg	49.611621	6.1319346
+Neapel / Italien	40.8517746	14.2681244
+Singen bei Konstanz / Deutschland	47.7670971	8.8722387
+Oppenheim a. R. / Deutschland	49.8519223	8.3602742
+Rheine, Deutschland	52.2815691	7.4434092
+Sommerau / Buchs	47.1655403	9.4708594
+China	35.86166	104.195397
+Varna /Bulgarien	43.2140504	27.9147333
+Mukachevo / Tschechoslowakei	48.4493055	22.7117106
+Pontarlier	46.9041039	6.354242
+Jerusalem, Israël	31.768319	35.21371
+Lac Noir	46.6659091	7.2807275
+Galanta / Tschechoslowakei	48.1895413	17.7266636
+Nanterre / Frankreich	48.892423	2.215331
+Bourgfelden / Basel	47.5756516	7.5522924
+Weichach - Zweidlen	47.562501	8.470274
+Przytyk, Polen	51.4617501	20.9131216
+Saar	26.1914841	50.4876899
+Banja Luka / Jugoslawien	44.7721811	17.191
+Offenburg / Deutschland	48.473451	7.9498017
+Iran	32.427908	53.688046
+Saint-Germain-des-Fossés, Allier, Frankreich	46.206776	3.43472
+Nijmegen / Niederlande	51.8125626	5.8372264
+Lengau	48.0050198	13.2180655
+Nachod, Tschechoslowakei	50.4145722	16.1656347
+Albanien	41.153332	20.168331
+Clarens / Mirabeau	46.44152	6.90051
+Mako, Ungarn	46.2219071	20.4809265
+Griechenland	39.074208	21.824312
+Chust / Tschechoslowakei	41.005341	71.236153
+Olkusz, Polen	50.2813157	19.5656869
+Freiburg	47.9990077	7.8421043
+Norrköping / Schweden	58.587745	16.192421
+Chambon sur Lignon / Frankreich	45.061316	4.3021269
+Mattersburg / Burgenland / Oesterreich	47.73625	16.39663
+Le Thillot / Frankreich	47.880605	6.76347
+Molinay - Seraing / Belgien	50.6072593	5.5138057
+Pysznica / Polen	50.5743337	22.1244294
+Diessenhofen	47.6895309	8.7494398
+Utrecht / Niederlande	52.0907374	5.1214201
+Ludwigsburg / Deutschland	48.8940624	9.195464
+Eglisau	47.5762223	8.5219809
+Par	-1.9981271	-54.9306152
+Chelles / Frankreich	48.877535	2.59016
+Montevideo / Uruguay	-34.9011127	-56.1645314
+Köln / Deutschland	50.937531	6.9602786
+Thonet	49.4026929	17.6616823
+Nyrbator, Ungarn	47.8390013	22.130818
+Thonex	46.1928374	6.202767
+Eichstetten / Deutschland	48.0942687	7.7413605
+La Ronde	47.3064923	-0.0400246
+Gammat / Frankreich	44.830456	5.259086
+Montmorency, Frankreich	48.989778	2.321878
+Lemberg / Polen	49.839683	24.029717
+Courière	46.056786	1.510941
+Lichtenstein	48.4338176	9.2559325
+Sanski-Most / Jugoslawien	44.7639581	16.664612
+Burg im Leimental	47.4576124	7.438715
+Klausenburg / Rumänien	46.7712101	23.6236353
+Genua	44.4056499	8.946256
+Saarland	49.3964234	7.0229607
+Pas d’Echelle / Frankreich	48.0350241	-0.6314177
+Skalat / Polen	50.8978072	21.8526726
+Geisig / Deutschland	50.2550043	7.7911461
+Chêne - Bourg	46.19735	6.19731
+Frankreich / Gurs	43.286642	-0.753275
+Jussy	46.2347656	6.2652187
+Berlin - Lichtenberg / Deutschland	52.5335904	13.4998575
+Altach / Diepoldsau	47.3938463	9.6431753
+Frossard	46.3964845	6.5338154
+Salgótarján / Hongrie	48.0935237	19.7999813
+Villeneuve le Roi / Frankreich	48.732026	2.407557
+Rapperswil	47.2243186	8.8186672
+Fiume / Italien	44.270862	9.5073894
+Le Buet	46.024804	6.8523
+Monte Bisbino	45.871944	9.061944
+Abony / Ungarn	47.18854	20.0095688
+Grosshöchstetten	46.9067025	7.638022
+Bassins	46.4662366	6.2315413
+Theresienstadt	50.5110021	14.1505577
+Maribor, Jugoslawien	46.5546503	15.6458812
+Le Huteaux Genf	46.213	6.0869799
+Marseille / Frankreich	43.296482	5.36978
+Wesel, Deutschland	51.6643079	6.6295679
+Kisvarda / Ungarn	48.2181151	22.0823558
+Weinsberg / Deutschland	49.1484633	9.2872657
+Réclères	47.350373	6.91932
+Slate Moravce	48.3851703	18.3912685
+Mülhausen, Elsass, Frankreich	47.750839	7.335888
+Prostejov / Tschechoslowakei	49.4724489	17.1067513
+Saltrio /Arzo	45.8730577	8.9133443
+Krakau / Polen	50.0646501	19.9449799
+Wloclawek , Polen	52.6483303	19.0677357
+Jedlinsk / Polen	51.5144022	21.1235461
+Neustadt, Deutschland	49.3501864	8.1486886
+Cluj / Rumänien	46.7712101	23.6236353
+Bologna	44.494887	11.3426163
+Liberec / Tschechoslowakei	50.76628	15.0543387
+Bischofszell	47.4927034	9.2436496
+Wissloch, Deutschland	49.2953714	8.6962064
+Rolle	46.4612971	6.3397549
+Fischenthal	47.3311758	8.9202247
+Monthey , Morgins	46.2382	6.8519
+Indien	20.593684	78.96288
+Radolfzell / Heinishofen 	47.745237	8.9669098
+Soultz , Haut-Rhin, Elsass / Frankreich	47.886349	7.229983
+Montceau-les-Mines / Frankreich	46.67413	4.362979
+Baisingen bei Horb / Deutschland	48.4947155	8.7593212
+Grenoble / Frankreich	45.188529	5.724524
+Kassel, Deutschland	51.3127114	9.4797461
+Ales / Frankreich	44.127204	4.083352
+Berehova / Tschechoslowakei	48.1971868	22.6370954
+Le Châtelard	44.6722016	5.0151124
+USA	37.09024	-95.712891
+Gex	46.3341909	6.058036
+Chouilly	49.025888	4.015299
+Kirchhain, Deutschland	50.8206953	8.9212901
+Flora	38.6689364	-88.4856042
+Pontarlier / Jura	46.7531645	5.9336223
+Luxemburg / Differdingen	49.52273	5.88896
+Erzingen	48.2507606	8.8147238
+Lyon / Frankreich	45.764043	4.835659
+Baranowice / Polen	51.5647287	17.074626
+Bendzin / Polen	50.3255999	19.1254121
+Berehszasz, Ungarn	48.1971868	22.6370954
+Etoy	46.4860297	6.4192307
+Thionville	49.357571	6.168426
+Kirchen / Baden / Deutschland	47.6140449	7.9605223
+Bne Brak / Israel	32.084932	34.835226
+Brody, Oesterreich	48.6416254	14.0881336
+Tatabanya / Ungarn	47.569246	18.404818
+Lugano-Cassarate	46.006424	8.970191
+Grossvardein / Ungarn	47.0465005	21.9189438
+Rasin , Polen	50.3332593	15.6779229
+Trier / Deutschland	49.749992	6.6371433
+Mantigny	49.459219	1.0010699
+Kassel / Deutschland	51.3127114	9.4797461
+Meran / Italien	46.6712938	11.1525179
+Sango	36.50536	-87.222099
+Satu-Mare / Rumänien	47.8016702	22.8575926
+Jerusalem / Palästina	31.768319	35.21371
+Mönchengladbach / Deutschland	51.1804572	6.4428041
+St. Léonard (Haute Vienne), / Frankreich	46.4473121	1.0589731
+Sarreguemines / Frankreich	49.106031	7.070862
+Muzzano - Lugano	45.9977794	8.9197977
+Esch sur Alzette / Luxemburg	49.5008805	5.9860925
+Pincow, Polen	50.52034	20.5264571
+Rokiskis, Litauen	55.9555039	25.5859249
+Carneggio	45.4434254	12.3279661
+La Cure	45.9222243	1.2000851
+Wuppertal / Deutschland	51.2562128	7.1507636
+Gabbio	45.9817121	8.3768256
+Miex	46.3382466	6.8661436
+Glattbrugg	47.4336788	8.5659181
+Biel	47.1367785	7.2467909
+Grenzach	47.5509	7.659506
+Joudreville / Frankreich	49.2851721	5.778102
+Grenznach-Bettingen	47.5331271	7.6814376
+Hermishofen	47.6768604	8.8319084
+Ponte Paloppio	45.8173648	8.9574764
+Riehen Basel	47.5848274	7.6499111
+Dortmund / Deutschland	51.5135872	7.4652981
+Wawolnica / Polen	51.294469	22.147076
+Thonon-les-Bains	46.373565	6.477635
+Viggiu / Mendrisio	45.8700791	8.9084591
+Norwegen	60.472024	8.468946
+Traben-Trabach / Deutschland	49.951366	7.1168469
+Caprino	45.7439503	9.484559
+Trevano	48.0478862	-3.1049811
+Debrecen / Ungarn	47.5316049	21.6273123
+Champ Fleuri Glion	46.4343698	6.9251435
+Drôme / Frankreich	44.7311896	5.2266675
+Teplice-Sonov / Tschechoslowakei	50.6444579	13.835284
+Kozienice / Polen	51.5855328	21.5511768
+Jedrzejow / Polen	50.639337	20.3038771
+Castagnola - Lugano	46.0037781	8.9775656
+St. George les Bains / Frankreich	44.859794	4.808954
+Wengen	46.6	7.916667
+Miechow / Polen	50.3568703	20.0274126
+Mailand	45.4654219	9.1859243
+Le Havre	49.49437	0.107929
+Reggio Emilia / Italien	44.6989932	10.6296859
+Temesvar / Ungarn	47.207116	16.603369
+Madris 	40.4167754	-3.7037902
+Herzberg	53.5299438	11.9259457
+Suwalki / Polen	54.1115218	22.9307881
+Ferrara, Italien	44.8381237	11.619787
+Würzburg / Deutschland	49.7913044	9.9533548
+Grodno / Polen	52.4754012	19.2168705
+Asti, Italien	44.9007512	8.2064257
+Pierre-le-Grand	44.0662304	4.8479304
+Binningen	47.5378697	7.5709878
+La Croix de Rozon	46.14465	6.13602
+Nürnberg / Deutschland	49.45203	11.07675
+Stropkov / Tschechoslowakei	49.2026115	21.6518049
+Uznach	47.2243722	8.9841417
+St. Maurice	46.1316872	6.958372
+Elsass / Frankreich	48.3181795	7.4416241
+Palästina	31.952162	35.233154
+Arzo	45.87608	8.94096
+Tanger, Marokko	35.7594651	-5.8339543
+Oesterreich	47.516231	14.550072
+Baden bei Wien / Oesterreich	48.00214	16.23091
+Ramsen	49.5370006	8.012978
+Cornières	48.126678	1.6643489
+Graumont	48.2367878	0.2510382
+Klausenburg / Siebenbürgen , Rumänien	46.7712101	23.6236353
+Bialystock / Polen	53.1324886	23.1688403
+Chile	-35.675147	-71.542969
+Meilen	47.2694361	8.64875
+Lugano / Caprino	45.9835174	8.9795968
+Cannes, Frankreich	43.552847	7.017369
+Rheinfelden, Deutschland	47.5896468	7.768779
+Bochnia / Polen	49.9684577	20.4303285
+Schweiz	46.818188	8.227512
+Rumänien	45.943161	24.96676
+Anvers / Belgien	51.2194475	4.4024643
+Trasadingen	47.6687	8.42996
+Diana	32.7098612	-94.7521542
+Ciechanow / Polen	52.8814838	20.6197948
+Glogan Deutschland	52.2274089	10.5237212
+Klimontov / Polen	50.6567655	21.4510357
+Châtelard	45.0897627	4.4774059
+Moillesullaz	46.191788	6.207875
+Berettyoujfalu / Ungarn	47.2196438	21.5362811
+Chailly s/Clarens	46.4537503	6.8820696
+Kecskemet / Ungarn	46.8963711	19.6896861
+Kirchen / Deutschland	50.8084195	7.8820328
+Martinsbruck	46.883333	10.466667
+Hevez, Ungarn	46.7902864	17.1866936
+Kroszniewice / Polen	52.25581	19.17067
+Gent / Belgien	51.0543422	3.7174243
+Ponte Faloppia	45.8458007	9.015045
+Pas de Morgins	46.2498	6.84576
+Evian / Frankreich	45.7103746	7.2005291
+Périgueux, Frankreich	45.184029	0.7211149
+Subotica / Szabadka / Jugoslawien	46.1005467	19.6650593
+Sydney / Australien	-33.8688197	151.2092955
+St. Clair	42.8208653	-82.486024
+Nyons / Frankreich	44.3618809	5.140145
+La Louvière 	50.4747995	4.1837388
+Gustorf / Deutschland	51.0711965	6.5651279
+Orbe	46.7293301	6.5323588
+Münchringen-Jegenstorf	47.0476016	7.5122433
+Budapest / Ungarn	47.497912	19.040235
+Pressburg / Tschechoslowakei	48.1485965	17.1077477
+Brest - Litowsk, Polen	52.0976214	23.7340503
+Eschweiler / Deutschland	50.8107322	6.263075
+Como / Italien	45.8080597	9.0851765
+Hohenems / Oesterreich	47.3608313	9.6867191
+Archamps / Collonges	46.140363	6.131968
+Divonne d’Bon	50.73743	7.0982068
+Medzelaborze / Tschechoslowakei	49.2748349	21.9065029
+Col de Bostan	38.2290371	48.2561491
+Auberson / St. Croire	46.8179	6.45812
+Ostheim / Oesterreich	50.4608058	10.2305055
+Rachov / Tschechoslowakei	48.0545898	24.2128943
+Lisak / Jugoslawien	49.925744	13.098197
+Leningrad / Sowjetunion	60.0793208	31.8926644
+Montbrillant Clarens	-28.5143573	28.4104684
+Gurs / Frankreich (KZ)	43.286642	-0.753275
+Kezmorok, Tschechoslowakei	49.1332664	20.4306967
+Yanovo / Russland / Sowjetunion	41.4384103	23.4861887
+Courtelary JB	24.8624238	92.5638431
+Les Verri	41.328317	20.0955891
+Tomala / Ungarn	14.227077	-88.7848638
+Ljubliana / Jugoslawien	46.0569465	14.5057515
+Plak / Polen	32.5337564	75.7359231
+Deutsch Gabel bei Reichenberg, Tschechoslowakei	50.76628	15.0543387
+Teschen / Tschechoslowakei	49.7470441	18.6237961
+Kassa / Tschechoslowakei	48.7163857	21.2610746
+Serock / Polen bis 1924	52.5103662	21.0691044
+Czortkow / Polen	49.0108843	25.8026512
+Trautenau / Tschechoslowakei	52.493021	13.328941
+Turida / Rumänien	-8.6064213	116.1448057
+Pollnow / Deutschland	45.7244259	-89.6886559
+Liptovska Tepla / Tschecholslowakei	49.1008557	19.4087257
+Mautbeliar / Frankreich	47.510356	6.798466
+Donsenac / Frankreich	45.227718	1.522792
+Mauthausen / Deutschland (KZ)	48.2412532	14.5146582
+Posito / Poszto, Ungarn	19.4507004	-99.2682015
+Munkacs, Tschechoslowakei	48.4493055	22.7117106
+Territet / les Terrasses	46.4268939	6.9231307
+Rymarov / Tschechoslowakei	49.9318266	17.2717728
+Hranice, Tschechoslowakei	49.5496635	17.734922
+Tanmainges-Sud	46.106794	6.591052
+Brüx, Tschechoslowakei	50.5015549	13.6329122
+Feschen / Niederlande	47.523594	6.908473
+Kroyanke / Polen	38.3098462	-93.2030522
+Zablotow, Polen	48.4723378	25.2792457
+Passa Casano	44.0837373	10.0373646
+Johannahof / Deutschland	51.7719727	5.3341076
+Theresienstadt / Deutschland (KZ)	50.5110021	14.1505577
+Papin / Tscboslowakei	46.8082987	-88.6575678
+Col de Balles	56.4024249	10.0009924
+Végy-Jussy	24.7489603	84.9436793
+Binsen / Liechtenstein	47.393306	9.5718789
+Nadworna / Polen	48.6211999	24.5759679
+Velky-Topolcany / Tschechoslowakei	-11.7167338	43.3680788
+Tuzla / Jugoslawien	44.5374611	18.6734688
+KZ Theresienstadt	50.5110021	14.1505577
+Tatra - Lomnitz, Tschechoslowakei	37.2601729	-121.8626655
+Stip / Jugoslawien	41.746429	22.199654
+Camp Champel, Bellegarde	34.9336233	-84.1410608
+Tormala, Ungarn	63.5203794	27.1387772
+Ungvar / Tschechoslowakei	48.6208	22.287883
+Griechenland (vor 2.Weltkrieg)	50.9226854	10.0952318
+Chmelnik / Tschechoslowakei	49.4664185	17.8156255
+Stankovce / Tschechoslowakei	48.7648184	21.6584222
+Domodossola / Brig	46.113222	8.2919754
+Susak / Jugoslawien	44.5076764	14.3038411
+Temesvar / Timisoara / Ungarn	45.7488716	21.2086793
+Kischinew, Sowjetunion	47.0104529	28.8638103
+Usti / Tschechoslowakei	49.3082363	18.0031113
+Dulan / Rumänien	36.302496	98.095844
+Russland / Sowjetunion	61.52401	105.318756
+Strada (Engadin)	46.650234	10.0287409
+Rachov, Tschechoslowakei	48.0545898	24.2128943
+Mittau / Lettland	43.8593742	4.3473528
+Horincova / Tschechoslowakei	49.7616444	18.2065266
+Saldin / Polen	50.040252	-119.437159
+Osjek / Jugoslawien	45.5549624	18.6955144
+Bajka, Ungarn	48.1510003	18.5186461
+Ilok, Jugoslawien	45.2220448	19.3752331
+Sosnowitz / Polen	40.46598	-74.307372
+Auschwizz/ Deutschland (KZ)	50.0343982	19.2097782
+DP Bergen-Belsen	52.6734907	4.7078459
+Brigne oder Iselle	46.2051468	8.1914448
+Buchenwald / Deutschland (KZ)	51.0215077	11.2492387
+Marienbad / Tschoslowakei	49.9645986	12.7011977
+Nieswiez / Polen (	53.2226038	26.6766138
+Szamoszentmiklos / Ungarn	46.7881579	23.7215831
+Dombroviza / Polen	50.1130625	14.2177414
+Spiski Nova Ves / Tschechoslowakei	48.9598536	20.4750567
+Munkacevo / Tschechoslowakei	48.4493055	22.7117106
+Michelovec oder Michalowze, Tschechoslowakei	50.1593023	19.9802157
+Granges bei Sion	46.2331221	7.360626
+Teplitz -Schönau / Tschechoslowakei	50.6444579	13.835284
+Koprivaica / Jugoslawien	46.1639381	16.8334752
+Hranice Na Morave, Tschechoslowakei	49.5496635	17.734922
+Eichwald , Tschechoslowakei	49.8556002	11.0351452
+Sid, Jugoslawien	18.3320005	-73.7007088
+Marienbad / Tschecholowakei	49.9645986	12.7011977
+FH Monte Bré, Ruvigliana	48.211341	1.166094
+Löwen / Schlesien, Breslau / Deutschland	50.8798438	4.7005176
+Tirano über Bernina	45.269575	5.8664059
+Pistyany / Tschechoslowakei	48.5917973	17.827155
+Dolni Bukovsko / Tschechoslowakei	49.1708631	14.5812699
+Domodossola-Brig	46.113222	8.2919754
+Kostajuica, Jugoslawien	45.2192449	16.5376061
+Chodov bei Karlsbad, Tschechoslowakei	50.2318521	12.8719616
+Budejovice / Tschechoslowakei	48.9775553	14.5150747
+Ilsava / Tschechoslowakei	41.378773	2.1763024
+Glion (Champ-Fleuri)	46.4343698	6.9251435
+Bilke / Tschechoslowakei	48.3327727	23.1413859
+Glyn Hughes Hospital	43.0805704	-8.7796377
+Col de Néval	41.012864	28.829596
+FH Monte Bré	48.211341	1.166094
+Gunskirchen / Deutschland (KZ)	48.1335856	13.9529613
+Zülz / Schlesien / Deutschland	50.3862574	17.6604283
+Camp de Gurs / Frankreich	39.5905814	-0.5869735
+La Chapelle / F / Col de Savallena	45.9158582	4.3503733
+Vranov / Tschechoslowakei	49.3092572	16.613778
+Clarens FH Beau Site	38.0852005	23.9822421
+Holic / Tschechoslowakei	48.8132665	17.161572
+Wald - Schönengrund	47.380037	10.2190541
+Kiswarda, Ungarn	48.2181151	22.0823558
+Karpaten - Ukraine, Tschechoslowakei	47.2390429	25.5908974
+Hrusov / Tschechoslowakei	48.1545599	19.0918153
+Col de Couches	46.868644	4.574028
+Col de Jonc	46.3195534	3.6278471
+Michalvolvce / Tschechoslowakei	48.7556769	21.9183859
+Bartenstein , Ostpreussen, Deutschland	50.6675	8.165278
+Recica, Jugoslawien	45.5075929	15.6628113
+Bustina / Tschechoslowakei	48.0496684	23.4827736
+Genfersee Craux 	44.8004068	4.4990431
+Zollamt Durstgraben 	47.67833	8.6058728
+oder Chmielnik / Polen	49.6625479	17.8308497
+Col de Lageron	19.1222634	-104.0072348
+Neusalz a.d. Oder / Deutschland	52.3251331	10.5106906
+Böhmisch Budweis / Tschechoslowakei	50.6785201	14.5396991
+Col du Bouquoni 	47.231403	-2.180105
+Vizo de Mixlor, Rumänien	41.5270308	-8.7551575
+Sanatorium d’Adastra / Frankreich	31.8987704	-89.7775753
+Tiensin oder Schanghai / China	39.084158	117.200983
+Shelter House in Schanghai / China	37.7611013	-92.3315867
+Ungarisch Brod , Tschechoslowakei	47.5551802	13.9266808
+Bolkenhain (Schlesien) / Deutschland	52.2276307	10.5178523
+Dantoux par St. Cyprien / Frankreich	45.5862356	-73.8065648
