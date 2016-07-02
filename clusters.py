@@ -31,7 +31,7 @@ def is_close(clusterA, clusterB, cluster_dist):
     bLat = sum(l["position"][0] for l in clusterB) / len(clusterB)
     bLng = sum(l["position"][1] for l in clusterB) / len(clusterB)
     return (aLat - bLat) * (aLat - bLat) + (aLng - bLng) * (aLng - bLng) < cluster_dist * cluster_dist
-
+    
 print "Locations:", len(locations)
 
 clusters_info = {}
@@ -68,13 +68,21 @@ for zoom_level in range(5, 13):
                 color = "#aaaaaa"
         lat = sum(l["position"][0] for l in c) / len(c)
         lng = sum(l["position"][1] for l in c) / len(c)
+        info = "<ul>"
+        for l in c:
+            typ = l["type"]
+            if typ == "NULL":
+                typ = "unbekannt"
+            info += "<li style=\"background:" + cluster_type_by_name[l["type"].decode('utf-8')].encode('utf-8') + "\">" + l["name"] + ", " + typ + "</li>"
+        info += "</ul>"        
         zoom_level_info.append({
             "name": name,
             "type": typ,
             "color": color,
             "lat": lat,
             "lng": lng,
-            "members": list(set(l["name"] + l["type"] for l in c))
+            "members": list(set(l["name"] + l["type"] for l in c)),
+            "info": info
         })
         
 with open("clusters.json", "w") as f:

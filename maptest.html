@@ -138,6 +138,12 @@
                                         map: map,
                                         icon: 'markers/' + c["color"].substring(1) + '-' + sz + '.png'
                                     });
+                                    c.infoWindow = new google.maps.InfoWindow({
+                                        content: c.info
+                                    });
+                                    c.marker.addListener('click', function() {
+                                      c.infoWindow.open(map, c.marker);
+                                    });
                                 } else if (c.markerSize != sz) {
                                     c.marker.setIcon('markers/' + c["color"].substring(1) + '-' + sz + '.png');
                                 }
