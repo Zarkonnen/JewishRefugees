@@ -21,8 +21,8 @@ if mode == "code":
         for l in required_locations:
             print "Geocoding", l
             variations = [
-                #l.strip(),
-                #l.strip().split("/")[0].split(",")[0].split("-")[0].strip(),
+                l.strip(),
+                l.strip().split("/")[0].split(",")[0].split("-")[0].strip(),
                 l.strip().split("/")[0].split(",")[0].split("-")[0].strip().split(" ")[-1],
                 l.strip().split("/")[0].split(",")[0].split("-")[0].strip().split(" ")[0],
             ]

@@ -94,7 +94,10 @@
     "names": [
         "unbekannt",
         "NULL",
-        ""
+        "",
+        "Birth",
+        "Border Entry",
+        "Border Exit"
     ]
 },
 {
