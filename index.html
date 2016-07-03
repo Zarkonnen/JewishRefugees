@@ -189,17 +189,25 @@
                     }
                 });
                 
-                var event = null;
+                var events = [];
                 for (var i = 0; i < importantEvents.length; i++) {
                     var dist = Math.abs(currentTime - importantEvents[i].date.getTime());
-                    if (dist < 1000 * 3600 * 24 * 18) {
-                        event = importantEvents[i];
+                    if (dist < 1000 * 3600 * 24 * 16) {
+                        events.push(importantEvents[i]);
                     }
                 }
-                if (event == null) {
+                if (events.length == 0) {
                     jQuery('#event').html('');
                 } else {
-                    jQuery('#event').html('<b>' + event.name + '</b> ' + event.rawDate + '<br><small><a href="' + event.wiki + '" target="_blank">Wikipedia</a></small><br><img src="' + event.image + '" height=150>');
+                    var info = "";
+                    if (events.length == 1) {
+                        info = '<b>' + events[0].name + '</b> ' + events[0].rawDate + '<br><small><a href="' + events[0].wiki + '" target="_blank">Wikipedia</a></small><br><img src="' + events[0].image + '" height=150>';
+                    } else {
+                        events.forEach(function(e) {
+                            info += '<b>' + e.name + '</b> ' + e.rawDate + '<br><small><a href="' + e.wiki + '" target="_blank">Wikipedia</a></small><br>';
+                        });
+                    }
+                    jQuery('#event').html(info);
                 }
             }
             
