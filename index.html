@@ -274,17 +274,32 @@
                                     }
                                     totalColorCount += c.activeMembers[m];;
                                 }
-                                var color = "#aaaaaa";
+                                var color = null;
                                 for (var col in colorCounts) {
                                     if (colorCounts[col] > totalColorCount * 0.8) {
-                                        color = col;
+                                        color = col.substring(1);
                                     }
+                                }
+                                if (color == null) {
+                                    for (var col1 in colorCounts) {
+                                        for (var col2 in colorCounts) {
+                                            if (col1 == col2 || colorCounts[col2] > colorCounts[col1] || colorCounts[col2] < colorCounts[col1] * 0.2) {
+                                                continue;
+                                            }
+                                            if (colorCounts[col1] + colorCounts[col2] > totalColorCount * 0.8) {
+                                                color = col1.substring(1) + "-" + col2.substring(1);
+                                            }
+                                        }
+                                    }
+                                }
+                                if (color == null) {
+                                    color = "aaaaaa";
                                 }
                                 if (!c.marker) {
                                     c.marker = new google.maps.Marker({
                                         position: c,
                                         map: map,
-                                        icon: 'markers/' + color.substring(1) + '-' + sz + '.png'
+                                        icon: 'markers/' + color + '-' + sz + '.png'
                                     });
                                     c.infoWindow = new google.maps.InfoWindow({
                                         content: ""
