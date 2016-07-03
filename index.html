@@ -103,6 +103,7 @@
             
             var people = [];
             var importantEvents = [];
+            var arrived = false;
             
             function getZoomLevel() {
                 return Math.min(12, Math.max(2, Math.ceil(map.getZoom())));
@@ -133,6 +134,7 @@
                 var movements = {};
                 
                 people.forEach(function(p) {
+                    p.travelling = false;
                     if (currentTime < p.locations[0].time.getTime()) {
                         if (p.marker != null) {
                             p.marker.setMap(null);
@@ -150,6 +152,7 @@
                             }
                         }
                         if (!jump && p.locationIndex != -1 && p.locationIndex != newLocationIndex && !inSameCluster(p.locations[p.locationIndex], loc, place_index, zoomLevel)) {
+                            p.travelling = true;
                             var srcCluster = getClusterForZoomLevel(p.locations[p.locationIndex], place_index, zoomLevel);
                             var dstCluster = getClusterForZoomLevel(loc, place_index, zoomLevel);
                             var mvKey = srcCluster.id + "-" + dstCluster.id;
@@ -276,56 +279,69 @@
                 var currentTime = getCurrentTime();
                 for (var zl in clusters) {
                     clusters[zl].forEach(function(c) {
-                        c.size = 0;
-                        c.activeMembers = {};
+                        c.sizeAtDeparture = 0;
+                        c.activeMembersAtDeparture = {};
+                        c.sizeAtArrival = 0;
+                        c.activeMembersAtArrival = {};
                     });
                 }
                 people.forEach(function(p) {
                     if (p.locationKey && (p.locationIndex != p.locations.length - 1 || p.locations[p.locationIndex].time.getTime() + 3 * 1000 * 3600 * 24 * 30 > currentTime)) {
                         place_index[p.locationKey].forEach(function(c) {
-                            c.size++;
-                            if (!c.activeMembers[p.locationKey]) {
-                                c.activeMembers[p.locationKey] = 1;
+                            if (!p.travelling) {
+                                c.sizeAtDeparture++;
+                                if (!c.activeMembersAtDeparture[p.locationKey]) {
+                                    c.activeMembersAtDeparture[p.locationKey] = 1;
+                                } else {
+                                    c.activeMembersAtDeparture[p.locationKey]++;
+                                }
+                            }
+                            c.sizeAtArrival++;
+                            if (!c.activeMembersAtArrival[p.locationKey]) {
+                                c.activeMembersAtArrival[p.locationKey] = 1;
                             } else {
-                                c.activeMembers[p.locationKey]++;
+                                c.activeMembersAtArrival[p.locationKey]++;
                             }
                         });
                     }
                 });
             }
             
-            function updateClusters(clusters) {
+            function updateClusters(clusters, arrival) {
+                if (!arrival) { arrived = false; }
                 var zoomLevel = getZoomLevel();
                 for (var zl in clusters) {
                     if (zl == zoomLevel) {
                         clusters[zl].forEach(function(c) {
-                            if (c.size == 0) {
+                            var cSize = arrival ? c.sizeAtArrival : c.sizeAtDeparture;
+                            if (cSize == 0) {
                                 if (c.marker) {
                                     c.marker.setMap(null);
                                     c.marker = null;
                                 }
                             } else {
-                                var sz = c.size > 99 ? "99+" : "" + c.size;
+                                var sz = cSize > 99 ? "99+" : "" + cSize;
                                 for (var i = 200; i <= 1000; i += 100) {
-                                    if (c.size >= i) {
+                                    if (cSize >= i) {
                                         sz = i + "+";
                                     }
                                 }
                                 for (var i = 2000; i <= 10000; i += 1000) {
-                                    if (c.size >= i) {
+                                    if (cSize >= i) {
                                         sz = i + "+";
                                     }
                                 }
+                                var cActiveMembers = arrival ? c.activeMembersAtArrival : c.activeMembersAtDeparture;
                                 var colorCounts = {};
                                 var totalColorCount = 0;
-                                for (var m in c.activeMembers) {
+                                for (var m in cActiveMembers) {
                                     var colorForMember = c.colorByMember[m];
                                     if (!colorCounts[colorForMember]) {
-                                        colorCounts[colorForMember] = c.activeMembers[m];
+                                        colorCounts[colorForMember] = cActiveMembers[m];
                                     } else {
-                                        colorCounts[colorForMember] += c.activeMembers[m];
+                                        colorCounts[colorForMember] += cActiveMembers[m];
                                     }
-                                    totalColorCount += c.activeMembers[m];
+                                    totalColorCount += cActiveMembers[m];
                                 }
                                 var color = null;
                                 for (var col in colorCounts) {
@@ -365,14 +381,14 @@
                                 }
                                 var info = "<b>" + c.size + " people</b><ul style=\"list-style: none; padding: 0;\">";
                                 var memberKeys = [];
-                                for (var m in c.activeMembers) {
+                                for (var m in cActiveMembers) {
                                     memberKeys.push(m);
                                 }
                                 memberKeys.sort(function(a, b) {
-                                    return c.activeMembers[b] - c.activeMembers[a];
+                                    return cActiveMembers[b] - cActiveMembers[a];
                                 });
                                 memberKeys.forEach(function(m) {
-                                    info += c.info[m][0] + c.activeMembers[m] + c.info[m][1];
+                                    info += c.info[m][0] + cActiveMembers[m] + c.info[m][1];
                                 });
                                 info += "</ul>";
                                 c.infoWindow.setContent(info);
@@ -459,6 +475,8 @@
                             id: l.id,
                             locations: [],
                             locationIndex: -1,
+                            locationKey: null,
+                            travelling: false,
                             marker: null,
                             animating: false,
                             animProgress: 0,
@@ -486,7 +504,7 @@
                 map.setOptions({styles: labelsOff});
                 
                 map.addListener("zoom_changed", function() {
-                    updateClusters(clusters);
+                    updateClusters(clusters, true);
                 });
 
                 people.forEach(function(p) {
@@ -499,25 +517,25 @@
                     jQuery('#daterange').val(parseInt(jQuery('#daterange').val()) - 3600 * 24 * 30 * 1000);
                     updateMap(place_index, famousPeople, false);
                     recalculateClusterSizes(clusters, people, place_index);
-                    updateClusters(clusters);
+                    updateClusters(clusters, false);
                 });
                 
                 jQuery('#next').click(function() {
                     jQuery('#daterange').val(parseInt(jQuery('#daterange').val()) + 3600 * 24 * 30 * 1000);
                     updateMap(place_index, famousPeople, false);
                     recalculateClusterSizes(clusters, people, place_index);
-                    updateClusters(clusters);
+                    updateClusters(clusters, false);
                 });
                 
                 jQuery('#daterange').attr('min', new Date(1898, 1, 1).getTime()).attr('max', new Date(1975, 12, 31).getTime()).val(new Date(1939, 1, 1).getTime()).change(function() {
                     updateMap(place_index, famousPeople, true);
                     recalculateClusterSizes(clusters, people, place_index);
-                    updateClusters(clusters);
+                    updateClusters(clusters, true);
                 });
                 
                 updateMap(place_index, famousPeople, true);
                 recalculateClusterSizes(clusters, people, place_index);
-                updateClusters(clusters);
+                updateClusters(clusters, true);
                 
                 setInterval(function() {
                     for (var i = 0; i < people.length; i++) {
@@ -549,6 +567,9 @@
                         if (!person.animating) {
                             person.marker.setMap(null);
                             person.marker = null;
+                            if (!arrived) {
+                                updateClusters(clusters, true);
+                            }
                         }
                     }
                     for (var i = 0; i < famousPeople.length; i++) {
