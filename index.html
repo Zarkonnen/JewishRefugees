@@ -58,6 +58,10 @@
         <td><img src="markers/000000-17.png"></td>
         <td>Concentration Camp</td>
     </tr>
+    <tr>
+        <td><img src="markers/ffff55-17.png"></td>
+        <td>Border Entry/Exit</td>
+    </tr>
 </table>
         </div>
         <div id="map"></div>
@@ -104,6 +108,10 @@
                 return Math.min(12, Math.max(2, Math.ceil(map.getZoom())));
             }
             
+            function getCurrentTime() {
+                return parseInt(jQuery('#daterange').val());
+            }
+            
             function getClusterForZoomLevel(loc, place_index, zoomLevel) {
                 var clusters = place_index[loc.name + loc.type];
                 for (var i = 0; i < clusters.length; i++) {
@@ -119,7 +127,7 @@
             
             function updateMap(place_index, famousPeople, jump) {
                 var zoomLevel = getZoomLevel();
-                var currentTime = parseInt(jQuery('#daterange').val());
+                var currentTime = getCurrentTime();
                 jQuery('#currentdate').html(" - " + ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][new Date(currentTime).getMonth()] + " " + new Date(currentTime).getFullYear());
                 people.forEach(function(p) {
                     if (currentTime < p.locations[0].time.getTime()) {
@@ -212,6 +220,7 @@
             }
             
             function recalculateClusterSizes(clusters, people, place_index) {
+                var currentTime = getCurrentTime();
                 for (var zl in clusters) {
                     clusters[zl].forEach(function(c) {
                         c.size = 0;
@@ -219,7 +228,7 @@
                     });
                 }
                 people.forEach(function(p) {
-                    if (p.locationKey) {
+                    if (p.locationKey && (p.locationIndex != p.locations.length - 1 || p.locations[p.locationIndex].time.getTime() + 3 * 1000 * 3600 * 24 * 30 > currentTime)) {
                         place_index[p.locationKey].forEach(function(c) {
                             c.size++;
                             if (!c.activeMembers[p.locationKey]) {

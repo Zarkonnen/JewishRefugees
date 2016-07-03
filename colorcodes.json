@@ -95,15 +95,20 @@
         "unbekannt",
         "NULL",
         "",
-        "Birth",
-        "Border Entry",
-        "Border Exit"
+        "Birth"
     ]
 },
 {
     "color": "#000000",
     "names": [
         "KZ"
+    ]
+},
+{
+    "color": "#ffff55",
+    "names": [
+        "Border Entry",
+        "Border Exit"
     ]
 }
 ]
