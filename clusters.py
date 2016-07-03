@@ -69,7 +69,7 @@ for zoom_level in range(2, 13):
             if typ == "NULL":
                 typ = "unbekannt"
             fontc = "white" if cluster_type_by_name[l["type"].decode('utf-8')].encode('utf-8') == "#000000" else "black"
-            info[l["name"] + l["type"]] = ["<li style=\"background:" + cluster_type_by_name[l["type"].decode('utf-8')].encode('utf-8') + "; color: " + fontc + "; padding: 2px;\">", " " + l["name"] + ", " + typ + "</li>"]
+            info[l["name"] + l["type"]] = ["<li style=\"background:" + cluster_type_by_name[l["type"].decode('utf-8')].encode('utf-8') + "; color: " + fontc + "; padding-left: 5px; padding-right: 5px; padding-top: 2px; padding-bottom: 2px;\">", " " + l["name"] + ", " + typ + "</li>"]
         zoom_level_info.append({
             "name": name,
             "type": typ,

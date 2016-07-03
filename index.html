@@ -254,13 +254,21 @@
                                         sz = i + "+";
                                     }
                                 }
-                                var color = null;
+                                var colorCounts = {};
+                                var totalColorCount = 0;
                                 for (var m in c.activeMembers) {
                                     var colorForMember = c.colorByMember[m];
-                                    if (color == null || color == colorForMember) {
-                                        color = colorForMember;
+                                    if (!colorCounts[colorForMember]) {
+                                        colorCounts[colorForMember] = c.activeMembers[m];
                                     } else {
-                                        color = "#aaaaaa";
+                                        colorCounts[colorForMember] += c.activeMembers[m];
+                                    }
+                                    totalColorCount += c.activeMembers[m];;
+                                }
+                                var color = "#aaaaaa";
+                                for (var col in colorCounts) {
+                                    if (colorCounts[col] > totalColorCount * 0.8) {
+                                        color = col;
                                     }
                                 }
                                 if (!c.marker) {
