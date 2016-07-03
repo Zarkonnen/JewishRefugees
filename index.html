@@ -101,7 +101,7 @@
             var importantEvents = [];
             
             function getZoomLevel() {
-                return Math.min(12, Math.max(5, Math.ceil(map.getZoom())));
+                return Math.min(12, Math.max(2, Math.ceil(map.getZoom())));
             }
             
             function getClusterForZoomLevel(loc, place_index, zoomLevel) {
@@ -236,6 +236,16 @@
                                 }
                             } else {
                                 var sz = c.size > 99 ? "99+" : "" + c.size;
+                                for (var i = 200; i <= 1000; i += 100) {
+                                    if (c.size >= i) {
+                                        sz = i + "+";
+                                    }
+                                }
+                                for (var i = 2000; i <= 10000; i += 1000) {
+                                    if (c.size >= i) {
+                                        sz = i + "+";
+                                    }
+                                }
                                 var color = null;
                                 for (var m in c.activeMembers) {
                                     var colorForMember = c.colorByMember[m];

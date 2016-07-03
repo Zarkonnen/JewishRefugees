@@ -35,7 +35,7 @@ def is_close(clusterA, clusterB, cluster_dist):
 print "Locations:", len(locations)
 
 clusters_info = {}
-for zoom_level in range(3, 13):
+for zoom_level in range(2, 13):
     cluster_dist = pow(2, 11 - zoom_level) * 0.02
     clusters = [[x] for x in locations]
     progress = True
