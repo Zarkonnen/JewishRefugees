@@ -272,7 +272,7 @@
                                     } else {
                                         colorCounts[colorForMember] += c.activeMembers[m];
                                     }
-                                    totalColorCount += c.activeMembers[m];;
+                                    totalColorCount += c.activeMembers[m];
                                 }
                                 var color = null;
                                 for (var col in colorCounts) {
@@ -308,7 +308,7 @@
                                       c.infoWindow.open(map, c.marker);
                                     });
                                 } else if (c.markerSize != sz || c.markerColor != color) {
-                                    c.marker.setIcon('markers/' + color.substring(1) + '-' + sz + '.png');
+                                    c.marker.setIcon('markers/' + color + '-' + sz + '.png');
                                 }
                                 var info = "<b>" + c.size + " people</b><ul style=\"list-style: none; padding: 0;\">";
                                 var memberKeys = [];
