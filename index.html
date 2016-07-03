@@ -129,6 +129,9 @@
                 var zoomLevel = getZoomLevel();
                 var currentTime = getCurrentTime();
                 jQuery('#currentdate').html(" - " + ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][new Date(currentTime).getMonth()] + " " + new Date(currentTime).getFullYear());
+                
+                var movements = {};
+                
                 people.forEach(function(p) {
                     if (currentTime < p.locations[0].time.getTime()) {
                         if (p.marker != null) {
@@ -147,17 +150,67 @@
                             }
                         }
                         if (!jump && p.locationIndex != -1 && p.locationIndex != newLocationIndex && !inSameCluster(p.locations[p.locationIndex], loc, place_index, zoomLevel)) {
-                            p.animating = true;
-                            p.animProgress = 0;
-                            p.srcLat = getClusterForZoomLevel(p.locations[p.locationIndex], place_index, zoomLevel).lat;
-                            p.srcLng = getClusterForZoomLevel(p.locations[p.locationIndex], place_index, zoomLevel).lng;
-                            p.dstLat = getClusterForZoomLevel(loc, place_index, zoomLevel).lat;
-                            p.dstLng = getClusterForZoomLevel(loc, place_index, zoomLevel).lng;
+                            var srcCluster = getClusterForZoomLevel(p.locations[p.locationIndex], place_index, zoomLevel);
+                            var dstCluster = getClusterForZoomLevel(loc, place_index, zoomLevel);
+                            var mvKey = srcCluster.id + "-" + dstCluster.id;
+                            var color = dstCluster.colorByMember[loc.name + loc.type];
+                            if (!movements[mvKey]) {
+                                movements[mvKey] = {
+                                    src: srcCluster,
+                                    dst: dstCluster,
+                                    firstPerson: p,
+                                    size: 1,
+                                    dstColors: {}
+                                };
+                                movements[mvKey].dstColors[color] = 1;
+                            } else {
+                                movements[mvKey].size++;
+                                if (!movements[mvKey].dstColors[color]) {
+                                    movements[mvKey].dstColors[color] = 1;
+                                } else {
+                                    movements[mvKey].dstColors[color]++;
+                                }
+                            }
                         }
                         p.locationIndex = newLocationIndex;
                         p.locationKey = loc.name + loc.type;
                     }
                 });
+                
+                for (var k in movements) {
+                    var mv = movements[k];
+                    
+                    var color = null;
+                    for (var col in mv.dstColors) {
+                        if (mv.dstColors[col] > mv.size * 0.8) {
+                            color = col.substring(1);
+                        }
+                    }
+                    if (color == null) {
+                        for (var col1 in mv.dstColors) {
+                            for (var col2 in mv.dstColors) {
+                                if (col1 == col2 || mv.dstColors[col2] > mv.dstColors[col1] || mv.dstColors[col2] < mv.dstColors[col1] * 0.2) {
+                                    continue;
+                                }
+                                if (mv.dstColors[col1] + mv.dstColors[col2] > mv.size * 0.8) {
+                                    color = col1.substring(1) + "-" + col2.substring(1);
+                                }
+                            }
+                        }
+                    }
+                    if (color == null) {
+                        color = "aaaaaa";
+                    }
+                    var p = mv.firstPerson;
+                    p.animating = true;
+                    p.animProgress = 0;
+                    p.animColor = color;
+                    p.animSize = mv.size;
+                    p.srcLat = mv.src.lat;
+                    p.srcLng = mv.src.lng;
+                    p.dstLat = mv.dst.lat;
+                    p.dstLng = mv.dst.lng;
+                }
                 
                 famousPeople.forEach(function(p) {
                     if (currentTime < p.locations[0].time.getTime()) {
@@ -283,7 +336,7 @@
                                 if (color == null) {
                                     for (var col1 in colorCounts) {
                                         for (var col2 in colorCounts) {
-                                            if (col1 == col2 || colorCounts[col2] > colorCounts[col1] || colorCounts[col2] < colorCounts[col1] * 0.2) {
+                                            if (col1 == col2 || colorCounts[col2] < colorCounts[col1] || colorCounts[col2] < colorCounts[col1] * 0.2) {
                                                 continue;
                                             }
                                             if (colorCounts[col1] + colorCounts[col2] > totalColorCount * 0.8) {
@@ -351,6 +404,7 @@
                 });
             
                 var place_index = {};
+                var clusterIdCounter = 1;
                 for (var zl in clusters) {
                     clusters[zl].forEach(function(c) {
                         c.members.forEach(function(m) {
@@ -361,6 +415,7 @@
                             }
                         });
                         c.zoomLevel = zl;
+                        c.id = clusterIdCounter++;
                     });
                 }
                 var geocodes = {};
@@ -407,6 +462,8 @@
                             marker: null,
                             animating: false,
                             animProgress: 0,
+                            animSize: 1,
+                            animColor: "aaaaaa",
                             srcLat: 0, srcLng: 0,
                             dstLat: 0, dstLng: 0
                         };
@@ -466,13 +523,24 @@
                     for (var i = 0; i < people.length; i++) {
                         var person = people[i];
                         if (!person.animating) { continue; }
-                        person.animProgress = Math.min(1, person.animProgress + 0.025);
+                        person.animProgress = Math.min(1, person.animProgress + 0.01);
                         var position = { lat: person.srcLat * (1 - person.animProgress) + person.dstLat * person.animProgress, lng: person.srcLng * (1 - person.animProgress) + person.dstLng * person.animProgress };
                         if (person.marker == null) {
+                            var sz = person.animSize > 99 ? "99+" : "" + person.animSize;
+                            for (var i = 200; i <= 1000; i += 100) {
+                                if (person.animSize >= i) {
+                                    sz = i + "+";
+                                }
+                            }
+                            for (var i = 2000; i <= 10000; i += 1000) {
+                                if (person.animSize >= i) {
+                                    sz = i + "+";
+                                }
+                            }
                             person.marker = new google.maps.Marker({
                                 position: position,
                                 map: map,
-                                icon: 'markers/aaaaaa-1.png'
+                                icon: 'markers/' + person.animColor + '-' + sz + '.png'
                             });
                         } else {
                             person.marker.setPosition(position);
