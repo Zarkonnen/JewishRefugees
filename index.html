@@ -662,7 +662,7 @@
                                     "url": "clusters.json",
                                     "success": function(clusters) {
                                         jQuery.ajax({
-                                            "url": "individuals.json",
+                                            "url": "individuals.json?" + Math.random(),
                                             "success": function(individuals) {
                                                 jQuery.ajax({
                                                     "url": "important_events.tsv",
