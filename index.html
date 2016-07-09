@@ -259,8 +259,8 @@
                             p.srcLng = p.locations[p.locationIndex].position.lng;
                             p.dstLat = loc.position.lat;
                             p.dstLng = loc.position.lng;
-                            p.infoWindow.setContent('<h1>' + p.name + '</h1>' + loc.rawTime + '<br>' + loc.description);
                         }
+                        p.infoWindow.setContent('<h1>' + p.name + '</h1>' + loc.rawTime + '<br>' + loc.description);
                         p.locationIndex = newLocationIndex;
                     }
                 });
