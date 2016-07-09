@@ -6,85 +6,99 @@
                 "name": "Müllheim",
                 "time": "1892-08-18",
                 "description": "Birth",
-                "icon": "ffffff-male"
+                "icon": "ffffff-male",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Kreuzlingen",
                 "time": "1909",
                 "description": "Travels to Switzerland often on business.",
-                "icon": "ffffff-male"
+                "icon": "ffffff-male",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Konstanz",
                 "time": "1924",
                 "description": "Marriage to Selma Mayer. They are refused permanent residence in Switzerland. Commutes to Kreuzlingen for work.",
-                "icon": "ffffff-male"
+                "icon": "ffffff-male",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Konstanz",
                 "time": "1928",
                 "description": "Banned from entering Switzerland, but allowed to commute to work in Kreuzlingen.",
-                "icon": "ffffff-male"
+                "icon": "ffffff-male",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Kreuzlingen",
                 "time": "1938-11-10",
                 "description": "Kristallnacht. The family flees to Switzerland.",
-                "icon": "ffffff-male"
+                "icon": "ffffff-male",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Konstanz",
                 "time": "1938-12-05",
                 "description": "Sent back to Germany.",
-                "icon": "ffffff-male"
+                "icon": "ffffff-male",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Dijon",
                 "time": "1939-05-01",
                 "description": "Moves to live with relatives in France.",
-                "icon": "ffffff-male"
+                "icon": "ffffff-male",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Kreuzlingen",
                 "time": "1939-08-01",
                 "description": "War begins while Markus is in Switzerland to liquidate his company. He cannot return to France as he is German.",
-                "icon": "ffffff-male"
+                "icon": "ffffff-male",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Kreuzlingen",
                 "time": "1940-05-10",
                 "description": "Germany invades France. Markus registers as a volunteer with the Swiss military authorities.",
-                "icon": "ffffff-male"
+                "icon": "ffffff-male",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Kreuzlingen",
                 "time": "1940-07-01",
                 "description": "The Thurgau police commander proposes that Markus be expelled to Germany.",
-                "icon": "ffffff-male"
+                "icon": "ffffff-male",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Davesco",
                 "time": "1940-11-01",
                 "description": "Sent to a work camp for emigrants. Markus writes to many embassies seeking visas for himself and his family, without success.",
-                "icon": "c47853-male"
+                "icon": "c47853-male",
+                "familyIcon": "c47853-H"
             },
             {
                 "name": "Kreuzlingen",
                 "time": "1944-03-10",
                 "description": "Returns to Kreuzlingen with his wife and daughter. The family is penniless and stays with relatives. They are not allowed to work, travel or study and are told they should leave Switzerland as soon as possible.",
-                "icon": "ffffff-male"
+                "icon": "ffffff-male",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Basel Stadt",
                 "time": "1946-05-10",
                 "description": "The family is threatened with expulsion to Germany, but is allowed to move to Basel Stadt, partly thanks to the VSJF.",
-                "icon": "ffffff-male"
+                "icon": "ffffff-male",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Basel Stadt",
                 "time": "1950",
                 "description": "Finally granted permanent residence in Switzerland.",
-                "icon": "ffffff-male"
+                "icon": "ffffff-male",
+                "familyIcon": "ffffff-H"
             }
         ]
     },
@@ -95,85 +109,99 @@
                 "name": "Müllheim",
                 "time": "1902-02-10",
                 "description": "Birth",
-                "icon": "ffffff-female"
+                "icon": "ffffff-female",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Kreuzlingen",
                 "time": "1912",
                 "description": "Grows up in Switzerland with her uncle (exact dates unknown).",
-                "icon": "ffffff-female"
+                "icon": "ffffff-female",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Konstanz",
                 "time": "1924",
                 "description": "Marriage to Markus Heim. They are refused permanent residence in Switzerland and move to Konstanz.",
-                "icon": "ffffff-female"
+                "icon": "ffffff-female",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Kreuzlingen",
                 "time": "1938-11-10",
                 "description": "Kristallnacht. The family flees to Switzerland.",
-                "icon": "ffffff-female"
+                "icon": "ffffff-female",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Konstanz",
                 "time": "1938-12-05",
                 "description": "Sent back to Germany.",
-                "icon": "ffffff-female"
+                "icon": "ffffff-female",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Dijon",
                 "time": "1939-05-01",
                 "description": "The family flees to France, where they live with relatives.",
-                "icon": "ffffff-female"
+                "icon": "ffffff-female",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Toulouse",
                 "time": "1940-06-01",
                 "description": "Flees with her daughter Margot to unoccupied Toulouse.",
-                "icon": "ffffff-female"
+                "icon": "ffffff-female",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Aspet",
                 "time": "1940-11-01",
                 "description": "Forced to move to Aspet, from where they are not allowed to leave.",
-                "icon": "aaaaaa-female"
+                "icon": "aaaaaa-female",
+                "familyIcon": "aaaaaa-H"
             },
             {
                 "name": "Aulus-les-Bains",
                 "time": "1942-05-01",
                 "description": "Forced to move to Aulus-les-Bains, from where they are not allowed to leave.",
-                "icon": "aaaaaa-female"
+                "icon": "aaaaaa-female",
+                "familyIcon": "aaaaaa-H"
             },
             {
                 "name": "Aulus-les-Bains",
                 "time": "1942-08-01",
                 "description": "Fakes a nervous breakdown to escape deportation to Poland, and is moved to a sanatorium. Other refugees, including relatives, are deported.",
-                "icon": "aaffaa-female"
+                "icon": "aaffaa-female",
+                "familyIcon": "aaffaa-aaaaaa-H"
             },
             {
                 "name": "Geneva",
                 "time": "1942-10-04",
                 "description": "With other refugees, hides from the French authorities, travels across France and crosses the Swiss border in an overnight march (exact location unknown). Kept in a Swiss reception camp for months.",
-                "icon": "aaaaaa-female"
+                "icon": "aaaaaa-female",
+                "familyIcon": "aaaaaa-H"
             },
             {
                 "name": "Kreuzlingen",
                 "time": "1943-02-01",
                 "description": "Taken in by relatives in Kreuzlingen. She and Margot were admitted to Switzerland in part because Markus had raised 5000 CHF as collateral.",
-                "icon": "ffffff-female"
+                "icon": "ffffff-female",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Basel Stadt",
                 "time": "1946-05-10",
                 "description": "The family is threatened with expulsion to Germany, but is allowed to move to Basel Stadt, partly thanks to the VSJF.",
-                "icon": "ffffff-female"
+                "icon": "ffffff-female",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Basel Stadt",
                 "time": "1950",
                 "description": "Finally granted permanent residence in Switzerland.",
-                "icon": "ffffff-female"
+                "icon": "ffffff-female",
+                "familyIcon": "ffffff-H"
             }
         ]
     },
@@ -184,79 +212,92 @@
                 "name": "Konstanz",
                 "time": "1930-03-15",
                 "description": "Birth",
-                "icon": "ffffff-daughter"
+                "icon": "ffffff-daughter",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Kreuzlingen",
                 "time": "1938-11-10",
                 "description": "Kristallnacht. The family flees to Switzerland.",
-                "icon": "ffffff-daughter"
+                "icon": "ffffff-daughter",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Konstanz",
                 "time": "1938-12-05",
                 "description": "Sent back to Germany.",
-                "icon": "ffffff-daughter"
+                "icon": "ffffff-daughter",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Luzern",
                 "time": "1939-02-01",
                 "description": "Taken to Luzern to stay with a family, by the Swiss Relief Organisation for Refugee Children.",
-                "icon": "aaaaff-daughter"
+                "icon": "aaaaff-daughter",
+                "familyIcon": "aaaaff-H"
             },
             {
                 "name": "Dijon",
                 "time": "1939-05-01",
                 "description": "The family flees to France, where they live with relatives.",
-                "icon": "ffffff-daughter"
+                "icon": "ffffff-daughter",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Toulouse",
                 "time": "1940-06-01",
                 "description": "Flees with her mother Selma to unoccupied Toulouse.",
-                "icon": "ffffff-daughter"
+                "icon": "ffffff-daughter",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Aspet",
                 "time": "1940-11-01",
                 "description": "Forced to move to Aspet, from where they are not allowed to leave.",
-                "icon": "aaaaaa-daughter"
+                "icon": "aaaaaa-daughter",
+                "familyIcon": "aaaaaa-H"
             },
             {
                 "name": "Aulus-les-Bains",
                 "time": "1942-05-01",
                 "description": "Forced to move to Aulus-les-Bains, from where they are not allowed to leave.",
-                "icon": "aaaaaa-daughter"
+                "icon": "aaaaaa-daughter",
+                "familyIcon": "aaaaaa-H"
             },
             {
                 "name": "Aulus-les-Bains",
                 "time": "1942-08-01",
                 "description": "Hides in a cornfield to escape deportation to Poland. She is then sheltered in a monastery for weeks. Other refugees, including relatives, are deported.",
-                "icon": "aaaaaa-daughter"
+                "icon": "aaaaaa-daughter",
+                "familyIcon": "aaffaa-aaaaaa-H"
             },
             {
                 "name": "Geneva",
                 "time": "1942-10-04",
                 "description": "With other refugees, hides from the French authorities, travels across France and crosses the Swiss border in an overnight march (exact location unknown). Kept in a Swiss reception camp for months.",
-                "icon": "aaaaaa-daughter"
+                "icon": "aaaaaa-daughter",
+                "familyIcon": "aaaaaa-H"
             },
             {
                 "name": "Kreuzlingen",
                 "time": "1942-11-01",
                 "description": "Taken in by relatives in Kreuzlingen. She and Selma were admitted to Switzerland in part because Markus had raised 5000 CHF as collateral.",
-                "icon": "ffffff-daughter"
+                "icon": "ffffff-daughter",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Basel Stadt",
                 "time": "1946-05-10",
                 "description": "The family is threatened with expulsion to Germany, but is allowed to move to Basel Stadt, partly thanks to the VSJF.",
-                "icon": "ffffff-daughter"
+                "icon": "ffffff-daughter",
+                "familyIcon": "ffffff-H"
             },
             {
                 "name": "Basel Stadt",
                 "time": "1950",
                 "description": "Finally granted permanent residence in Switzerland.",
-                "icon": "ffffff-daughter"
+                "icon": "ffffff-daughter",
+                "familyIcon": "ffffff-H"
             }
         ]
     }

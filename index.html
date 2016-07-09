@@ -226,6 +226,7 @@
                     p.dstLng = mv.dst.lng;
                 }
                 
+                var byFamilyIconAndLocation = {};
                 individuals.forEach(function(p) {
                     if (currentTime < p.locations[0].time.getTime()) {
                         if (p.marker != null) {
@@ -246,13 +247,20 @@
                             p.marker = new google.maps.Marker({
                                 position: loc.position,
                                 map: map,
-                                icon: 'markers/' + loc.icon + '.png'
+                                icon: 'markers/' + loc.icon + '.png',
+                                optimized: false,
+                                zIndex: 99999999
                             });
                             p.marker.addListener('click', function() {
                               p.infoWindow.open(map, p.marker);
                             });
                         } else {
                             p.marker.setIcon('markers/' + loc.icon + '.png');
+                        }
+                        if (!byFamilyIconAndLocation[loc.familyIcon + loc.name]) {
+                            byFamilyIconAndLocation[loc.familyIcon + loc.name] = [p];
+                        } else {
+                            byFamilyIconAndLocation[loc.familyIcon + loc.name].push(p);
                         }
                         if (p.locationIndex != -1 && p.locationIndex != newLocationIndex) {
                             p.animating = true;
@@ -262,10 +270,36 @@
                             p.dstLat = loc.position.lat;
                             p.dstLng = loc.position.lng;
                         }
-                        p.infoWindow.setContent('<h1>' + p.name + '</h1>' + loc.rawTime + '<br>' + loc.description);
+                        p.infoWindow.setContent('<h1>' + p.name + '</h1>' + loc.rawTime + '<br><br>' + loc.description);
                         p.locationIndex = newLocationIndex;
                     }
                 });
+                
+                for (var familyIconAndLocation in byFamilyIconAndLocation) {
+                    var family = byFamilyIconAndLocation[familyIconAndLocation];
+                    console.log(familyIconAndLocation + " " + family.length);
+                    if (family.length > 1) {
+                        var first = family[0];
+                        first.marker.setIcon('markers/' + first.locations[first.locationIndex].familyIcon + '.png');
+                        var names = first.name;
+                        var info = first.locations[first.locationIndex].description;
+                        for (var i = 1; i < family.length; i++) {
+                            var other = family[i];
+                            if (other.animating) {
+                                other.deleteMarkerAfterAnimating = true;
+                            } else {
+                                other.marker.setMap(null);
+                                other.marker = null;
+                            }
+                            if (other.locations[other.locationIndex].description != first.locations[first.locationIndex].description) {
+                                info += '<h1>' + other.name + '</h1>' + other.locations[other.locationIndex].description;
+                            } else {
+                                names += " &amp; " + other.name;
+                            }
+                        }
+                        first.infoWindow.setContent('<h1>' + names + '</h1>' + first.locations[first.locationIndex].rawTime + '<br><br>' + info);
+                    }
+                }
                 
                 var events = [];
                 for (var i = 0; i < importantEvents.length; i++) {
@@ -462,6 +496,7 @@
                     i.locationIndex = -1;
                     i.marker = null;
                     i.animating = false;
+                    i.deleteMarkerAfterAnimating = false;
                     i.animProgress = 0;
                     i.srcLat = 0;
                     i.srcLng = 0;
@@ -594,6 +629,11 @@
                         var position = { lat: person.srcLat * (1 - person.animProgress) + person.dstLat * person.animProgress, lng: person.srcLng * (1 - person.animProgress) + person.dstLng * person.animProgress };
                         person.marker.setPosition(position);
                         person.animating = person.animProgress < 1;
+                        if (!person.animating && person.deleteMarkerAfterAnimating) {
+                            person.marker.setMap(null);
+                            person.marker = null;
+                            person.deleteMarkerAfterAnimating = false;
+                        }
                     }
                 }, 15);
             }
