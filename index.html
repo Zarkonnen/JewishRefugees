@@ -16,6 +16,10 @@
             td {
                 padding-right: 1em;
             }
+            b.scrollTo {
+                color: blue;
+                cursor: pointer;
+            }
         </style>
         <script src="jquery-3.0.0.min.js"></script>
     </head>
@@ -68,7 +72,7 @@
         <div id="map"></div>
         <div id="footer">
             1898 <input type="submit" value="<" id="prev"><input type="range" id="daterange" value="-1041379200"><input type="submit" value=">" id="next"> 1975 <span id="currentdate"></span>
-            <div id="event" style="float: right; padding-right: 1em;"></div>
+            <div id="event" style="float: right; padding-right: 1em; width: 30%;"></div>
         </div>
         <script>
             var map;
@@ -226,6 +230,7 @@
                     p.dstLng = mv.dst.lng;
                 }
                 
+                var events = [];
                 var byFamilyIconAndLocation = {};
                 individuals.forEach(function(p) {
                     if (currentTime < p.locations[0].time.getTime()) {
@@ -241,6 +246,16 @@
                             if (currentTime >= p.locations[i].time.getTime()) {
                                 loc = p.locations[i];
                                 newLocationIndex = i;
+                                if (Math.abs(currentTime - loc.time.getTime()) < 1000 * 3600 * 24 * 30) {
+                                    events.push({
+                                       name: p.name + ": " + loc.description,
+                                       date: loc.time,
+                                       rawDate: loc.rawTime,
+                                       wiki: null,
+                                       image: null,
+                                       position: loc.position
+                                    });
+                                }
                             }
                         }
                         if (p.marker == null) {
@@ -277,7 +292,6 @@
                 
                 for (var familyIconAndLocation in byFamilyIconAndLocation) {
                     var family = byFamilyIconAndLocation[familyIconAndLocation];
-                    console.log(familyIconAndLocation + " " + family.length);
                     if (family.length > 1) {
                         var first = family[0];
                         first.marker.setIcon('markers/' + first.locations[first.locationIndex].familyIcon + '.png');
@@ -301,7 +315,6 @@
                     }
                 }
                 
-                var events = [];
                 for (var i = 0; i < importantEvents.length; i++) {
                     var dist = Math.abs(currentTime - importantEvents[i].date.getTime());
                     if (dist < 1000 * 3600 * 24 * 16) {
@@ -313,10 +326,10 @@
                 } else {
                     var info = "";
                     if (events.length == 1) {
-                        info = '<b>' + events[0].name + '</b> ' + events[0].rawDate + '<br><small><a href="' + events[0].wiki + '" target="_blank">Wikipedia</a></small><br><img src="' + events[0].image + '" height=150>';
+                        info = (events[0].position ? '<b class="scrollTo" onclick="map.setCenter({lat:' + events[0].position.lat + ', lng:' + events[0].position.lng + '})">' : '<b>') + events[0].name + '</b> ' + events[0].rawDate + '<br>' + (events[0].wiki ? '<small><a href="' + events[0].wiki + '" target="_blank">Wikipedia</a></small><br>' : '') + (events[0].image ? '<img src="' + events[0].image + '" height=150>' : '');
                     } else {
                         events.forEach(function(e) {
-                            info += '<b>' + e.name + '</b> ' + e.rawDate + '<br><small><a href="' + e.wiki + '" target="_blank">Wikipedia</a></small><br>';
+                            info += (e.position ? '<b class="scrollTo" onclick="map.setCenter({lat:' + e.position.lat + ', lng:' + e.position.lng + '})">' : '<b>') + e.name + '</b> ' + e.rawDate + '<br>' + (e.wiki ? '<small><a href="' + e.wiki + '" target="_blank">Wikipedia</a></small><br>' : '');
                         });
                     }
                     jQuery('#event').html(info);
