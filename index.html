@@ -251,6 +251,8 @@
                             p.marker.addListener('click', function() {
                               p.infoWindow.open(map, p.marker);
                             });
+                        } else {
+                            p.marker.setIcon('markers/' + loc.icon + '.png');
                         }
                         if (p.locationIndex != -1 && p.locationIndex != newLocationIndex) {
                             p.animating = true;
