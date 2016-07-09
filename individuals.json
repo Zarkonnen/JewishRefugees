@@ -19,7 +19,7 @@
             {
                 "name": "Konstanz",
                 "time": "1924",
-                "description": "Marriage to Selma Mayer. They are refused permanent residence in Switzerland. Commutes to Kreuzlingen for work.",
+                "description": "Markus Heim and Selma Mayer marry. They are refused permanent residence in Switzerland. Commutes to Kreuzlingen for work.",
                 "icon": "ffffff-male",
                 "familyIcon": "ffffff-H"
             },
@@ -47,7 +47,7 @@
             {
                 "name": "Dijon",
                 "time": "1939-05-01",
-                "description": "Moves to live with relatives in France.",
+                "description": "The family flees to France, where they live with relatives.",
                 "icon": "ffffff-male",
                 "familyIcon": "ffffff-H"
             },
@@ -82,7 +82,7 @@
             {
                 "name": "Kreuzlingen",
                 "time": "1944-03-10",
-                "description": "Returns to Kreuzlingen with his wife and daughter. The family is penniless and stays with relatives. They are not allowed to work, travel or study and are told they should leave Switzerland as soon as possible.",
+                "description": "Returns to Kreuzlingen to rejoin his wife and daughter.",
                 "icon": "ffffff-male",
                 "familyIcon": "ffffff-H"
             },
@@ -122,7 +122,7 @@
             {
                 "name": "Konstanz",
                 "time": "1924",
-                "description": "Marriage to Markus Heim. They are refused permanent residence in Switzerland and move to Konstanz.",
+                "description": "Markus Heim and Selma Mayer marry. They are refused permanent residence in Switzerland and move to Konstanz.",
                 "icon": "ffffff-female",
                 "familyIcon": "ffffff-H"
             },
@@ -150,7 +150,7 @@
             {
                 "name": "Toulouse",
                 "time": "1940-06-01",
-                "description": "Flees with her daughter Margot to unoccupied Toulouse.",
+                "description": "Selma and Margot flee to unoccupied Toulouse.",
                 "icon": "ffffff-female",
                 "familyIcon": "ffffff-H"
             },
@@ -178,14 +178,14 @@
             {
                 "name": "Geneva",
                 "time": "1942-10-04",
-                "description": "With other refugees, hides from the French authorities, travels across France and crosses the Swiss border in an overnight march (exact location unknown). Kept in a Swiss reception camp for months.",
+                "description": "With other refugees, hide from the French authorities, travel across France and cross the Swiss border in an overnight march (exact location unknown). Kept in a Swiss reception camp for months.",
                 "icon": "aaaaaa-female",
                 "familyIcon": "aaaaaa-H"
             },
             {
                 "name": "Kreuzlingen",
                 "time": "1943-02-01",
-                "description": "Taken in by relatives in Kreuzlingen. She and Margot were admitted to Switzerland in part because Markus had raised 5000 CHF as collateral.",
+                "description": "Taken in by relatives in Kreuzlingen. Selma and Margot were admitted to Switzerland in part because Markus had raised 5000 CHF as collateral.",
                 "icon": "ffffff-female",
                 "familyIcon": "ffffff-H"
             },
@@ -246,7 +246,7 @@
             {
                 "name": "Toulouse",
                 "time": "1940-06-01",
-                "description": "Flees with her mother Selma to unoccupied Toulouse.",
+                "description": "Selma and Margot flee to unoccupied Toulouse.",
                 "icon": "ffffff-daughter",
                 "familyIcon": "ffffff-H"
             },
@@ -274,14 +274,14 @@
             {
                 "name": "Geneva",
                 "time": "1942-10-04",
-                "description": "With other refugees, hides from the French authorities, travels across France and crosses the Swiss border in an overnight march (exact location unknown). Kept in a Swiss reception camp for months.",
+                "description": "With other refugees, hide from the French authorities, travel across France and cross the Swiss border in an overnight march (exact location unknown). Kept in a Swiss reception camp for months.",
                 "icon": "aaaaaa-daughter",
                 "familyIcon": "aaaaaa-H"
             },
             {
                 "name": "Kreuzlingen",
-                "time": "1942-11-01",
-                "description": "Taken in by relatives in Kreuzlingen. She and Selma were admitted to Switzerland in part because Markus had raised 5000 CHF as collateral.",
+                "time": "1943-02-01",
+                "description": "Taken in by relatives in Kreuzlingen. Selma and Margot were admitted to Switzerland in part because Markus had raised 5000 CHF as collateral.",
                 "icon": "ffffff-daughter",
                 "familyIcon": "ffffff-H"
             },
