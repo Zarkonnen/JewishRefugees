@@ -98,7 +98,17 @@
             }];
             
             function parseDate(s) {
-                return new Date(parseInt(s.split("-")[0]), parseInt(s.split("-")[1]) - 1, parseInt(s.split("-")[2]));
+                var splitString = s.split("-");
+                
+                if (splitString.length == 1) {
+                    return new Date(parseInt(splitString[0]), 0, 1);
+                }
+                
+                if (splitString.length == 2) {
+                    return new Date(parseInt(splitString[0]), parseInt(splitString[1]) - 1, 1);
+                }
+                
+                return new Date(parseInt(splitString[0]), parseInt(splitString[1]) - 1, parseInt(splitString[2]));
             }
             
             var people = [];
@@ -126,7 +136,7 @@
                 return getClusterForZoomLevel(locA, place_index, zoomLevel) == getClusterForZoomLevel(locB, place_index, zoomLevel);
             }
             
-            function updateMap(place_index, famousPeople, jump) {
+            function updateMap(place_index, individuals, jump) {
                 var zoomLevel = getZoomLevel();
                 var currentTime = getCurrentTime();
                 jQuery('#currentdate').html(" - " + ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][new Date(currentTime).getMonth()] + " " + new Date(currentTime).getFullYear());
@@ -215,7 +225,7 @@
                     p.dstLng = mv.dst.lng;
                 }
                 
-                famousPeople.forEach(function(p) {
+                individuals.forEach(function(p) {
                     if (currentTime < p.locations[0].time.getTime()) {
                         if (p.marker != null) {
                             p.marker.setMap(null);
@@ -235,7 +245,7 @@
                             p.marker = new google.maps.Marker({
                                 position: loc.position,
                                 map: map,
-                                icon: 'people/' + p.icon
+                                icon: 'markers/' + loc.icon + '.png'
                             });
                             p.marker.addListener('click', function() {
                               p.infoWindow.open(map, p.marker);
@@ -248,6 +258,7 @@
                             p.srcLng = p.locations[p.locationIndex].position.lng;
                             p.dstLat = loc.position.lat;
                             p.dstLng = loc.position.lng;
+                            p.infoWindow.setContent('<h1>' + p.name + '</h1>' + loc.rawTime + '<br>' + loc.description);
                         }
                         p.locationIndex = newLocationIndex;
                     }
@@ -407,7 +418,7 @@
                 }
             }
           
-            function initMap(rawData, rawGeocodes, clusters, famousPeople, rawImportantEvents) {
+            function initMap(rawData, rawGeocodes, clusters, individuals, rawImportantEvents) {
                 importantEvents = rawImportantEvents.split("\n").filter(function(l) { return l.length > 1; }).map(function(l) {
                     l = l.split("\t");
                     return {
@@ -439,21 +450,22 @@
                     l = l.split("\t");
                     geocodes[l[0]] = {lat:parseFloat(l[1]), lng:parseFloat(l[2])};
                 });
-                famousPeople.forEach(function(fp) {
-                    fp.locations.forEach(function(l) {
+                individuals.forEach(function(i) {
+                    i.locations.forEach(function(l) {
                         l.position = geocodes[l.name];
-                        l.time = new Date(l.time, 1, 1);
+                        l.rawTime = l.time;
+                        l.time = parseDate(l.time);
                     });
-                    fp.locationIndex = -1;
-                    fp.marker = null;
-                    fp.animating = false;
-                    fp.animProgress = 0;
-                    fp.srcLat = 0;
-                    fp.srcLng = 0;
-                    fp.dstLat = 0;
-                    fp.dstLng = 0;
-                    fp.infoWindow = new google.maps.InfoWindow({
-                        content: "<h1>" + fp.name + "</h1><small><a href=\"" + fp.wiki + "\" target=\"_blank\">Wikipedia</a></small><br><img src=\"people/" + fp.image + "\" width=240>"
+                    i.locationIndex = -1;
+                    i.marker = null;
+                    i.animating = false;
+                    i.animProgress = 0;
+                    i.srcLat = 0;
+                    i.srcLng = 0;
+                    i.dstLat = 0;
+                    i.dstLng = 0;
+                    i.infoWindow = new google.maps.InfoWindow({
+                        content: "<h1>" + i.name + "</h1>"
                     });
                 });
                 var data = rawData.split("\n").filter(function(l) {
@@ -515,25 +527,25 @@
                 
                 jQuery('#prev').click(function() {
                     jQuery('#daterange').val(parseInt(jQuery('#daterange').val()) - 3600 * 24 * 30 * 1000);
-                    updateMap(place_index, famousPeople, false);
+                    updateMap(place_index, individuals, false);
                     recalculateClusterSizes(clusters, people, place_index);
                     updateClusters(clusters, false);
                 });
                 
                 jQuery('#next').click(function() {
                     jQuery('#daterange').val(parseInt(jQuery('#daterange').val()) + 3600 * 24 * 30 * 1000);
-                    updateMap(place_index, famousPeople, false);
+                    updateMap(place_index, individuals, false);
                     recalculateClusterSizes(clusters, people, place_index);
                     updateClusters(clusters, false);
                 });
                 
                 jQuery('#daterange').attr('min', new Date(1898, 1, 1).getTime()).attr('max', new Date(1975, 12, 31).getTime()).val(new Date(1939, 1, 1).getTime()).change(function() {
-                    updateMap(place_index, famousPeople, true);
+                    updateMap(place_index, individuals, true);
                     recalculateClusterSizes(clusters, people, place_index);
                     updateClusters(clusters, true);
                 });
                 
-                updateMap(place_index, famousPeople, true);
+                updateMap(place_index, individuals, true);
                 recalculateClusterSizes(clusters, people, place_index);
                 updateClusters(clusters, true);
                 
@@ -572,8 +584,8 @@
                             }
                         }
                     }
-                    for (var i = 0; i < famousPeople.length; i++) {
-                        var person = famousPeople[i];
+                    for (var i = 0; i < individuals.length; i++) {
+                        var person = individuals[i];
                         if (!person.animating) { continue; }
                         person.animProgress = Math.min(1, person.animProgress + 0.025);
                         var position = { lat: person.srcLat * (1 - person.animProgress) + person.dstLat * person.animProgress, lng: person.srcLng * (1 - person.animProgress) + person.dstLng * person.animProgress };
@@ -588,18 +600,18 @@
                     "url": "data.tsv",
                     "success": function(rawData) {
                         jQuery.ajax({
-                            "url": "geocodes.tsv",
+                            "url": "geocodes.tsv?" + Math.random(),
                             "success": function(rawGeocodes) {
                                 jQuery.ajax({
                                     "url": "clusters.json",
                                     "success": function(clusters) {
                                         jQuery.ajax({
-                                            "url": "famous_people.json",
-                                            "success": function(famousPeople) {
+                                            "url": "individuals.json",
+                                            "success": function(individuals) {
                                                 jQuery.ajax({
                                                     "url": "important_events.tsv",
                                                     "success": function(rawImportantEvents) {
-                                                        initMap(rawData, rawGeocodes, clusters, famousPeople, rawImportantEvents);
+                                                        initMap(rawData, rawGeocodes, clusters, individuals, rawImportantEvents);
                                                     }
                                                 });
                                             }
